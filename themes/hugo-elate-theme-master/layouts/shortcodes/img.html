@@ -1,0 +1,35 @@
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+{{- $alt := .Get "alt" -}}
+{{- $wid := .Get "width" }}
+{{- $hei := .Get "height" }}
+{{- $path := printf "/assets/img/%s" (.Get "src") -}}
+{{- $res := resources.GetMatch $path -}}
+{{- $ws := slice 400 800 1200 -}}
+{{- $srcset := slice -}}
+{{- range $ws -}}
+{{/* to avoid creating an image that is larger than the source */}}
+{{- if (le . $res.Width) -}}
+{{- $w := printf "%dx" . -}}
+{{- $url := ($res.Resize $w).RelPermalink | safeURL -}}
+{{- $fmt := printf "%s %dw" $url . -}}
+{{- $srcset = $srcset | append $fmt -}}
+{{- end -}}
+{{- end -}}
+{{- $set := delimit $srcset "," -}}
+<figure>
+  <img class="center"
+    srcset="{{ $set }}"
+    sizes="(max-width: 576px) 400px, 100vw"
+    src="{{ $res.RelPermalink }}"
+    alt="{{ $alt }}"
+    width="{{ $wid }}"
+    height="{{ $hei }}"/>
+  <figcaption>{{ $alt }}</figcaption>
+</figure>

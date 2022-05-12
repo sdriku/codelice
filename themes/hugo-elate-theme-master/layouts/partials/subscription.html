@@ -1,0 +1,38 @@
+<style>
+  .call-to-action{background-attachment:fixed;background-repeat:no-repeat;background-size: cover;}
+  .bg-opacity{position:relative;}
+  .bg-opacity:before {content:"";position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.7)}
+  .section {padding: 40px 0;}
+  .text-white {color:#fff !important;}
+  .text-center {text-align: center;}
+  .subheading{color:#3c3c3c;padding-bottom:15px;text-transform:capitalize;font-weight:500;font-size:32px;line-height:45px}
+  .input-group{margin-top:30px;position:relative}.input-group .input-group input{height:50px;border-radius:40px;border:none;padding-left:15px;box-shadow:none;display:table-cell}
+  .w-100{width:100%!important}
+</style>
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{- if $data.homepage.subscription.enable }}
+{{- with $data.homepage.subscription }}
+<section class="fh5co-counters call-to-action section bg-opacity" style="background-image: url('{{ $data.homepage.subscription.bg_image }}');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-heading text-center">
+        <h2 class="subheading text-white">{{ $data.homepage.subscription.title | markdownify }}</h2>
+        <p class="text-white">{{ $data.homepage.subscription.content | markdownify }}</p>
+        <div class="input-group">
+          <form action="{{ $data.homepage.subscription.mailchimp_form_action }}" method="post" class="w-100" name="mc-embedded-subscribe-form" target="_blank">
+            <input type="email" id="email" class="form-control" name="email" placeholder="{{ $data.homepage.subscription.placeholder | markdownify }}"
+              required>
+            <button class="btn btn-primary btn-lg form-control" style="margin-top:5%;max-width: 40% !important;" type="submit" name="subscribe">{{ $data.homepage.subscription.button | markdownify }}</button>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="{{ $data.homepage.subscription.mailchimp_form_name }}" tabindex="-1">
+            </div>
+          </form>
+        </div><!-- /input-group -->
+      </div>
+    </div>
+  </div>
+</section><!-- #call-to-action close -->
+{{- end }}
+{{- end }}

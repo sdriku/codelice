@@ -1,0 +1,43 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{- if $data.homepage.work.enable }}
+{{- with $data.homepage.work }}
+
+<section id="fh5co-work" data-section="work">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">{{ with $data.homepage.work.title }}{{ . }}{{ end }}</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>{{ with $data.homepage.work.description }}{{ . | markdownify }}{{ end }}</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-sm">
+			{{ range .row }}
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="{{ .link }}" target="_blank" class="fh5co-project-item to-animate">
+						<img src="{{ .img }}" alt="{{ .alt }}" class="img-responsive">
+						<img src="{{ .desktopscore }}" alt="{{ .alt }}" class="img-responsive">
+						<img src="{{ .mobilescore }}" alt="{{ .alt }}" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>{{ .title }}</h2>
+						<span>{{ .subtitle }}</span>
+						</div>
+					</a>
+				</div>				
+
+				<div class="clearfix visible-sm-block"></div>
+			{{ end }}
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center to-animate">
+					<p>{{ $data.homepage.work.footertext | markdownify }}</p>
+				</div>
+			</div>
+		</div>
+	</section>
+{{ end }}
+{{ end }}

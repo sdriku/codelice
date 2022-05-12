@@ -1,0 +1,52 @@
+<!-- Flags navigation or no flags but does integrate into background, more versatile so far -->
+<style>
+/* play with top and right to find the best position, they will keep the same position regardless of the users device*/
+
+.position {
+background-color: transparent;
+color: black;
+font-weight: bold;
+border-radius: 4px;
+border: 1px solid white;
+padding: 1px;
+position: fixed;
+top: 1%;
+right: 13%;
+}
+
+.flagselect {
+  margin: 2px;
+  font-weight: bold;
+  color: black;
+  font-size: 90%;
+}
+
+.flagnoselect {
+  margin: 2x;
+  color: black;
+  font-size: 90%;
+  font-weight: 600;
+}
+</style>
+
+        <!-- Language List -->
+        {{ if .IsTranslated }}
+        <select class="lang-list position" id="select-language" onchange="location = this.value;">
+          {{ $siteLanguages := .Site.Languages}}
+          {{ $pageLang := .Page.Lang}}
+          {{ range .Page.AllTranslations }}
+          {{ $translation := .}}
+          {{ range $siteLanguages }}
+          {{ if eq $translation.Lang .Lang }}
+          {{ $selected := false }}
+          {{ if eq $pageLang .Lang}}
+          <option class="flagselect" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .Params.languageFlag }}  {{ .LanguageName }}
+          </option>
+          {{ else }}
+          <option class="flagselect" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .Params.languageFlag }}  {{ .LanguageName }}</option>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </select>
+        {{ end }}

@@ -1,0 +1,281 @@
+############################# Brand ############################
+brand:
+  companyName: "Codelice"
+  companyLogo: "/assets/img/logo-lightred-transparent.png"
+  widthLogo: "160"
+  heightLogo: "160"
+  widthLogoMobile: "100"
+  heightLogoMobile: "100"
+
+############################# Home ############################
+home:
+  enable: true
+  menuName: "Inicio"
+
+############################# Hero ############################
+hero:
+  enable: true
+  title: "Bienvenido a Codelice, tu empresa de desarrollo Web"
+  subtitle: 'Nuestros sitios web Estaticos son más adecuados para pequeñas y medianas empresas. Diseñamos vuestra pagina web con enfoque en performancia, especialmente Velocidad y SEO.<br><br> Encuentre mas abajo 6 razones para optar por Estatico!'
+ 
+# Intro section #
+# Available icons: http://simplelineicons.com/ #
+
+
+############################# Intro ############################
+intro:
+  enable: true
+  item:
+    - title: "Velocidad"
+      description: "Trabajar sin base de datos significa menos comunicacion con servidores. Su sitio se reproduce con alta velocidad"
+      url: "#"
+      #button: "Get In Touch"
+      icon: "/assets/img/icons8-bolt-50-red.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "Servidor"
+      description: "Sin base de datos, el back-end esta muy ligero. Por esta razon, la mayoría de las opciones de servidor no tienen costo anual. Configuramos su sitio web y lo alojamos de forma gratuita"
+      url: "#"
+      #button: "Why us?"
+      icon: "/assets/img/icons8-hosting-64-red.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "Seguridad"
+      description: "Sin Plugins y sin base de datos pesados, no hay ningun riesgo de tener un hack o un virus. ¡Evita dolores de cabeza, estático es seguro!"
+      url: "#"
+      #button: "Click Me"
+      icon: "/assets/img/icons8-safe-50-red.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "Sin Mantenimiento"
+      description: "Estatico es Estable. Sin base de datos, NO se necesitan actualizaciones ni copias de seguridad, podeis descansar. Nuestras paginas NO rompen!"
+      url: "#"
+      #button: "Why us?"
+      icon: "/assets/img/icons8-maintenance-50-red.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "Facil de editar"
+      description: "Entregamos su sitio web con herramienta de administración de contenido ya configurada. Modifica fácilmente su nueva pagina web sin ningún conocimiento de programación!"
+      url: "#"
+      #button: "Why us?"
+      icon: "/assets/img/icons8-update-50-red.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "SEO"
+      description: "Nuestros sitios están orientados a SEO. Inserte sus palabras clave en los campos Título y Descripción disponibles para cada página desde su herramienta."
+      url: "#"
+      #button: "Why us?"
+      icon: "/assets/img/icons8-seo-50-red.png"
+      img: "/assets/img/img_7.jpg"
+
+  video:
+    enable: false
+    title: "Mira este video"
+    icon: "icon-play2"
+    url: "https://vimeo.com/channels/staffpicks/93951774"
+
+############################# Work ############################
+work:
+  enable: true
+  menuName: "Proyectos"
+  title: "Proyectos"
+  description: 'Encuentre allí unas paginas de nuestros clientes. Puede ver a continuación la calificacion de rendimiento del sitio, tanto en escritorio como en dispositivo móvil. Esta performancia la podeis comprobar desde esta pagina <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
+  footertext: ''
+
+  row:
+    - img: "/assets/img/aogw-homepage.png"
+      desktopscore: "/assets/img/aogw-desktop-score.png"
+      mobilescore: "/assets/img/aogw-mobile-score.png"
+      alt: " AOGW"
+      title: "AOGW"
+      subtitle: "AOGW - Assistente Personal"
+      link: 'https://assist-secretariat.com'
+
+    - img: "/assets/img/eljp-homepage.png"
+      desktopscore: "/assets/img/eljp-desktop-score.png"
+      mobilescore: "/assets/img/eljp-mobile-score.png"
+      alt: "ELJP"
+      title: "ELJP"
+      subtitle: "ELJP - Electricista"
+      link: 'https://electricite-eljp.com'
+
+    - img: "/assets/img/aamc-homepage.png"
+      desktopscore: "/assets/img/aamc-desktop-score.png"
+      mobilescore: "/assets/img/aamc-mobile-score.png"
+      alt: "AAMC"
+      title: "AAMC"
+      subtitle: "AAMC - Asociación Cultural"
+      link: 'https://evreux-armenie.com'
+
+############################# testimonials ############################
+testimonials:
+  enable: false
+  menuName: "Testimonials"
+  title: "Testimonials"
+  description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+  item:
+    - quote: "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person: 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img: "/assets/img/person1.jpg"
+      alt: "Person1"
+
+    - quote: "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person: 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img: "/assets/img/person2.jpg"
+      alt: "Person2"
+
+    - quote: "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person: 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img: "/assets/img/person3.jpg"
+      alt: "Person3"
+
+#################################### Services ########################
+services:
+  enable: true
+  menuName: "Servicios"
+  title: "Servicios"
+  description: "Aqui encuentre nuestra oferta de Desarollo Web. Podeis contactarnos para conseguir más detalles."
+
+  item:
+    - title: "Sitio Web personalizado"
+      description: "Creamos su pagina web juntos. Envianos informacion basica sobre su negocia y el tipo de sitio que queria conseguir.<br>Nos pondremos en contacto con usted rapidamente. Una vez que nos acordamos sobre performancia minima, funcionalidades, diseño y plazos, será hora de empezar el trabajo."
+      icon: "/assets/img/icons8-code-50-rosish.png"
+
+    - title: "Sitio Web semi-personalizado"
+      description: 'Tiene un presupuesto limitado y no puede pagar una pagina completamente personalizada? Pero no quiere conformarse con un sitio web dinámico, o sea pesado y lento? Tenemos la solucion ideal por su caso!<br>Mira a esos modelo, cuya performancia ya esta optimizada <a href="http://codomatik.com/" target="_blank">here</a>.<br>Personalícelos como desee, y si uno parece perfecto para su negocio, contáctenos y nos encargamos del resto.'
+      icon: "/assets/img/icons8-animated-themes-50.png"
+
+    - title: "Migración de vuestra pagina web"
+      description: "Cansado de pagar la cuota mensual a Squarespace? Queria reducir el tiempo pasado con mantenimiento su sitio Wordpress?>br>Envíanos el enlace de vuestro sitio web y le responderemos con un plan para migrarlo."
+      icon: "/assets/img/icons8-migration-64-rosish.png"
+
+    - title: "Mejora del rendimiento"
+      description: "No está satisfecho con la performancia de su sitio web, pero no sabe qué hacer para mejorla?<br>Envíanos el enlace de vuestro sitio web y le encontraremos soluciones."
+      icon: "/assets/img/icons8-improvement-50-rosish.png"
+
+#################################### Ressources ########################
+ressources:
+  enable: true
+  menuName: "Recursos"
+  title: "Recursos"
+  description: "Esta sección le ayuda a aprovechar al máximo las herramientas que ofrecemos. Puede encontrar documentos, videos y guías que lo ayudarán a gestionar su sitio web."
+
+  item:
+    - title: "Demo Netlify CMS"
+      link: ""
+      description: "Want to edit or add content easily, but lack the technical knowledge? That´s fine, we configure your website on Netlify, then from there all you have to do is follow our many detailed instructions. No code, no hassle, you will love it."
+
+    - title: "How to make the most of your CMS"
+      link: ""
+      description: "Feeling overwhelemed by all these notes we left in your tool? Afraid you missed something?<br>Here are a few tips about how to use your CMS. As a bonus, find a video where we showcase how to use the CMS, from first login to achieving a production-ready website."
+
+    - title: "Shortcodes for you to customize your content"
+      link: ""
+      description: "Hugo allows to add lines of code into your website directly from your CMS! While you absolutely do not need them, this can give you more options while adding content to your website.<br>We did prepare a few shortcodes for you to copy and paste into your CMS. In this article we present each and every shortcode: what they do and how to use them."
+
+    - title: "Quick guide about image selection for your website"
+      link: ""
+      description: "We promise you top-notch performance and effortless website building, and we deliver by resizing your images natively.<br>However it all starts with image selection, and while we cannot do this for you, we can try to help.<br>Here is a quick guide about size, dimension, extension, followed by a few Do´s and don´ts." 
+
+################################## Subscription ###################
+subscription:
+  enable: false
+  menuName: "Suscripcion"
+  mailchimp_form_action: "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
+  mailchimp_form_name: "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+  bg_image: "/assets/img/full_image_1.jpg"
+  title: "Consigue ultimos articulos"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  placeholder: "Su correo electronico aqui"
+  button: "Suscribir?"
+
+############################## About ##########################
+about:
+  enable: true
+  menuName: "Acerca de"
+  title: "Acerca de"
+  description: "Somos un pequeño equipo de 3 desarrolladores, expertos en encontrar la solución adecuada a su caso y en entregar proyectos dentro de los plazos."
+  
+  item:
+    - name: "Cedric"
+      position: "Desarollador Front End"
+      description: "Joven desarrollador nacido en Francia y viviendo en España, seré su primer punto de contacto a la hora de planificar proyecto, dar presupuestos, formación, facturación...<br>Le estoy esperando, contactanos pronto!"
+      img: "/assets/img/about-pic.jpg"
+      alt: "Person1"
+      social: [
+        ["icon-github", "#"],
+        #["icon-linkedin", "#"]
+      ]
+
+############################## Counters ##########################
+counters:
+  enable: false
+  menuName: "Counters"
+  title: "Stats"
+  background: "/assets/img/full_image_1.jpg"
+
+  item:
+    - description: "Finished Projects"
+      icon: "icon-briefcase"
+      from: 0
+      to: 89
+      interval: 50
+      speed: 5000
+
+    - description: "Lines of Code"
+      icon: "icon-code"
+      from: 0
+      to: 2343409
+      interval: 50
+      speed: 5000
+
+    - description: "Cups of Coffee"
+      icon: "icon-cup"
+      from: 0
+      to: 1302
+      interval: 50
+      speed: 5000
+
+    - description: "Happy clients"
+      icon: "icon-people"
+      from: 0
+      to: 52
+      interval: 50
+      speed: 5000
+
+################################## Contact ###################
+contact:
+  enable: true
+  menuName: Contacto
+  map: false
+  googleMapsApiKey: ""
+  form: true
+  title: "Contactanos"
+  description: "Cuéntenos sobre su proyecto y sus objectivos.<br>Pronto nos pondremos en contacto con usted y lo hablaremos todo en detalle."
+  details: [
+        #["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        #["icon-whatsapp", "+34 631 716 240"],
+        ["icon-envelope", "info@codelice.com"],
+        ["icon-globe", '<a href="http://codelice.com/" target="_blank">codelice.com</a>']
+      ]
+  name: "Nombre"
+  email: "Correo electronico"
+  phone: "Telefono"
+  message: "Mensaje"
+  button: "Envia mensaje"
+
+################################## Postpend links ###################
+blog:
+  enable: false
+  menuName: Blog
+  link: "blog/"
+
+################################## Footer ###################
+footer:
+  enable: true
+  copyright: 'Iconos de <a href="https://icons8.com/" target="_blank">icons8</a> <br>Diseño de <a href="https://codelice.com/" target="_blank">codelice</a>'
+  links: [
+      ["icon-github", "#twitter"],
+      ["icon-youtube", "#youtube"]
+    ]

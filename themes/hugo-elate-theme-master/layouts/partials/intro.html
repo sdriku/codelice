@@ -1,0 +1,38 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{- if $data.homepage.intro.enable }}
+{{- with $data.homepage.intro }}
+<!-- intro area -->
+<section id="fh5co-intro">
+		<div class="container">
+			<div class="row row-bottom-padded-lg">
+				<div class="col-md-12 text-center" style="color: black; margin-bottom: 10px;">
+					<h2 class="to-animate">{{ with $data.homepage.intro.title }}{{ . }}{{ end }}</h2>
+				</div>
+				{{ range .item }}
+				<div class="fh5co-block to-animate" style="background-image: url('{{ .img }}');">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+						<i><img src="{{ .icon }}" alt="icon" width="50" height="50"></i>
+						<h2>{{ .title }}</h2>
+						<p>{{ .description }}</p>
+						{{ if .button }}
+						<p><a href="{{ .url }}" class="btn btn-primary">{{ .button }}</a></p>
+						{{ end }}
+					</div>
+				</div>
+				{{ end }}
+			</div>
+			{{ if $data.homepage.intro.video.enable }}
+			<div class="row watch-video text-center to-animate">
+				<!-- <span>{{ with .Site.Params.intro.video }}{{ . }}{{ end }}</span> -->
+				<span>{{ $data.homepage.intro.video.title | markdownify }}</span>
+
+				<a href="{{ $data.homepage.intro.video.url }}" class="popup-vimeo btn-video"><i class="{{ $data.homepage.intro.video.icon }}"></i></a>
+			</div>
+			{{ end }}
+		</div>
+	</section>
+{{ end }}
+{{ end }}

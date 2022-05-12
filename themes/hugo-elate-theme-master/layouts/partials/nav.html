@@ -1,0 +1,75 @@
+    <style>
+        .logo-position {
+            margin-top:-30%;
+        }
+
+        @media (min-width:700px) {
+        .logo-position {
+            margin-left: -20%;
+            }
+        }
+    </style>    
+    
+    <header role="banner" id="fh5co-header">
+        <div class="container">
+            <!-- <div class="row"> -->
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <!-- Mobile Toggle Menu Button -->
+                    {{ $data := index .Site.Data .Site.Language.Lang }}
+
+                    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                    {{- if $data.homepage.brand.companyLogo }}
+                    <a class="navbar-brand" href="index.html"><picture><source width="{{ $data.homepage.brand.widthLogo }}" height="{{ $data.homepage.brand.heightLogo }}" srcset="{{ $data.homepage.brand.companyLogo }}" media="(min-width: 850px)"><img class="logo-position" width="{{ $data.homepage.brand.widthLogoMobile }}" height="{{ $data.homepage.brand.heightLogoMobile }}" src="{{ $data.homepage.brand.companyLogo }}" alt="logo"></picture></a> 
+                    {{ else }}
+                    <a class="navbar-brand" href="index.html">{{ $data.homepage.brand.companyName }}</a> 
+                    {{ end }}
+                </div>
+
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right">
+
+                    {{ range .Site.Menus.prepend }}
+                        <li><a class="external" href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
+                    {{ end }}
+
+                    {{- if $data.homepage.home.enable }}
+                    <li class="active"><a href="index.html" data-nav-section="home"><span>{{ $data.homepage.home.menuName }}</span></a></li>
+                    {{ end }}
+                    
+                    {{- if $data.homepage.work.enable }}
+                    <li><a href="#" data-nav-section="work"><span>{{ $data.homepage.work.menuName }}</span></a></li> 
+                    {{ end }}
+
+                    {{ if $data.homepage.testimonials.enable }}
+                    <li><a href="#" data-nav-section="testimonials"><span>{{ $data.homepage.testimonials.menuName }}</span></a></li> 
+                    {{ end }}
+
+                    {{ if $data.homepage.services.enable }}
+                    <li><a href="#" data-nav-section="services"><span>{{ $data.homepage.services.menuName }}</span></a></li> 
+                    {{ end }}
+
+                    {{ if $data.homepage.ressources.enable }}
+                    <li><a href="#" data-nav-section="ressources"><span>{{ $data.homepage.ressources.menuName }}</span></a></li> 
+                    {{ end }}
+
+                    {{ if $data.homepage.about.enable }}
+                    <li><a href="#" data-nav-section="about"><span>{{ $data.homepage.about.menuName }}</span></a></li> 
+                    {{ end }}
+
+                    {{ if $data.homepage.contact.enable }}
+                    <li><a href="#" data-nav-section="contact"><span>{{ $data.homepage.contact.menuName }}</span></a></li> 
+                    {{ end }}
+
+                    {{ if $data.homepage.blog.enable }}
+                    <li><a class="external" href="{{ $data.homepage.blog.link }}"><span>{{ $data.homepage.blog.menuName }}</span></a></li>
+                    {{ end }}
+                    
+                </ul>
+                        <!-- Language List -->
+
+                        {{ partial "language-switcher.html" .}}
+
+                        <!-- </div> -->
+    </div>
+</header>

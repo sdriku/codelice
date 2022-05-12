@@ -1,0 +1,188 @@
+############## Default Configuration ##############
+baseurl = "https://www.codelice.com/"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubDir = true
+languageCode = "en-gb"
+theme = "hugo-elate-theme-master"
+# disable language
+disableLanguages = [] # disable language from here
+# enable file for Google robots
+enableRobotsTXT = true
+# enable rel=canonical
+canonifyURLs = true
+
+
+# enable html from .md files
+[markup.goldmark.renderer]
+unsafe = true
+
+# enable Table of Contents from my articles (h2 to h5)
+[markup]
+  [markup.tableOfContents]
+    endLevel = 5
+    ordered = false
+    startLevel = 2
+
+# enable sitemap.xml
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+
+# with this, assets folder now co-exist with static, the same folder plays both roles
+[module]
+[[module.mounts]]
+  source = "static"
+  target = "assets"
+[[module.mounts]]
+  source = "static"
+  target = "static"
+
+
+############## Navigation in 3 Languages ##############
+
+############## English language ##############
+[Languages.en]
+  languageName = "English"
+  languageNameShort = "en"
+  languageFlag = "🇬🇧"
+  languageCode = "en-gb"
+  contentDir = "content/en"
+  weight = 1
+  title = "Welcome to Codelice"
+  description = ""
+  home = "Home"
+  # footer content
+  footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim."
+  # copyright
+  copyright = "Developed By [Codelice](https://codelice.com/)"
+
+  [Languages.en.params.navigation]
+      brand = "Codelice"
+      home = "Home"
+      work = "Work"
+      testimonials = "Articles"
+      services = "Services"
+      ressources = "Resources"
+      about = "About"
+      contact = "Contact"
+      blog = "Blog"
+
+############## French language ##############
+[Languages.fr]
+  languageName = "Français"
+  languageNameShort = "fr"
+  languageFlag = "🇫🇷"
+  languageCode = "fr-fr"
+  contentDir = "content/fr"
+  weight = 2
+  title = "Welcome to Codelice"
+  description = ""
+  home = "Accueil"
+  # footer content
+  footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim."
+  # copyright
+  copyright = "Conçu Par [Codelice](https://codelice.com/)"
+
+  [Languages.fr.params.navigation]
+      brand = "Codelice"
+      home = "Accueil"
+      work = "Projets"
+      testimonials = "Articles"
+      services = "Services"
+      ressources = "Ressources"
+      about = "A propos"
+      contact = "Contact"
+      blog = "Blog"
+
+############## Spanish language ##############
+[Languages.es]
+  languageName = "Español"
+  languageNameShort = "es"
+  languageFlag = "🇪🇸"
+  languageCode = "es-es"
+  contentDir = "content/es"
+  weight = 3
+  title = "Welcome to Codelice"
+  description = ""
+  home = "Accueil"
+  # footer content
+  footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt labore dolore magna aliqua enim."
+  # copyright
+  copyright = "Conçu Par [Codelice](https://codelice.com/)"
+
+  [Languages.es.params.navigation]
+      brand = "Codelice"
+      home = "Casa"
+      work = "Proyectos"
+      testimonials = "Articles"
+      services = "Servicios"
+      ressources = "Ressources"
+      about = "About"
+      contact = "Contact"
+      blog = "Blog"
+
+
+############## Plugins ##############
+
+# CSS Plugins
+    # Default Theme Style 
+    # You can change the style.css (default color purple) to one of these styles
+    # style.css blue - style2.css turquoise - style3.css pink - style4.css green
+    # to be called from data/style.yml as this allows client to choose his gradient
+
+##[[params.plugins.css]]
+##link = "css/style.css"
+[[params.plugins.css]]
+link = "css/blog.css"
+[[params.plugins.css]]
+link = "css/leaflet.css"
+[[params.plugins.css]]
+link = "css/animate.css"
+[[params.plugins.css]]
+link = "css/icomoon.css"
+[[params.plugins.css]]
+link = "css/simple-line-icons.css"
+[[params.plugins.css]]
+link = "css/magnific-popup.css"
+[[params.plugins.css]]
+link = "css/bootstrap.css"
+#custom css files can be configured
+[params]
+custom_css = ["css/custom1.css", "css/custom2.css"]
+
+# JS Plugins
+[[params.plugins.js]] #was in <head>, should load with priority
+link = "js/modernizr-2.6.2.min.js"
+[[params.plugins.js]] #all the other plugins are in the <body>, I can async defer
+link = "js/jquery.min.js"
+[[params.plugins.js]]
+link = "js/jquery.easing.1.3.js.js"
+[[params.plugins.js]]
+link = "js/bootstrap.min.js"
+[[params.plugins.js]]
+link = "js/jquery.waypoints.min.js"
+[[params.plugins.js]] #Stellar Parallax
+link = "js/jquery.stellar.min.js"
+[[params.plugins.js]] #Counter
+link = "js/jquery.countTo.js"
+[[params.plugins.js]]
+link = "js/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "js/magnific-popup-options.js"
+[[params.plugins.js]] #Map
+link = "js/leaflet.js"
+[[params.plugins.js]] #Map
+link = "js/leaflet-map.js"
+[[params.plugins.js]] #Main JS file
+link = "js/main.js"
+
+
+  # Meta
+  author = ""
+  description = ""
+  email = ""
+
+  # Google Maps Javascript API Key (if not set will default to not passing a key)
+  googleMapsApiKey = ""

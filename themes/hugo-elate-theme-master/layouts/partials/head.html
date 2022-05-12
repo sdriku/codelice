@@ -1,0 +1,95 @@
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> {{ .Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--     <meta name="description" content="Free HTML5 Template by FREEHTML5.CO - Hugo port by Pieter Saey" />
+    <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive, hugo, static site" />
+    <meta name="author" content="FREEHTML5.CO / Hugo port " />
+ -->
+    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+    {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
+
+  <!-- 
+    //////////////////////////////////////////////////////
+
+    FREE HTML5 TEMPLATE 
+    DESIGNED & DEVELOPED by FREEHTML5.CO
+        
+    Website:        http://freehtml5.co/
+    Email:          info@freehtml5.co
+    Twitter:        http://twitter.com/fh5co
+    Facebook:       https://www.facebook.com/fh5co
+
+    HUGO TEMPLATE PORTED BY Pieter Saey
+
+    Website:        http://saey55.gitlab.io/pietercv
+    Email:          saeypieter@gmail.com
+    Twitter:        http://twitter.com/saey55
+    
+
+    //////////////////////////////////////////////////////
+     -->
+
+    <!-- Facebook and Twitter integration -->
+    {{ if not .Site.Params.OpenGraph.hide }}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/{{ .Site.Params.sidebar.avatar }}">
+    <meta name="twitter:title" content="{{ .Site.Title }}" />
+    <meta name="twitter:url" content="{{ .Permalink }}" />
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}images/{{ .Site.Params.sidebar.avatar }}" />
+    <meta name="twitter:card" content="" />
+    {{ end }}
+<!-- 
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+ -->    
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+
+    {{ "<!-- plugins -->" | safeHTML }}
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+    {{- with $data.style.style }}
+    <link rel="stylesheet" href="{{ . | absURL }} ">
+    {{ end }}
+    
+    {{ range site.Params.plugins.css }}
+    <link rel="stylesheet" href="{{ .link | absURL }} ">
+    {{ end }}
+  
+    {{ range site.Params.plugins.js }}
+    <script src="{{ .link | absURL }}"></script>
+    {{ end }}
+    
+    <!-- SEO properly done in HUGO -->
+   <meta property="og:site_name" content="{{ $.Site.Title }}" />
+   <meta property="og:title" content="{{ $.Site.Title }}" />
+
+   {{ if .IsPage }}
+   <title>{{ .Title }} | {{ $.Site.Title }}</title>
+   <meta property="og:type" content="article" />
+   <meta property="og:title" content="{{ .Title }}" />
+   <meta property="og:description" content="{{ .Description }}" />
+   <meta name="description" content="{{ .Description }}" />
+   {{ else }}
+   <title>{{ $.Site.Title }}</title>
+   <meta property="og:title" content="{{ $.Site.Title }}" />
+   <meta property="og:description" content="{{ site.Params.description }}" />
+   <meta name="description" content="{{ site.Params.description }}" />
+   {{ end }}
+    

@@ -1,0 +1,277 @@
+############################# Brand ############################
+brand:
+  companyName: "Codelice"
+  companyLogo: "/assets/img/logo-lightred-transparent.png"
+  widthLogo: "160"
+  heightLogo: "160"
+  widthLogoMobile: "100"
+  heightLogoMobile: "100"
+
+############################# Home ############################
+home:
+  enable: true
+  menuName: "Accueil"
+
+############################# Hero ############################
+hero:
+  enable: true
+  title: "Bienvenue chez Codelice, votre développeur Web"
+  subtitle: 'Nos sites internet Statiques sont adaptés aux Micro, Petites et Moyennes Entreprises. La conception de nos sites internet est orientée performance, notamment Vitesse et SEO.<br><br> Voici 6 bonnes raisons d´en finir avec le dynamique, passez au Statique!'
+ 
+# Intro section #
+# Available icons: http://simplelineicons.com/ #
+
+
+############################# Intro ############################
+intro:
+  enable: true
+  item:
+    - title: "Rapidité d'affichage"
+      description: "Un site tatique fonctionnant sans Base de données, sa vitesse d'affichage est excellente, et bien supérieure à celle d'un site dynamique."
+      url: "#"
+      #button: "Get In Touch"
+      icon: "/assets/img/icons8-bolt-50-red.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "Hébergement Gratuit"
+      description: "L'infrastructure d'un site statique étant légère par nature, l'hébergement de votre site est gratuit. Nous nous occupons de la mise en place et hébergement de votre site."
+      url: "#"
+      #button: "Why us?"
+      icon: "/assets/img/icons8-hosting-64-red.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "Sécurité Maximum"
+      description: "Ni Plugins ni Base de données signifie aucun risque de se faire hacker ou attrapper un virus. Evitez les maux de têtes, optez pour un site Statique!"
+      url: "#"
+      #button: "Click Me"
+      icon: "/assets/img/icons8-safe-50-red.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "Zéro Maintenance"
+      description: "Un site Statique est un site Stable. Ni Mises à jour Ni Sauvegardes ne sont requises. Economisez-vous, nos sites Statiques ne requièrent aucune Maintenance!"
+      url: "#"
+      #button: "Why us?"
+      icon: "/assets/img/icons8-maintenance-50-red.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "Facile à Editer"
+      description: "Nous livrons nos sites internet avec un Gestionnaire de Contenu déjà configuré. Une fois le site livré, ajouter ou modifier vos images et textes sans aucune connaissance en programmation!"
+      url: "#"
+      #button: "Why us?"
+      icon: "/assets/img/icons8-update-50-red.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "SEO"
+      description: "Un site Statique est orienté SEO par nature, Google référençant mieux les sites performants. Nous mettons aussi à votre disposition un titre et une description pour chaque page, incluez-y vos mots clés!"
+      url: "#"
+      #button: "Why us?"
+      icon: "/assets/img/icons8-seo-50-red.png"
+      img: "/assets/img/img_7.jpg"
+
+  video:
+    enable: false
+    title: "Watch the video"
+    icon: "icon-play2"
+    url: "https://vimeo.com/channels/staffpicks/93951774"
+
+############################# Work ############################
+work:
+  enable: true
+  menuName: "Projets"
+  title: "Projets"
+  description: 'Voici un échantillon des sites internet développés pour nos clients. Vous trouverez également leur score Ordinateur de Bureau (Wifi) et leur score Mobile (4G). Vous pouvez vérifier ses scores par vous-même en vous rendant sur l´outil en ligne de Google nommé <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
+  footertext: ''
+
+  row:
+    - img: "/assets/img/aogw-homepage.png"
+      desktopscore: "/assets/img/aogw-desktop-score.png"
+      mobilescore: "/assets/img/aogw-mobile-score.png"
+      alt: " AOGW"
+      title: "AOGW"
+      subtitle: "AOGW - Assistante de Gestion"
+      link: 'https://assist-secretariat.com'
+
+    - img: "/assets/img/eljp-homepage.png"
+      desktopscore: "/assets/img/eljp-desktop-score.png"
+      mobilescore: "/assets/img/eljp-mobile-score.png"
+      alt: "ELJP"
+      title: "ELJP"
+      subtitle: "ELJP - Artisan Electricien"
+      link: 'https://electricite-eljp.com'
+
+    - img: "/assets/img/aamc-homepage.png"
+      desktopscore: "/assets/img/aamc-desktop-score.png"
+      mobilescore: "/assets/img/aamc-mobile-score.png"
+      alt: "AAMC"
+      title: "AAMC"
+      subtitle: "AAMC - Association Culturelle"
+      link: 'https://evreux-armenie.com'
+
+############################# testimonials ############################
+testimonials:
+  enable: false
+  menuName: "Testimonials"
+  title: "Testimonials"
+  description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+  item:
+    - quote: "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person: 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img: "/assets/img/person1.jpg"
+      alt: "Person1"
+
+    - quote: "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person: 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img: "/assets/img/person2.jpg"
+      alt: "Person2"
+
+    - quote: "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person: 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img: "/assets/img/person3.jpg"
+      alt: "Person3"
+
+#################################### Services ########################
+services:
+  enable: true
+  menuName: "Prestations"
+  title: "Prestations"
+  description: "Voici notre offre en détail, nous concevons votre site internet en considérant vos objectifs, besoins, budget. Contactez-nous dans le cas où vous souhaiteriez plus d´informations."
+
+  item:
+    - title: "Site internet Personnalisé"
+      description: "Nous créons votre site internet de zéro, en accord avec le cahier des charges signé par vos soins. Envoyez-nous des informations de base concernant votre entreprise, et le type de site internet que vous souhaiteriez mettre en ligne. Nous vous enverrons alors une proposition"
+      icon: "/assets/img/icons8-code-50-rosish.png"
+
+    - title: "Site internet Semi-personnalisé"
+      description: 'Votre budget est limité? Mais vous refusez de perdre votre temps et votre argent avec un site lourd, inadapté, chronophage en maintenance et coûteux en hébergement? Nous pourrions avoir exactement ce qui vous convient!<br>Consultez notre collection de sites squelettes, déjà optimisés et configurés, disponibles sur notre site dédié <a href="http://codomatik.com/" target="_blank">here</a>.<br>Trouvez un modèle qui vous plait, personnalisez-le en modifiant le texte, les photos, les couleurs et la police. Si l´un de ces modèles vous convient, contactez-nous et nous nous occupons du reste.<br> Votre site peut-être en ligne en 48h, et bien entendu nous apportons des modifications mineures au modèle de votre choix si vous le souhaitez'
+      icon: "/assets/img/icons8-animated-themes-50.png"
+
+    - title: "Website Migration"
+      description: "Fatigué par votre paiement mensuel à Squarespace? Agacé par le temps perdu à maintenir et modifier votre site WordPress?<br>Envoyez-nous l´adresse de votre site internet et nous vous enverrons une proposition visant à migrer votre site vers une solution statique."
+      icon: "/assets/img/icons8-migration-64-rosish.png"
+
+    - title: "Optimisation de Performance"
+      description: "Vous êtes mécontent des Performances de votre site internet, mais ne savez pas comment l´améliorer ?<br>Envoyez-nous l´adresse de votre site internet et nous trouverons une soluition."      
+      icon: "/assets/img/icons8-improvement-50-rosish.png"
+
+#################################### Ressources ########################
+ressources:
+  enable: true
+  menuName: "Ressources"
+  title: "Ressources"
+  description: "Vous trouverez ci-dessous des documents, liens et vidéos vous expliquant en détail certains aspects de la gestion d'un site internet. Comment vous servir de votre Gestionnaire de Contenu, comment choisir correctement vos photos, etc."
+
+  item:
+    - title: "Comment utiliser au mieux votre Gestionnaire de Contenu Netlify?"
+      link: ""
+      description: "Feeling overwhelemed by all these notes we left in your tool? Afraid you missed something?<br>Here are a few tips about how to use your CMS. As a bonus, find a video where we showcase how to use the CMS, from first login to achieving a production-ready website."
+
+    - title: "Lignes de code pour votre contenu"
+      link: ""
+      description: "Hugo allows to add lines of code into your website directly from your CMS! While you absolutely do not need them, this can give you more options while adding content to your website.<br>We did prepare a few shortcodes for you to copy and paste into your CMS. In this article we present each and every shortcode: what they do and how to use them."
+
+    - title: "Comment sélectionner les images de votre site internet?"
+      link: ""
+      description: "We promise you top-notch performance and effortless website building, and we deliver by resizing your images natively.<br>However it all starts with image selection, and while we cannot do this for you, we can try to help.<br>Here is a quick guide about size, dimension, extension, followed by a few Do´s and don´ts." 
+
+################################## Subscription ###################
+subscription:
+  enable: false
+  menuName: "Souscription"
+  mailchimp_form_action: "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
+  mailchimp_form_name: "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+  bg_image: "/assets/img/full_image_1.jpg"
+  title: "Recevez nos derniers Articles et Modèles"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  placeholder: "Votre adresse Email"
+  button: "Souscrire?"
+
+############################## About ##########################
+about:
+  enable: true
+  menuName: "A propos"
+  title: "A propos"
+  description: "Nous sommes un petite équipe de 3 développeurs, spécialistes à livrer dans les délais la solution adaptée à votre projet."
+  
+  item:
+    - name: "Cedric"
+      position: "Développeur Front End"
+      description: "Jeune Développeur né en France, mais vivant en Espagne, ayant été formé à la gestion de relation clientèle lors d'une vie précédente.<br><br>Je serai votre interlocuteur au moment de parler projet, devis, formation, facturation.<br>En espérant vous parler rapidement!"
+      img: "/assets/img/about-pic.jpg"
+      alt: "Person1"
+      social: [
+        ["icon-github", "#"],
+        #["icon-linkedin", "#"]
+      ]
+
+############################## Counters ##########################
+counters:
+  enable: false
+  menuName: "Counters"
+  title: "Stats"
+  background: "/assets/img/full_image_1.jpg"
+
+  item:
+    - description: "Finished Projects"
+      icon: "icon-briefcase"
+      from: 0
+      to: 89
+      interval: 50
+      speed: 5000
+
+    - description: "Lines of Code"
+      icon: "icon-code"
+      from: 0
+      to: 2343409
+      interval: 50
+      speed: 5000
+
+    - description: "Cups of Coffee"
+      icon: "icon-cup"
+      from: 0
+      to: 1302
+      interval: 50
+      speed: 5000
+
+    - description: "Happy clients"
+      icon: "icon-people"
+      from: 0
+      to: 52
+      interval: 50
+      speed: 5000
+
+################################## Contact ###################
+contact:
+  enable: true
+  menuName: Contact
+  map: false
+  googleMapsApiKey: ""
+  form: true
+  title: "Contactez-nous"
+  description: "Vous souhaitez nous présentez votre projet, recevoir un devis, ou simplement nous poser une question ? Cela se passe ci-dessous.<br>Nous reviendrons vers vous rapidement."
+  details: [
+        #["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        #["icon-whatsapp", "+34 631 716 240"],
+        ["icon-envelope", "info@codelice.com"],
+        ["icon-globe", '<a href="http://codelice.com/" target="_blank">codelice.com</a>']
+      ]
+  name: "Nom"
+  email: "Email"
+  phone: "Téléphone"
+  message: "Message"
+  button: "Envoyer"
+
+################################## Postpend links ###################
+blog:
+  enable: false
+  menuName: Blog
+  link: "blog/"
+
+################################## Footer ###################
+footer:
+  enable: true
+  copyright: 'Icons from <a href="https://icons8.com/" target="_blank">icons8</a> <br> &copy; Elate Free HTML5. All Rights Reserved. <br>Conçu par <a href="https://codelice.com/" target="_blank">codelice</a>'
+  links: [
+      ["icon-github", "#twitter"],
+      ["icon-youtube", "#youtube"]
+    ]

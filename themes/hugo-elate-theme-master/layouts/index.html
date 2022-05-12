@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        {{ partial "head.html" .}}
+    </head>
+    <body>
+        {{ partial "nav.html" .}}
+
+		{{ partial "hero.html" .}}
+		
+        {{ partial "intro.html" .}}
+
+		{{ $data := index .Site.Data .Site.Language.Lang }}
+
+			{{- if $data.homepage.work.enable }}
+				{{ partial "work.html" .}}
+			{{ end }}
+
+			{{ if $data.homepage.testimonials.enable }}
+				{{ partial "testimonials.html" .}}
+			{{ end }}
+
+			{{ if $data.homepage.services.enable }}
+				{{ partial "services.html" .}}
+			{{ end }}
+
+			{{ if $data.homepage.ressources.enable }}
+				{{ partial "ressources.html" .}}
+			{{ end }}
+			
+			{{ if $data.homepage.about.enable }}
+				{{ partial "about.html" .}}
+			{{ end }}
+
+			{{ if $data.homepage.counters.enable }}
+				{{ partial "counters.html" .}}
+			{{ end }}
+
+			{{ if $data.homepage.subscription.enable }}
+				{{ partial "subscription.html" .}}
+			{{ end }}
+
+			{{ if $data.homepage.contact.enable }}
+				{{ partial "contact.html" .}}
+			{{ end }}
+
+			{{ if $data.homepage.footer.enable }}
+				{{ partial "footer.html" .}}
+			{{ end }}
+		
+    </body>
+</html>
