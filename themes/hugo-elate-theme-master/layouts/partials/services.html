@@ -22,9 +22,10 @@
 					<h3>{{ .title | markdownify }}</h3>
 					<p>{{ .description | markdownify }}</p>
 				</div>
-				<div class="clearfix visible-sm-block"></div>
+				<div class="clearfix visible-sm-block" style="margin-bottom:20px !important"></div>
 			{{ end }}
-			</div>
+			<p><a href="#" data-nav-section="contact" class="btn btn-primary" style="margin-top: 5%;">{{ $data.homepage.hero.button }}</a></p>
+		</div>
 		</div>
 	</section>
 {{ end }}

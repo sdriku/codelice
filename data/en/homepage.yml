@@ -1,11 +1,11 @@
 ############################# Brand ############################
 brand:
   companyName: "Codelice"
-  companyLogo: "/assets/img/logo-lightred-transparent.png"
+  companyLogo: "/assets/img/logosimple.png"
   widthLogo: "160"
-  heightLogo: "160"
+  heightLogo: "130"
   widthLogoMobile: "100"
-  heightLogoMobile: "100"
+  heightLogoMobile: "80"
 
 ############################# Home ############################
 home:
@@ -15,8 +15,10 @@ home:
 ############################# Hero ############################
 hero:
   enable: true
-  title: "Welcome to Codelice, your Web developer"
-  subtitle: 'Our Static Websites are best suited for Small to Medium-size businesses. We build your websites with a strong focus on Speed and SEO performances.<br><br>Find below 6 good reasons to give up dynamic and go Static!'
+  title: "CODELICE"
+  subtitle: 'Web Development Services'
+  subtitle2: 'We create Static Websites best suited for Small to Medium-size businesses. Whether we build sites for Local Business, small eCommerce, Events, Landing Pages, we achieve your goals while focusing on Performance: High Speed, Excellent SEO, Top-Security'
+  button: 'HIRE US'
  
 # Intro section #
 # Available icons: http://simplelineicons.com/ #
@@ -34,35 +36,35 @@ intro:
       img: "/assets/img/img_7.jpg"
 
     - title: "Free Hosting"
-      description: "No Database means a light back-end, hence most hosting options bear no annual cost. We set up your website and host if for free."
+      description: "No Database means a light back-end, hence most hosting options bear no annual cost. We set up your website and host if for free"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-hosting-64-red.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Top Security"
-      description: "No ugly Plugins and no heavy Database mean no risk of getting hacked or catching a virus. Avoid headaches, Static is Safe!"
+      description: "No ugly Plugins and no heavy Database mean no risk of getting hacked or catching a virus. Avoid headaches, Static is Safe"
       url: "#"
       #button: "Click Me"
       icon: "/assets/img/icons8-safe-50-red.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Easy to Maintain"
-      description: "Static is Stable. No Database means NO Updates & NO back-ups needed, you can rest. Our sites do NOT break!"
+      description: "Static is Stable. No Database means NO Updates & NO back-ups needed, you can rest. Our sites do NOT break"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-maintenance-50-red.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Easy to Edit"
-      description: "We deliver your website with a fully configured admin tool. Easily update your new website with no programming knowledge whatsoever!"
+      description: "We deliver your website with a fully configured admin tool. Easily update your new website with no programming knowledge whatsoever"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-update-50-red.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "SEO"
-      description: "Our sites are SEO-oriented. Insert your keywords in the Title and Description fields available for each page. Increase your Google ranking!"
+      description: "Our sites are SEO-oriented so you can increase your Google ranking. Insert your keywords in the Title and Description fields available for each page"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-seo-50-red.png"
@@ -78,33 +80,33 @@ intro:
 work:
   enable: true
   menuName: "Work"
-  title: "Work"
-  description: 'Here is a sample of the websites we developed for our clients, all static. You can see below their performance scores on both Desktop and Mobile. You can check by yourself their score from Google´s online tool called <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
+  title: "Our Work"
+  description: 'You can see below some of our work along with their performance scores on both Desktop (Wifi) and Mobile (3G). You can check by yourself these scores from <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>, Google´s online tool'
   footertext: ''
 
   row:
     - img: "/assets/img/aogw-homepage.png"
-      desktopscore: "/assets/img/aogw-desktop-score.png"
-      mobilescore: "/assets/img/aogw-mobile-score.png"
+      desktopscore: "/assets/img/score-aogw-desktop.png"
+      mobilescore: "/assets/img/score-aogw-mobile.png"
       alt: " AOGW"
       title: "AOGW"
-      subtitle: "AOGW - Personal Assistant"
+      subtitle: "Personal Assistant"
       link: 'https://assist-secretariat.com'
 
     - img: "/assets/img/eljp-homepage.png"
-      desktopscore: "/assets/img/eljp-desktop-score.png"
-      mobilescore: "/assets/img/eljp-mobile-score.png"
+      desktopscore: "/assets/img/score-eljp-desktop.png"
+      mobilescore: "/assets/img/score-eljp-mobile.png"
       alt: "ELJP"
       title: "ELJP"
-      subtitle: "ELJP - Electrician"
+      subtitle: "Electrician"
       link: 'https://electricite-eljp.com'
 
     - img: "/assets/img/aamc-homepage.png"
-      desktopscore: "/assets/img/aamc-desktop-score.png"
-      mobilescore: "/assets/img/aamc-mobile-score.png"
+      desktopscore: "/assets/img/score-aamc-desktop.png"
+      mobilescore: "/assets/img/score-aamc-mobile.png"
       alt: "AAMC"
       title: "AAMC"
-      subtitle: "AAMC - Non-Profit Organisation"
+      subtitle: "Non-Profit Organisation"
       link: 'https://evreux-armenie.com'
 
 ############################# testimonials ############################
@@ -134,29 +136,29 @@ testimonials:
 services:
   enable: true
   menuName: "Services"
-  title: "Services"
-  description: "Here is a breakdown of our Web Development offer. Feel free to contact us for more details."
+  title: "Our Services"
+  description: "Here is what we do and how we can help you. Website creation for all kind of budget, website migration, Performance Analysis, have a look and contact us today."
 
   item:
-    - title: "Fully Customised Website"
-      description: "We create your website together. Send us basic information about the kind of website you would like to get.<br>Once we agree on minimum performance score, functionalities, design and deadlines, will be time to get to work!"
+    - title: "Customised Website creation"
+      description: "We create your website together. Send us basic information about the kind of website you would like to get.<br>Once we agree on minimum performance score, functionalities, design and deadlines, it will be time for us to get to work"
       icon: "/assets/img/icons8-code-50-rosish.png"
 
-    - title: "Semi-Customised Website"
-      description: 'You are on a budget and cannot afford the full bill. Still, you refuse to settle for a heavy and time-consuming dynamic website?  We may just have what you are looking for!<br>Have a look at the websites´ skeletons we already optimised, right here <a href="http://codomatik.com/" target="_blank">here</a>.<br>Customize them as you wish, and if one looks like a good fit to your business, contact us and we will take it from here.<br>Your website can be online in as little as 48h, and of course we can slightly modify the architecture / design / functionalities of your skeleton in case you wish us to'
+    - title: "Semi-Customised Website creation"
+      description: 'You are on a budget and cannot afford the full bill but, still, you refuse to settle for a heavy and time-consuming dynamic website? We have just what you are looking for<br><a href="http://codomatik.com/" target="_blank">Have a look at our websites´ models, already optimised.</a><br>If one looks like a good fit to your business, contact us with modifictions you require: functionalities, colors, fonts, names of sections and more. Just ask and we will adapt the model.<br>Your website can be online in as little as 48h.'
       icon: "/assets/img/icons8-animated-themes-50.png"
 
     - title: "Website Migration"
-      description: "Tired of paying your monthly fee to Squarespace? Looking to cut time on your Wordpress´ website endless maintenance?<br>Send us a link to your website and we´ll come back to you with a plan to move your website to a static solution."
+      description: "Tired of paying your monthly fee to Squarespace? Looking to cut time on your Wordpress´ website endless maintenance?<br>Send us the address of your website and we will come back to you with a plan to move your website to a static solution."
       icon: "/assets/img/icons8-migration-64-rosish.png"
 
-    - title: "Performance Improvement"
-      description: "You are not happy with your website´s performance but aren´t sure about what to do next?<br>Send us a link to your website and we will get back to you with solutions."      
+    - title: "Performance Analysis"
+      description: "Poor performance of your website does cost you clients, but you are not sure how to pinpoint and solve the issue?<br>Send us the address of your website and we will get back to you with solutions."
       icon: "/assets/img/icons8-improvement-50-rosish.png"
 
 #################################### Ressources ########################
 ressources:
-  enable: true
+  enable: false
   menuName: "Resources"
   title: "Resources"
   description: "This section helps you make the most of the tools we provide. You can find links to documents, videos and quick guides helping you feed your website and use your Content Management System."
@@ -191,7 +193,7 @@ about:
   enable: true
   menuName: "About"
   title: "About"
-  description: "We are a small Team of 3 developers, master at finding the right solution for your case and at delivering projects within deadlines."
+  description: "We are a Team of 3 developers, master at finding the right solution for your case and at delivering projects within deadlines."
   
   item:
     - name: "Cedric"
@@ -258,6 +260,7 @@ contact:
   name: "Name"
   email: "Email"
   phone: "Phone"
+  url: "Your website´s url (if you have one)"
   message: "Message"
   button: "Send message"
 
@@ -270,7 +273,7 @@ blog:
 ################################## Footer ###################
 footer:
   enable: true
-  copyright: 'Icons from <a href="https://icons8.com/" target="_blank">icons8</a> <br> &copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="https://codelice.com/" target="_blank">codelice</a>'
+  copyright: 'Created by <a href="https://codelice.com/" target="_blank">Codelice</a>'
   links: [
       ["icon-github", "#twitter"],
       ["icon-youtube", "#youtube"]

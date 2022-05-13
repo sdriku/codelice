@@ -1,11 +1,11 @@
 ############################# Brand ############################
 brand:
   companyName: "Codelice"
-  companyLogo: "/assets/img/logo-lightred-transparent.png"
+  companyLogo: "/assets/img/logosimple.png"
   widthLogo: "160"
-  heightLogo: "160"
+  heightLogo: "130"
   widthLogoMobile: "100"
-  heightLogoMobile: "100"
+  heightLogoMobile: "80"
 
 ############################# Home ############################
 home:
@@ -15,8 +15,10 @@ home:
 ############################# Hero ############################
 hero:
   enable: true
-  title: "Bienvenido a Codelice, tu empresa de desarrollo Web"
-  subtitle: 'Nuestros sitios web Estaticos son más adecuados para pequeñas y medianas empresas. Diseñamos vuestra pagina web con enfoque en performancia, especialmente Velocidad y SEO.<br><br> Encuentre mas abajo 6 razones para optar por Estatico!'
+  title: "CODELICE"
+  subtitle: 'Servicios de Desarollo Web'
+  subtitle2: 'Nuestros sitios web Estaticos son más adecuados para pequeñas y medianas empresas. Negocios Locales, pequeños eCommerce, Eventos, diseñamos vuestra pagina web con enfoque en Performancia: Alta Velocidad, muy bueno SEO, Alta Seguridad'
+  button: 'CONTACTANOS'
  
 # Intro section #
 # Available icons: http://simplelineicons.com/ #
@@ -41,28 +43,28 @@ intro:
       img: "/assets/img/img_7.jpg"
 
     - title: "Seguridad"
-      description: "Sin Plugins y sin base de datos pesados, no hay ningun riesgo de tener un hack o un virus. ¡Evita dolores de cabeza, estático es seguro!"
+      description: "Sin Plugins y sin base de datos pesados, no hay ningun riesgo de tener un hack o un virus. ¡Evita dolores de cabeza, estático es seguro"
       url: "#"
       #button: "Click Me"
       icon: "/assets/img/icons8-safe-50-red.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Sin Mantenimiento"
-      description: "Estatico es Estable. Sin base de datos, NO se necesitan actualizaciones ni copias de seguridad, podeis descansar. Nuestras paginas NO rompen!"
+      description: "Estatico es Estable. Sin base de datos, NO se necesitan actualizaciones ni copias de seguridad, podeis descansar. Nuestras paginas NO rompen"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-maintenance-50-red.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Facil de editar"
-      description: "Entregamos su sitio web con herramienta de administración de contenido ya configurada. Modifica fácilmente su nueva pagina web sin ningún conocimiento de programación!"
+      description: "Entregamos su sitio web con herramienta de administración de contenido ya configurada. Modifica fácilmente su nueva pagina web sin ningún conocimiento de programación"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-update-50-red.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "SEO"
-      description: "Nuestros sitios están orientados a SEO. Inserte sus palabras clave en los campos Título y Descripción disponibles para cada página desde su herramienta."
+      description: "Nuestros sitios están orientados a SEO, así puede mejorar su clasificacion Google. Inserte sus palabras clave en los campos Título y Descripción disponibles para cada página"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-seo-50-red.png"
@@ -78,33 +80,33 @@ intro:
 work:
   enable: true
   menuName: "Proyectos"
-  title: "Proyectos"
-  description: 'Encuentre allí unas paginas de nuestros clientes. Puede ver a continuación la calificacion de rendimiento del sitio, tanto en escritorio como en dispositivo móvil. Esta performancia la podeis comprobar desde esta pagina <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
+  title: "Nuestros Proyectos"
+  description: 'Puede ver a continuación unas paginas de nuestros clientes con sus performancias, tanto en Escritorio (Wifi) como en dispositivo Móvil (3G). Podeis comprobar esas performancias desde esta pagina Google <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
   footertext: ''
 
   row:
     - img: "/assets/img/aogw-homepage.png"
-      desktopscore: "/assets/img/aogw-desktop-score.png"
-      mobilescore: "/assets/img/aogw-mobile-score.png"
+      desktopscore: "/assets/img/score-aogw-desktop.png"
+      mobilescore: "/assets/img/score-aogw-mobile.png"
       alt: " AOGW"
       title: "AOGW"
-      subtitle: "AOGW - Assistente Personal"
+      subtitle: "Assistente Personal"
       link: 'https://assist-secretariat.com'
 
     - img: "/assets/img/eljp-homepage.png"
-      desktopscore: "/assets/img/eljp-desktop-score.png"
-      mobilescore: "/assets/img/eljp-mobile-score.png"
+      desktopscore: "/assets/img/score-eljp-desktop.png"
+      mobilescore: "/assets/img/score-eljp-mobile.png"
       alt: "ELJP"
       title: "ELJP"
-      subtitle: "ELJP - Electricista"
+      subtitle: "Electricista"
       link: 'https://electricite-eljp.com'
 
     - img: "/assets/img/aamc-homepage.png"
-      desktopscore: "/assets/img/aamc-desktop-score.png"
-      mobilescore: "/assets/img/aamc-mobile-score.png"
+      desktopscore: "/assets/img/score-aamc-desktop.png"
+      mobilescore: "/assets/img/score-aamc-mobile.png"
       alt: "AAMC"
       title: "AAMC"
-      subtitle: "AAMC - Asociación Cultural"
+      subtitle: "Asociación Cultural"
       link: 'https://evreux-armenie.com'
 
 ############################# testimonials ############################
@@ -135,15 +137,15 @@ services:
   enable: true
   menuName: "Servicios"
   title: "Servicios"
-  description: "Aqui encuentre nuestra oferta de Desarollo Web. Podeis contactarnos para conseguir más detalles."
+  description: "Aqui encuentre lo que hacemos y como podemos ayudaros. Creacion de paginas para cualquier nivel de presupuesto, migracion de sitios, analisis de performancia, contactanos ahora!"
 
   item:
-    - title: "Sitio Web personalizado"
-      description: "Creamos su pagina web juntos. Envianos informacion basica sobre su negocia y el tipo de sitio que queria conseguir.<br>Nos pondremos en contacto con usted rapidamente. Una vez que nos acordamos sobre performancia minima, funcionalidades, diseño y plazos, será hora de empezar el trabajo."
+    - title: "Creacion de Pagina personalizada"
+      description: "Creamos su pagina web juntos. Envianos informacion basica sobre su negocio y el tipo de sitio que queria conseguir.<br>Nos pondremos en contacto con usted rapidamente. Una vez que nos acordamos sobre performancia minima, funcionalidades, diseño y plazos, empezaremos el trabajo."
       icon: "/assets/img/icons8-code-50-rosish.png"
 
     - title: "Sitio Web semi-personalizado"
-      description: 'Tiene un presupuesto limitado y no puede pagar una pagina completamente personalizada? Pero no quiere conformarse con un sitio web dinámico, o sea pesado y lento? Tenemos la solucion ideal por su caso!<br>Mira a esos modelo, cuya performancia ya esta optimizada <a href="http://codomatik.com/" target="_blank">here</a>.<br>Personalícelos como desee, y si uno parece perfecto para su negocio, contáctenos y nos encargamos del resto.'
+      description: 'Tiene un presupuesto limitado y no puede pagar una pagina personalizada, pero no quiere conformarse con un sitio web dinámico, o sea pesado y lento? Tenemos la solucion ideal por su caso.<br><a href="http://codomatik.com/" target="_blank">Mira a esos modelos, cuyas performancias ya estan optimizadas.</a><br>Si uno parece perfecto para su negocio, envianos una lista de modificaciones: colores, tipografia, funcionalidades, nombre de secciones y mas. Pide y adaptaremos.<br>Ponemos su pagina online en un plazo de 48 horas.'
       icon: "/assets/img/icons8-animated-themes-50.png"
 
     - title: "Migración de vuestra pagina web"
@@ -151,12 +153,12 @@ services:
       icon: "/assets/img/icons8-migration-64-rosish.png"
 
     - title: "Mejora del rendimiento"
-      description: "No está satisfecho con la performancia de su sitio web, pero no sabe qué hacer para mejorla?<br>Envíanos el enlace de vuestro sitio web y le encontraremos soluciones."
+      description: "Baja performancia de su pagina os cuesta clientes, pero no sabeis como mejorarla?<br>Envíanos el enlace de vuestro sitio web y os encontraremos soluciones."
       icon: "/assets/img/icons8-improvement-50-rosish.png"
 
 #################################### Ressources ########################
 ressources:
-  enable: true
+  enable: false
   menuName: "Recursos"
   title: "Recursos"
   description: "Esta sección le ayuda a aprovechar al máximo las herramientas que ofrecemos. Puede encontrar documentos, videos y guías que lo ayudarán a gestionar su sitio web."
@@ -195,7 +197,7 @@ about:
   enable: true
   menuName: "Acerca de"
   title: "Acerca de"
-  description: "Somos un pequeño equipo de 3 desarrolladores, expertos en encontrar la solución adecuada a su caso y en entregar proyectos dentro de los plazos."
+  description: "Somos un equipo de 3 desarrolladores, expertos en encontrar la solución adecuada a su caso y en entregar proyectos dentro de los plazos."
   
   item:
     - name: "Cedric"
@@ -262,6 +264,7 @@ contact:
   name: "Nombre"
   email: "Correo electronico"
   phone: "Telefono"
+  url: "Dirección de su sitio web (si tiene)"
   message: "Mensaje"
   button: "Envia mensaje"
 
@@ -274,7 +277,7 @@ blog:
 ################################## Footer ###################
 footer:
   enable: true
-  copyright: 'Iconos de <a href="https://icons8.com/" target="_blank">icons8</a> <br>Diseño de <a href="https://codelice.com/" target="_blank">codelice</a>'
+  copyright: 'Diseño de <a href="https://codelice.com/" target="_blank">Codelice</a>'
   links: [
       ["icon-github", "#twitter"],
       ["icon-youtube", "#youtube"]

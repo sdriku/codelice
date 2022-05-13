@@ -128,9 +128,9 @@ unsafe = true
 
 # CSS Plugins
     # Default Theme Style 
-    # You can change the style.css (default color purple) to one of these styles
-    # style.css blue - style2.css turquoise - style3.css pink - style4.css green
+    # You can change the style.css / 20+ colors available
     # to be called from data/style.yml as this allows client to choose his gradient
+    # copy from style5 and paste to all other style - lines 438to445 - 487to512 - 692to698 - 762to768 - 963to969
 
 ##[[params.plugins.css]]
 ##link = "css/style.css"
@@ -142,8 +142,8 @@ link = "css/leaflet.css"
 link = "css/animate.css"
 [[params.plugins.css]]
 link = "css/icomoon.css"
-[[params.plugins.css]]
-link = "css/simple-line-icons.css"
+##[[params.plugins.css]]
+##link = "css/simple-line-icons.css"
 [[params.plugins.css]]
 link = "css/magnific-popup.css"
 [[params.plugins.css]]

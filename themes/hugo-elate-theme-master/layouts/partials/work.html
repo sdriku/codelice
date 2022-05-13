@@ -17,14 +17,13 @@
 			</div>
 			<div class="row row-bottom-padded-sm">
 			{{ range .row }}
-				<div class="col-md-4 col-sm-6 col-xxs-12">
+				<div class="col-md-6 col-sm-6 col-xxs-12">
 					<a href="{{ .link }}" target="_blank" class="fh5co-project-item to-animate">
 						<img src="{{ .img }}" alt="{{ .alt }}" class="img-responsive">
-						<img src="{{ .desktopscore }}" alt="{{ .alt }}" class="img-responsive">
-						<img src="{{ .mobilescore }}" alt="{{ .alt }}" class="img-responsive">
-						<div class="fh5co-text">
-						<h2>{{ .title }}</h2>
-						<span>{{ .subtitle }}</span>
+						<img src="{{ .desktopscore }}" alt="{{ .alt }}" style="float:left;width: 50%;">
+						<img src="{{ .mobilescore }}" alt="{{ .alt }}" style="float:left;width: 50%;">
+						<div class="fh5co-text" style="display:inline-block">
+						<h2>{{ .title }} - {{ .subtitle }}</h2>
 						</div>
 					</a>
 				</div>				

@@ -1,11 +1,11 @@
 ############################# Brand ############################
 brand:
   companyName: "Codelice"
-  companyLogo: "/assets/img/logo-lightred-transparent.png"
+  companyLogo: "/assets/img/logosimple.png"
   widthLogo: "160"
-  heightLogo: "160"
+  heightLogo: "130"
   widthLogoMobile: "100"
-  heightLogoMobile: "100"
+  heightLogoMobile: "80"
 
 ############################# Home ############################
 home:
@@ -15,9 +15,11 @@ home:
 ############################# Hero ############################
 hero:
   enable: true
-  title: "Bienvenue chez Codelice, votre développeur Web"
-  subtitle: 'Nos sites internet Statiques sont adaptés aux Micro, Petites et Moyennes Entreprises. La conception de nos sites internet est orientée performance, notamment Vitesse et SEO.<br><br> Voici 6 bonnes raisons d´en finir avec le dynamique, passez au Statique!'
- 
+  title: "CODELICE"
+  subtitle: 'Services de Développement Web'
+  subtitle2: 'Nous créons des sites internet Statiques adaptés aux Micro, Petites et Moyennes Entreprises. Commerces de Proximité, sites Vitrines, petits eCommerce, Evènements, notre conception est orientée performance: Rapidité d´affichage, excellent SEO, Haute Sécurité'
+  button: 'CONTACTEZ-NOUS'
+
 # Intro section #
 # Available icons: http://simplelineicons.com/ #
 
@@ -27,42 +29,42 @@ intro:
   enable: true
   item:
     - title: "Rapidité d'affichage"
-      description: "Un site tatique fonctionnant sans Base de données, sa vitesse d'affichage est excellente, et bien supérieure à celle d'un site dynamique."
+      description: "Un site tatique fonctionnant sans Base de données, sa vitesse d'affichage est excellente, et bien supérieure à celle d'un site dynamique"
       url: "#"
       #button: "Get In Touch"
       icon: "/assets/img/icons8-bolt-50-red.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Hébergement Gratuit"
-      description: "L'infrastructure d'un site statique étant légère par nature, l'hébergement de votre site est gratuit. Nous nous occupons de la mise en place et hébergement de votre site."
+      description: "L'infrastructure d'un site statique étant légère par nature, l'hébergement de votre site est gratuit. Nous nous occupons de la mise en place et hébergement de votre site"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-hosting-64-red.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Sécurité Maximum"
-      description: "Ni Plugins ni Base de données signifie aucun risque de se faire hacker ou attrapper un virus. Evitez les maux de têtes, optez pour un site Statique!"
+      description: "Ni Plugins ni Base de données signifie aucun risque de se faire hacker ou attrapper un virus. Evitez les maux de têtes, optez pour un site Statique"
       url: "#"
       #button: "Click Me"
       icon: "/assets/img/icons8-safe-50-red.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Zéro Maintenance"
-      description: "Un site Statique est un site Stable. Ni Mises à jour Ni Sauvegardes ne sont requises. Economisez-vous, nos sites Statiques ne requièrent aucune Maintenance!"
+      description: "Un site Statique est un site Stable. Ni Mises à jour Ni Sauvegardes ne sont requises. Economisez-vous, nos sites Statiques ne requièrent aucune Maintenance"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-maintenance-50-red.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Facile à Editer"
-      description: "Nous livrons nos sites internet avec un Gestionnaire de Contenu déjà configuré. Une fois le site livré, ajouter ou modifier vos images et textes sans aucune connaissance en programmation!"
+      description: "Nous livrons nos sites internet avec un Gestionnaire de Contenu déjà configuré. Une fois le site livré, ajouter ou modifier vos images et textes sans aucune connaissance en programmation"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-update-50-red.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "SEO"
-      description: "Un site Statique est orienté SEO par nature, Google référençant mieux les sites performants. Nous mettons aussi à votre disposition un titre et une description pour chaque page, incluez-y vos mots clés!"
+      description: "Un site Statique est orienté SEO par nature, Google référençant mieux les sites performants. Nous mettons aussi à votre disposition un titre et une description pour chaque page, incluez-y vos mots clés"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-seo-50-red.png"
@@ -78,33 +80,33 @@ intro:
 work:
   enable: true
   menuName: "Projets"
-  title: "Projets"
-  description: 'Voici un échantillon des sites internet développés pour nos clients. Vous trouverez également leur score Ordinateur de Bureau (Wifi) et leur score Mobile (4G). Vous pouvez vérifier ses scores par vous-même en vous rendant sur l´outil en ligne de Google nommé <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
+  title: "Nos Projets"
+  description: 'Vous trouverez ci-dessous quelques sites conçus pour nos clients ainsi que leurs scores Ordinateur de Bureau (Wifi) et Mobile (3G). Vous pouvez vérifier ses scores par vous-même en vous rendant sur l´outil en ligne de Google nommé <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
   footertext: ''
 
   row:
     - img: "/assets/img/aogw-homepage.png"
-      desktopscore: "/assets/img/aogw-desktop-score.png"
-      mobilescore: "/assets/img/aogw-mobile-score.png"
+      desktopscore: "/assets/img/score-aogw-desktop.png"
+      mobilescore: "/assets/img/score-aogw-mobile.png"
       alt: " AOGW"
       title: "AOGW"
-      subtitle: "AOGW - Assistante de Gestion"
+      subtitle: "Assistante de Gestion"
       link: 'https://assist-secretariat.com'
 
     - img: "/assets/img/eljp-homepage.png"
-      desktopscore: "/assets/img/eljp-desktop-score.png"
-      mobilescore: "/assets/img/eljp-mobile-score.png"
+      desktopscore: "/assets/img/score-eljp-desktop.png"
+      mobilescore: "/assets/img/score-eljp-mobile.png"
       alt: "ELJP"
       title: "ELJP"
-      subtitle: "ELJP - Artisan Electricien"
+      subtitle: "Artisan Electricien"
       link: 'https://electricite-eljp.com'
 
     - img: "/assets/img/aamc-homepage.png"
-      desktopscore: "/assets/img/aamc-desktop-score.png"
-      mobilescore: "/assets/img/aamc-mobile-score.png"
+      desktopscore: "/assets/img/score-aamc-desktop.png"
+      mobilescore: "/assets/img/score-aamc-mobile.png"
       alt: "AAMC"
       title: "AAMC"
-      subtitle: "AAMC - Association Culturelle"
+      subtitle: "Association Culturelle"
       link: 'https://evreux-armenie.com'
 
 ############################# testimonials ############################
@@ -135,28 +137,28 @@ services:
   enable: true
   menuName: "Prestations"
   title: "Prestations"
-  description: "Voici notre offre en détail, nous concevons votre site internet en considérant vos objectifs, besoins, budget. Contactez-nous dans le cas où vous souhaiteriez plus d´informations."
+  description: "Voici ce que nous offrons et de quelle manière nous pouvons vous aider. Création de sites pour tout budget, migration, analyse de performance, contactez-nous maintenant."
 
   item:
-    - title: "Site internet Personnalisé"
-      description: "Nous créons votre site internet de zéro, en accord avec le cahier des charges signé par vos soins. Envoyez-nous des informations de base concernant votre entreprise, et le type de site internet que vous souhaiteriez mettre en ligne. Nous vous enverrons alors une proposition"
+    - title: "Création de Site Personnalisé"
+      description: "Nous créons votre site internet de zéro, en accord avec le cahier des charges signé par vos soins. Envoyez-nous les informations de base concernant votre entreprise. Nous vous contacterons rapidement afin de trouver un accord concernant définissant performance minimum, fonctionalités, design et échéances."
       icon: "/assets/img/icons8-code-50-rosish.png"
 
     - title: "Site internet Semi-personnalisé"
-      description: 'Votre budget est limité? Mais vous refusez de perdre votre temps et votre argent avec un site lourd, inadapté, chronophage en maintenance et coûteux en hébergement? Nous pourrions avoir exactement ce qui vous convient!<br>Consultez notre collection de sites squelettes, déjà optimisés et configurés, disponibles sur notre site dédié <a href="http://codomatik.com/" target="_blank">here</a>.<br>Trouvez un modèle qui vous plait, personnalisez-le en modifiant le texte, les photos, les couleurs et la police. Si l´un de ces modèles vous convient, contactez-nous et nous nous occupons du reste.<br> Votre site peut-être en ligne en 48h, et bien entendu nous apportons des modifications mineures au modèle de votre choix si vous le souhaitez'
+      description: 'Votre budget est limité mais vous refusez de perdre votre temps et argent avec un site lourd, inadapté, chronophage en maintenance et coûteux en hébergement? Nous avons la solution qui vous convient.<br><a href="http://codomatik.com/" target="_blank">Découvrez notre collection de modèles, déjà optimisés et configurés, disponibles sur notre site dédié</a>.<br>Trouvez un modèle qui vous plait, et envoyez-nous une liste de modifications: couleurs, typographies, fonctionalités, nom des sections.<br> Votre site peut-être en ligne en 48 heures.'
       icon: "/assets/img/icons8-animated-themes-50.png"
 
     - title: "Website Migration"
-      description: "Fatigué par votre paiement mensuel à Squarespace? Agacé par le temps perdu à maintenir et modifier votre site WordPress?<br>Envoyez-nous l´adresse de votre site internet et nous vous enverrons une proposition visant à migrer votre site vers une solution statique."
+      description: "Fatigué par votre paiement mensuel à Squarespace? Agacé par le temps perdu à maintenir et modifier votre site WordPress?<br>Envoyez-nous l´adresse de votre site internet et nous évaluerons comment migrer votre site vers une solution statique."
       icon: "/assets/img/icons8-migration-64-rosish.png"
 
     - title: "Optimisation de Performance"
-      description: "Vous êtes mécontent des Performances de votre site internet, mais ne savez pas comment l´améliorer ?<br>Envoyez-nous l´adresse de votre site internet et nous trouverons une soluition."      
+      description: "La mauvaise performance de votre site internet vous fait perdre des clients potentiels, mais ne savez pas comment l´améliorer ?<br>Envoyez-nous l´adresse de votre site internet et nous trouverons une solution."
       icon: "/assets/img/icons8-improvement-50-rosish.png"
 
 #################################### Ressources ########################
 ressources:
-  enable: true
+  enable: false
   menuName: "Ressources"
   title: "Ressources"
   description: "Vous trouverez ci-dessous des documents, liens et vidéos vous expliquant en détail certains aspects de la gestion d'un site internet. Comment vous servir de votre Gestionnaire de Contenu, comment choisir correctement vos photos, etc."
@@ -191,7 +193,7 @@ about:
   enable: true
   menuName: "A propos"
   title: "A propos"
-  description: "Nous sommes un petite équipe de 3 développeurs, spécialistes à livrer dans les délais la solution adaptée à votre projet."
+  description: "Nous sommes une équipe de 3 développeurs, spécialistes à livrer dans les délais la solution adaptée à votre projet."
   
   item:
     - name: "Cedric"
@@ -258,6 +260,7 @@ contact:
   name: "Nom"
   email: "Email"
   phone: "Téléphone"
+  url: "Adresse de votre site (si il existe déjà)"
   message: "Message"
   button: "Envoyer"
 
@@ -270,7 +273,7 @@ blog:
 ################################## Footer ###################
 footer:
   enable: true
-  copyright: 'Icons from <a href="https://icons8.com/" target="_blank">icons8</a> <br> &copy; Elate Free HTML5. All Rights Reserved. <br>Conçu par <a href="https://codelice.com/" target="_blank">codelice</a>'
+  copyright: 'Conçu par <a href="https://codelice.com/" target="_blank">Codelice</a>'
   links: [
       ["icon-github", "#twitter"],
       ["icon-youtube", "#youtube"]
