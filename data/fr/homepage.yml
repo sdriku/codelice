@@ -17,7 +17,7 @@ hero:
   enable: true
   title: "/assets/img/codelice.png"
   subtitle: 'Services de Développement Web'
-  subtitle2: 'Nous créons des sites internet Statiques adaptés aux Micro, Petites et Moyennes Entreprises. Commerces de Proximité, sites Vitrines, petits eCommerce, Evènements, notre conception est orientée performance: Rapidité d´affichage, excellent SEO, Haute Sécurité'
+  subtitle2: 'Nous créons des sites internet Statiques adaptés aux Micro, Petites et Moyennes Entreprises. La performance de nos sites est garantie: Rapidité d´affichage, Excellent SEO, Haute Sécurité<br><br>Commerces de Proximité<br>Sites Vitrines<br>Petits eCommerce<br>Evènements<br>Doc Technique'
   button: 'CONTACTEZ-NOUS'
 
 # Intro section #

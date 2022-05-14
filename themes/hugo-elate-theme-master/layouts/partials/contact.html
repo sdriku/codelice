@@ -30,13 +30,13 @@
 					<div class="form-group ">
 						{{ with $data.homepage.contact.name }}
 						<label for="name" class="sr-only">{{ . | markdownify }}</label>
-						<input id="name" class="form-control" name="name" placeholder="{{ . }}" type="text">
+						<input id="name" class="form-control" name="name" placeholder="{{ . }}" type="text" required>
 						{{ end }}
 					</div>
 					<div class="form-group ">
 						{{ with $data.homepage.contact.email }}
 						<label for="email" class="sr-only">{{ . | markdownify }}</label>
-						<input id="email" class="form-control" name="_replyto" placeholder="{{ . }}" type="email">
+						<input id="email" class="form-control" name="_replyto" placeholder="{{ . }}" type="email" required>
 						{{ end }}
 					</div>
 					<div class="form-group ">
@@ -54,7 +54,7 @@
 					<div class="form-group ">
 						{{ with $data.homepage.contact.message }}
 						<label for="message" class="sr-only">{{ . | markdownify }}</label>
-						<textarea id="message" cols="30" rows="5" class="form-control" name="message" placeholder="{{ . }}"></textarea>
+						<textarea id="message" cols="30" rows="5" class="form-control" name="message" placeholder="{{ . }}" required></textarea>
 						{{ end }}
 					</div>
 					<div class="form-group ">
