@@ -15,7 +15,7 @@ home:
 ############################# Hero ############################
 hero:
   enable: true
-  title: "CODELICE"
+  title: "/assets/img/codelice.png"
   subtitle: 'Services de Développement Web'
   subtitle2: 'Nous créons des sites internet Statiques adaptés aux Micro, Petites et Moyennes Entreprises. Commerces de Proximité, sites Vitrines, petits eCommerce, Evènements, notre conception est orientée performance: Rapidité d´affichage, excellent SEO, Haute Sécurité'
   button: 'CONTACTEZ-NOUS'
@@ -198,7 +198,7 @@ about:
   item:
     - name: "Cedric"
       position: "Développeur Front End"
-      description: "Jeune Développeur né en France, mais vivant en Espagne, ayant été formé à la gestion de relation clientèle lors d'une vie précédente.<br><br>Je serai votre interlocuteur au moment de parler projet, devis, formation, facturation.<br>En espérant vous parler rapidement!"
+      description: "Jeune Développeur né en France, et vivant en Espagne, ayant été formé à la gestion de relation clientèle lors d'une vie précédente.<br><br>Je serai votre interlocuteur au moment de parler projet, devis et facturation.<br>En espérant vous parler rapidement!"
       img: "/assets/img/about-pic.jpg"
       alt: "Person1"
       social: [

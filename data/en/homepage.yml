@@ -15,7 +15,7 @@ home:
 ############################# Hero ############################
 hero:
   enable: true
-  title: "CODELICE"
+  title: "/assets/img/codelice.png"
   subtitle: 'Web Development Services'
   subtitle2: 'We create Static Websites best suited for Small to Medium-size businesses. Whether we build sites for Local Business, small eCommerce, Events, Landing Pages, we achieve your goals while focusing on Performance: High Speed, Excellent SEO, Top-Security'
   button: 'HIRE US'
@@ -198,7 +198,7 @@ about:
   item:
     - name: "Cedric"
       position: "Front End Developer"
-      description: "Young Developer born in France but living in sunny Spain, I will be your first point of contact when it comes to planning your project, giving quotes, training, billing...<br>Looking forward to talking to you!"
+      description: "Young Developer born in France but living in sunny Spain, I will be your first point of contact when it comes to planning your project, providing quotes, issuing bills...<br>Looking forward to talking to you!"
       img: "/assets/img/about-pic.jpg"
       alt: "Person1"
       social: [
