@@ -201,10 +201,15 @@ about:
       description: "Young Developer born in France but living in sunny Spain, I will be your first point of contact when it comes to planning your project, providing quotes, issuing bills...<br>Looking forward to talking to you!"
       img: "/assets/img/about-pic.jpg"
       alt: "Person1"
-      social: [
-        ["icon-github", "#"],
-        #["icon-linkedin", "#"]
-      ]
+      social:
+        - icon: '/assets/img/icons8-github-30.png'
+          link: 'https://github.com/sdriku'
+
+        - icon: '/assets/img/icon-hugo-30.png'
+          link: 'https://gohugo.io/'
+
+        - icon: '/assets/img/icon-gatsby-30.png'
+          link: 'https://www.gatsbyjs.com/'
 
 ############################## Counters ##########################
 counters:
@@ -250,19 +255,25 @@ contact:
   googleMapsApiKey: ""
   form: true
   title: "Get in touch"
-  description: "Please tell us about your project and needs.<br>We will then get back to you and discuss in details."
-  details: [
-        #["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        #["icon-whatsapp", "+34 631 716 240"],
-        ["icon-envelope", "cedric@codelice.com"],
-        ["icon-globe", '<a href="http://codelice.com/" target="_blank">codelice.com</a>']
-      ]
+  description: "Please tell us about your project, your brand, your goals.<br>We will get back to you by the following business days latest."
+  details:
+    - icon: '/assets/img/icons8-whatsapp-30.png'
+      value: '+34 631 716 240'
+
+    - icon: '/assets/img/icons8-mail-30.png'
+      value: 'cedric@codelice.com'
+
+    - icon: '/assets/img/icons8-globe-24.png'
+      value: '<a href="https://www.codelice.com/" target="_blank">codelice.com</a>'
+
   name: "Name"
   email: "Email"
   phone: "Phone"
   url: "Your website´s url (if you have one)"
   message: "Message"
   button: "Send"
+
+  form_action: 'https://formspree.io/f/mknykvkd'
 
 ################################## Postpend links ###################
 blog:
@@ -274,7 +285,12 @@ blog:
 footer:
   enable: true
   copyright: 'Created by <a href="https://codelice.com/" target="_blank">Codelice</a>'
-  links: [
-      ["icon-github", "#twitter"],
-      ["icon-youtube", "#youtube"]
-    ]
+  links:
+    - icon: '/assets/img/icons8-github-30.png'
+      link: 'https://github.com/sdriku'
+
+    - icon: '/assets/img/icon-hugo-30.png'
+      link: 'https://gohugo.io/'
+
+    - icon: '/assets/img/icon-gatsby-30.png'
+      link: 'https://www.gatsbyjs.com/'

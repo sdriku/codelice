@@ -205,10 +205,16 @@ about:
       description: "Joven desarrollador nacido en Francia y viviendo en España, seré su primer punto de contacto a la hora de planificar proyecto, dar presupuestos y facturas...<br>Le estoy esperando, contactanos pronto!"
       img: "/assets/img/about-pic.jpg"
       alt: "Person1"
-      social: [
-        ["icon-github", "#"],
-        #["icon-linkedin", "#"]
-      ]
+
+      social: 
+        - icon: '/assets/img/icons8-github-30.png'
+          link: 'https://github.com/sdriku'
+
+        - icon: '/assets/img/icon-hugo-30.png'
+          link: 'https://gohugo.io/'
+
+        - icon: '/assets/img/icon-gatsby-30.png'
+          link: 'https://www.gatsbyjs.com/'
 
 ############################## Counters ##########################
 counters:
@@ -255,18 +261,24 @@ contact:
   form: true
   title: "Contactanos"
   description: "Cuéntenos sobre su proyecto y sus objectivos.<br>Pronto nos pondremos en contacto con usted y lo hablaremos todo en detalle."
-  details: [
-        #["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        #["icon-whatsapp", "+34 631 716 240"],
-        ["icon-envelope", "cedric@codelice.com"],
-        ["icon-globe", '<a href="http://codelice.com/" target="_blank">codelice.com</a>']
-      ]
+  details:
+    - icon: '/assets/img/icons-whatsapp-30.png'
+      value: '+34 631 716 240'
+
+    - icon: '/assets/img/icons-mail-30.png'
+      value: 'cedric@codelice.com'
+
+    - icon: '/assets/img/icons-globe-24.png'
+      value: '<a href="https://www.codelice.com/" target="_blank">codelice.com</a>'
+
   name: "Nombre"
   email: "Correo electronico"
   phone: "Telefono"
   url: "Dirección de su sitio web (si tiene)"
   message: "Mensaje"
   button: "Enviar"
+
+  form_action: 'https://formspree.io/f/mknykvkd'
 
 ################################## Postpend links ###################
 blog:
@@ -278,7 +290,13 @@ blog:
 footer:
   enable: true
   copyright: 'Diseño de <a href="https://codelice.com/" target="_blank">Codelice</a>'
-  links: [
-      ["icon-github", "#twitter"],
-      ["icon-youtube", "#youtube"]
-    ]
+
+  links:
+    - icon: '/assets/img/icons8-github-30.png'
+      link: 'https://github.com/sdriku'
+
+    - icon: '/assets/img/icon-hugo-30.png'
+      link: 'https://gohugo.io/'
+
+    - icon: '/assets/img/icon-gatsby-30.png'
+      link: 'https://www.gatsbyjs.com/'

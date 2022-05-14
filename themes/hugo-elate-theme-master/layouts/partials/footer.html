@@ -13,9 +13,9 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<ul class="social social-circle">
-					{{ range $data.homepage.footer.links }}
-						<li><a href="{{ with index . 1}}{{ . }}{{ end }}"><i class="{{ with index . 0}}{{ . }}{{ end }}"></i></a></li>
+					<ul class="social">
+					{{ range .links }}
+						<li><a href="{{ .link }}"><i><img width="30" height="30" src="{{ .icon }}"></i></a></li>
 					{{ end }}
 					</ul>
 				</div>

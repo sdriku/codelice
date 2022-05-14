@@ -201,10 +201,16 @@ about:
       description: "Jeune Développeur né en France, et vivant en Espagne, ayant été formé à la gestion de relation clientèle lors d'une vie précédente.<br><br>Je serai votre interlocuteur au moment de parler projet, devis et facturation.<br>En espérant vous parler rapidement!"
       img: "/assets/img/about-pic.jpg"
       alt: "Person1"
-      social: [
-        ["icon-github", "#"],
-        #["icon-linkedin", "#"]
-      ]
+
+      social: 
+        - icon: '/assets/img/icons8-github-30.png'
+          link: 'https://github.com/sdriku'
+
+        - icon: '/assets/img/icon-hugo-30.png'
+          link: 'https://gohugo.io/'
+
+        - icon: '/assets/img/icon-gatsby-30.png'
+          link: 'https://www.gatsbyjs.com/'
 
 ############################## Counters ##########################
 counters:
@@ -250,19 +256,25 @@ contact:
   googleMapsApiKey: ""
   form: true
   title: "Contactez-nous"
-  description: "Vous souhaitez nous présentez votre projet, recevoir un devis, ou simplement nous poser une question ? Cela se passe ci-dessous.<br>Nous reviendrons vers vous rapidement."
-  details: [
-        #["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        #["icon-whatsapp", "+34 631 716 240"],
-        ["icon-envelope", "cedric@codelice.com"],
-        ["icon-globe", '<a href="http://codelice.com/" target="_blank">codelice.com</a>']
-      ]
+  description: "Vous souhaitez nous parler de votre projet, recevoir un devis, ou simplement nous poser une question?<br>Nous reviendrons vers vous rapidement."
+  details:
+    - icon: '/assets/img/icons-whatsapp-30.png'
+      value: '+34 631 716 240'
+
+    - icon: '/assets/img/icons-mail-30.png'
+      value: 'cedric@codelice.com'
+
+    - icon: '/assets/img/icons-globe-24.png'
+      value: '<a href="https://www.codelice.com/" target="_blank">codelice.com</a>'
+
   name: "Nom"
   email: "Email"
   phone: "Téléphone"
   url: "Adresse de votre site (si il existe déjà)"
   message: "Message"
   button: "Envoyer"
+
+  form_action: 'https://formspree.io/f/mknykvkd'
 
 ################################## Postpend links ###################
 blog:
@@ -274,7 +286,13 @@ blog:
 footer:
   enable: true
   copyright: 'Conçu par <a href="https://codelice.com/" target="_blank">Codelice</a>'
-  links: [
-      ["icon-github", "#twitter"],
-      ["icon-youtube", "#youtube"]
-    ]
+
+  links:
+    - icon: '/assets/img/icons8-github-30.png'
+      link: 'https://github.com/sdriku'
+
+    - icon: '/assets/img/icon-hugo-30.png'
+      link: 'https://gohugo.io/'
+
+    - icon: '/assets/img/icon-gatsby-30.png'
+      link: 'https://www.gatsbyjs.com/'
