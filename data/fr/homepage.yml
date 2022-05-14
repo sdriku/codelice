@@ -1,7 +1,7 @@
 ############################# Brand ############################
 brand:
   companyName: "Codelice"
-  companyLogo: "/assets/img/logosimple.png"
+  companyLogo: "/assets/img/logo-de8b57.png"
   widthLogo: "160"
   heightLogo: "130"
   widthLogoMobile: "100"
@@ -29,45 +29,45 @@ intro:
   enable: true
   item:
     - title: "Rapidité d'affichage"
-      description: "Un site tatique fonctionnant sans Base de données, sa vitesse d'affichage est excellente, et bien supérieure à celle d'un site dynamique"
+      description: "Un site Statique fonctionnant sans base de données, sa vitesse d'affichage est excellente, et bien supérieure à celle d'un site dynamique"
       url: "#"
       #button: "Get In Touch"
-      icon: "/assets/img/icons8-bolt-50-red.png"
+      icon: "/assets/img/icons8-bolt-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Hébergement Gratuit"
       description: "L'infrastructure d'un site statique étant légère par nature, l'hébergement de votre site est gratuit. Nous nous occupons de la mise en place et hébergement de votre site"
       url: "#"
       #button: "Why us?"
-      icon: "/assets/img/icons8-hosting-64-red.png"
+      icon: "/assets/img/icons8-hosting-64-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Sécurité Maximum"
-      description: "Ni Plugins ni Base de données signifie aucun risque de se faire hacker ou attrapper un virus. Evitez les maux de têtes, optez pour un site Statique"
+      description: "Ni plugins ni base de données signifie aucun risque de se faire hacker ou attrapper un virus. Evitez les maux de têtes, optez pour un site Statique"
       url: "#"
       #button: "Click Me"
-      icon: "/assets/img/icons8-safe-50-red.png"
+      icon: "/assets/img/icons8-safe-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Zéro Maintenance"
-      description: "Un site Statique est un site Stable. Ni Mises à jour Ni Sauvegardes ne sont requises. Economisez-vous, nos sites Statiques ne requièrent aucune Maintenance"
+      description: "Un site Statique est un site Stable. Ni mises à jour ni sauvegardes ne sont requises. Economisez-vous, nos sites Statiques ne requièrent aucune maintenance"
       url: "#"
       #button: "Why us?"
-      icon: "/assets/img/icons8-maintenance-50-red.png"
+      icon: "/assets/img/icons8-maintenance-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Facile à Editer"
       description: "Nous livrons nos sites internet avec un Gestionnaire de Contenu déjà configuré. Une fois le site livré, ajouter ou modifier vos images et textes sans aucune connaissance en programmation"
       url: "#"
       #button: "Why us?"
-      icon: "/assets/img/icons8-update-50-red.png"
+      icon: "/assets/img/icons8-update-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "SEO"
-      description: "Un site Statique est orienté SEO par nature, Google référençant mieux les sites performants. Nous mettons aussi à votre disposition un titre et une description pour chaque page, incluez-y vos mots clés"
+      description: "Un site Statique est orienté SEO par nature, Google référençant mieux les sites performants. Nous mettons aussi à votre disposition des champs Titre et Description pour chaque page, incluez-y vos mots clés"
       url: "#"
       #button: "Why us?"
-      icon: "/assets/img/icons8-seo-50-red.png"
+      icon: "/assets/img/icons8-seo-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
   video:
@@ -142,19 +142,19 @@ services:
   item:
     - title: "Création de Site Personnalisé"
       description: "Nous créons votre site internet de zéro, en accord avec le cahier des charges signé par vos soins. Envoyez-nous les informations de base concernant votre entreprise. Nous vous contacterons rapidement afin de trouver un accord concernant définissant performance minimum, fonctionalités, design et échéances."
-      icon: "/assets/img/icons8-code-50-rosish.png"
+      icon: "/assets/img/icons8-code-50-de8b57.png"
 
     - title: "Site internet Semi-personnalisé"
-      description: 'Votre budget est limité mais vous refusez de perdre votre temps et argent avec un site lourd, inadapté, chronophage en maintenance et coûteux en hébergement? Nous avons la solution qui vous convient.<br><a href="http://codomatik.com/" target="_blank">Découvrez notre collection de modèles, déjà optimisés et configurés, disponibles sur notre site dédié</a>.<br>Trouvez un modèle qui vous plait, et envoyez-nous une liste de modifications: couleurs, typographies, fonctionalités, nom des sections.<br> Votre site peut-être en ligne en 48 heures.'
-      icon: "/assets/img/icons8-animated-themes-50.png"
+      description: 'Votre budget est limité mais vous refusez de perdre votre temps et argent avec un site lourd, inadapté, chronophage en maintenance et coûteux en hébergement?<br>Nous avons la solution qui vous convient: nos modèles sont quasi prêts à l´emploi, et leurs performances déjà optimisées. Trouvez un modèle qui vous plait, et envoyez-nous une liste de modifications: couleurs, typographies, fonctionalités, nom des sections.<br> Votre site peut-être en ligne en 48 heures.<br><a href="http://codomatik.com/" target="_blank">Découvrir nos modèles.</a>'
+      icon: "/assets/img/icons8-animated-themes-50-de8b57.png"
 
     - title: "Website Migration"
       description: "Fatigué par votre paiement mensuel à Squarespace? Agacé par le temps perdu à maintenir et modifier votre site WordPress?<br>Envoyez-nous l´adresse de votre site internet et nous évaluerons comment migrer votre site vers une solution statique."
-      icon: "/assets/img/icons8-migration-64-rosish.png"
+      icon: "/assets/img/icons8-migration-64-de8b57.png"
 
     - title: "Optimisation de Performance"
       description: "La mauvaise performance de votre site internet vous fait perdre des clients potentiels, mais ne savez pas comment l´améliorer ?<br>Envoyez-nous l´adresse de votre site internet et nous trouverons une solution."
-      icon: "/assets/img/icons8-improvement-50-rosish.png"
+      icon: "/assets/img/icons8-improvement-50-de8b57.png"
 
 #################################### Ressources ########################
 ressources:
@@ -254,7 +254,7 @@ contact:
   details: [
         #["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
         #["icon-whatsapp", "+34 631 716 240"],
-        ["icon-envelope", "info@codelice.com"],
+        ["icon-envelope", "cedric@codelice.com"],
         ["icon-globe", '<a href="http://codelice.com/" target="_blank">codelice.com</a>']
       ]
   name: "Nom"

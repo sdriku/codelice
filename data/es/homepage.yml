@@ -1,7 +1,7 @@
 ############################# Brand ############################
 brand:
   companyName: "Codelice"
-  companyLogo: "/assets/img/logosimple.png"
+  companyLogo: "/assets/img/logo-de8b57.png"
   widthLogo: "160"
   heightLogo: "130"
   widthLogoMobile: "100"
@@ -29,45 +29,45 @@ intro:
   enable: true
   item:
     - title: "Velocidad"
-      description: "Trabajar sin base de datos significa menos comunicacion con servidores. Su sitio se reproduce con alta velocidad"
+      description: "Sitio Estaticos funcionan sin base de datos. De esta manera su pagina se reproduce con alta velocidad"
       url: "#"
       #button: "Get In Touch"
-      icon: "/assets/img/icons8-bolt-50-red.png"
+      icon: "/assets/img/icons8-bolt-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Servidor"
-      description: "Sin base de datos, el back-end esta muy ligero. Por esta razon, la mayoría de las opciones de servidor no tienen costo anual. Configuramos su sitio web y lo alojamos de forma gratuita"
+      description: "Sin base de datos el back-end esta muy ligero. Por esta razon opciones de servidor no tienen costo anual. Configuramos su sitio web y lo alojamos de forma gratuita"
       url: "#"
       #button: "Why us?"
-      icon: "/assets/img/icons8-hosting-64-red.png"
+      icon: "/assets/img/icons8-hosting-64-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Seguridad"
-      description: "Sin Plugins y sin base de datos pesados, no hay ningun riesgo de tener un hack o un virus. ¡Evita dolores de cabeza, estático es seguro"
+      description: "Sin plugins y sin base de datos, no hay ningun riesgo de tener un hack o un virus. ¡Evita dolores de cabeza, estático es seguro"
       url: "#"
       #button: "Click Me"
-      icon: "/assets/img/icons8-safe-50-red.png"
+      icon: "/assets/img/icons8-safe-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Sin Mantenimiento"
-      description: "Estatico es Estable. Sin base de datos, NO se necesitan actualizaciones ni copias de seguridad, podeis descansar. Nuestras paginas NO rompen"
+      description: "Estatico es Estable. Sin base de datos, no se necesitan actualizaciones ni copias de seguridad, podeis descansar. Nuestras paginas no rompen"
       url: "#"
       #button: "Why us?"
-      icon: "/assets/img/icons8-maintenance-50-red.png"
+      icon: "/assets/img/icons8-maintenance-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Facil de editar"
       description: "Entregamos su sitio web con herramienta de administración de contenido ya configurada. Modifica fácilmente su nueva pagina web sin ningún conocimiento de programación"
       url: "#"
       #button: "Why us?"
-      icon: "/assets/img/icons8-update-50-red.png"
+      icon: "/assets/img/icons8-update-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "SEO"
       description: "Nuestros sitios están orientados a SEO, así puede mejorar su clasificacion Google. Inserte sus palabras clave en los campos Título y Descripción disponibles para cada página"
       url: "#"
       #button: "Why us?"
-      icon: "/assets/img/icons8-seo-50-red.png"
+      icon: "/assets/img/icons8-seo-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
   video:
@@ -142,19 +142,19 @@ services:
   item:
     - title: "Creacion de Pagina personalizada"
       description: "Creamos su pagina web juntos. Envianos informacion basica sobre su negocio y el tipo de sitio que queria conseguir.<br>Nos pondremos en contacto con usted rapidamente. Una vez que nos acordamos sobre performancia minima, funcionalidades, diseño y plazos, empezaremos el trabajo."
-      icon: "/assets/img/icons8-code-50-rosish.png"
+      icon: "/assets/img/icons8-code-50-de8b57.png"
 
     - title: "Sitio Web semi-personalizado"
-      description: 'Tiene un presupuesto limitado y no puede pagar una pagina personalizada, pero no quiere conformarse con un sitio web dinámico, o sea pesado y lento? Tenemos la solucion ideal por su caso.<br><a href="http://codomatik.com/" target="_blank">Mira a esos modelos, cuyas performancias ya estan optimizadas.</a><br>Si uno parece perfecto para su negocio, envianos una lista de modificaciones: colores, tipografia, funcionalidades, nombre de secciones y mas. Pide y adaptaremos.<br>Ponemos su pagina online en un plazo de 48 horas.'
-      icon: "/assets/img/icons8-animated-themes-50.png"
+      description: 'Tiene un presupuesto limitado y no puede pagar una pagina personalizada, pero no quiere conformarse con un sitio web dinámico, o sea pesado y lento?<br>Pues, tenemos la solucion ideal por su caso: nuestros modelos casi-listos con performancias ya optimizadas. Si uno parece perfecto para su negocio, envianos una lista de modificaciones: colores, tipografia, funcionalidades, nombre de secciones y mas. Pide y adaptaremos.<br>Ponemos su pagina online en un plazo de 48 horas.<br><a href="http://codomatik.com/" target="_blank">Encuentra tu modelo</a>'
+      icon: "/assets/img/icons8-animated-themes-50-de8b57.png"
 
     - title: "Migración de vuestra pagina web"
       description: "Cansado de pagar la cuota mensual a Squarespace? Queria reducir el tiempo pasado con mantenimiento su sitio Wordpress?>br>Envíanos el enlace de vuestro sitio web y le responderemos con un plan para migrarlo."
-      icon: "/assets/img/icons8-migration-64-rosish.png"
+      icon: "/assets/img/icons8-migration-64-de8b57.png"
 
     - title: "Mejora del rendimiento"
       description: "Baja performancia de su pagina os cuesta clientes, pero no sabeis como mejorarla?<br>Envíanos el enlace de vuestro sitio web y os encontraremos soluciones."
-      icon: "/assets/img/icons8-improvement-50-rosish.png"
+      icon: "/assets/img/icons8-improvement-50-de8b57.png"
 
 #################################### Ressources ########################
 ressources:
@@ -258,7 +258,7 @@ contact:
   details: [
         #["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
         #["icon-whatsapp", "+34 631 716 240"],
-        ["icon-envelope", "info@codelice.com"],
+        ["icon-envelope", "cedric@codelice.com"],
         ["icon-globe", '<a href="http://codelice.com/" target="_blank">codelice.com</a>']
       ]
   name: "Nombre"
@@ -266,7 +266,7 @@ contact:
   phone: "Telefono"
   url: "Dirección de su sitio web (si tiene)"
   message: "Mensaje"
-  button: "Envia mensaje"
+  button: "Enviar"
 
 ################################## Postpend links ###################
 blog:

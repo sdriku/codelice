@@ -1,7 +1,7 @@
 ############################# Brand ############################
 brand:
   companyName: "Codelice"
-  companyLogo: "/assets/img/logosimple.png"
+  companyLogo: "/assets/img/logo-de8b57.png"
   widthLogo: "160"
   heightLogo: "130"
   widthLogoMobile: "100"
@@ -29,45 +29,45 @@ intro:
   enable: true
   item:
     - title: "Blazing Fast"
-      description: "No Database means no endless back and forth between database and servers. Your site is compiled and rendered blazing fast"
+      description: "Static means no datatbase or heavy infrastructure coming with it. Therefore your site is compiled and rendered blazing fast"
       url: "#"
       #button: "Get In Touch"
-      icon: "/assets/img/icons8-bolt-50-red.png"
+      icon: "/assets/img/icons8-bolt-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Free Hosting"
-      description: "No Database means a light back-end, hence most hosting options bear no annual cost. We set up your website and host if for free"
+      description: "No Database means a light back-end, therefore most hosting companies do not charge you. We set up your website and host if for free"
       url: "#"
       #button: "Why us?"
-      icon: "/assets/img/icons8-hosting-64-red.png"
+      icon: "/assets/img/icons8-hosting-64-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Top Security"
-      description: "No ugly Plugins and no heavy Database mean no risk of getting hacked or catching a virus. Avoid headaches, Static is Safe"
+      description: "No ugly plugins and no heavy database mean no risk of getting hacked or catching a virus. Avoid headaches, Static is Safe"
       url: "#"
       #button: "Click Me"
-      icon: "/assets/img/icons8-safe-50-red.png"
+      icon: "/assets/img/icons8-safe-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Easy to Maintain"
-      description: "Static is Stable. No Database means NO Updates & NO back-ups needed, you can rest. Our sites do NOT break"
+      description: "Static is Stable. No Database means no updates and no back-ups needed, you can rest. Our sites do not break"
       url: "#"
       #button: "Why us?"
-      icon: "/assets/img/icons8-maintenance-50-red.png"
+      icon: "/assets/img/icons8-maintenance-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Easy to Edit"
       description: "We deliver your website with a fully configured admin tool. Easily update your new website with no programming knowledge whatsoever"
       url: "#"
       #button: "Why us?"
-      icon: "/assets/img/icons8-update-50-red.png"
+      icon: "/assets/img/icons8-update-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "SEO"
       description: "Our sites are SEO-oriented so you can increase your Google ranking. Insert your keywords in the Title and Description fields available for each page"
       url: "#"
       #button: "Why us?"
-      icon: "/assets/img/icons8-seo-50-red.png"
+      icon: "/assets/img/icons8-seo-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
   video:
@@ -142,19 +142,19 @@ services:
   item:
     - title: "Customised Website creation"
       description: "We create your website together. Send us basic information about the kind of website you would like to get.<br>Once we agree on minimum performance score, functionalities, design and deadlines, it will be time for us to get to work"
-      icon: "/assets/img/icons8-code-50-rosish.png"
+      icon: "/assets/img/icons8-code-50-de8b57.png"
 
     - title: "Semi-Customised Website creation"
-      description: 'You are on a budget and cannot afford the full bill but, still, you refuse to settle for a heavy and time-consuming dynamic website? We have just what you are looking for<br><a href="http://codomatik.com/" target="_blank">Have a look at our websites´ models, already optimised.</a><br>If one looks like a good fit to your business, contact us with modifictions you require: functionalities, colors, fonts, names of sections and more. Just ask and we will adapt the model.<br>Your website can be online in as little as 48h.'
-      icon: "/assets/img/icons8-animated-themes-50.png"
+      description: 'You are on a budget and cannot afford the full bill but, still, you refuse to settle for a heavy and time-consuming dynamic website?<br>Well, our already optimised models could be just what you are looking for. If one looks like a good fit to your business, contact us with modifictions you require: functionalities, colors, fonts, names of sections and more. Just ask and we will adapt the model.<br>Your website can be online in as little as 48h.<br><a href="http://codomatik.com/" target="_blank">Browse through our models.</a>'
+      icon: "/assets/img/icons8-animated-themes-50-de8b57.png"
 
     - title: "Website Migration"
       description: "Tired of paying your monthly fee to Squarespace? Looking to cut time on your Wordpress´ website endless maintenance?<br>Send us the address of your website and we will come back to you with a plan to move your website to a static solution."
-      icon: "/assets/img/icons8-migration-64-rosish.png"
+      icon: "/assets/img/icons8-migration-64-de8b57.png"
 
     - title: "Performance Analysis"
       description: "Poor performance of your website does cost you clients, but you are not sure how to pinpoint and solve the issue?<br>Send us the address of your website and we will get back to you with solutions."
-      icon: "/assets/img/icons8-improvement-50-rosish.png"
+      icon: "/assets/img/icons8-improvement-50-de8b57.png"
 
 #################################### Ressources ########################
 ressources:
@@ -254,7 +254,7 @@ contact:
   details: [
         #["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
         #["icon-whatsapp", "+34 631 716 240"],
-        ["icon-envelope", "info@codelice.com"],
+        ["icon-envelope", "cedric@codelice.com"],
         ["icon-globe", '<a href="http://codelice.com/" target="_blank">codelice.com</a>']
       ]
   name: "Name"
@@ -262,7 +262,7 @@ contact:
   phone: "Phone"
   url: "Your website´s url (if you have one)"
   message: "Message"
-  button: "Send message"
+  button: "Send"
 
 ################################## Postpend links ###################
 blog:
