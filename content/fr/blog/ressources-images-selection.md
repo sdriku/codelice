@@ -1,8 +1,8 @@
 ---
-title: "Les cadeaux qui comptent"
+title: "Resources - Image selection"
 date: 2019-10-17T11:22:16+06:00
-image: "assets/img/14.jpg"
 description : "this is a meta description"
+summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 weight: 4
 mainsection: "false"
 draft: false

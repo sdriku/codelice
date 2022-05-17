@@ -1,0 +1,26 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{- if $data.homepage.footer.enable }}
+{{- with $data.homepage.footer }}
+
+<footer id="footer" role="contentinfo">
+<!-- 	<a href="#" class="gotop js-gotop"><i><img height="50" src="/assets/img/icons8-arrow-up-64.png" alt="Go to Top of the Page"></i></a> -->
+		<div class="container">
+			<div class="">
+				<div class="col-md-12 text-center">
+					<p>{{ with $data.homepage.footer.copyright }}{{ . | markdownify }}{{ end }}</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="social">
+					{{ range .links }}
+						<li><a href="{{ .link }}"><i><img width="30" height="30" src="{{ .icon }}"></i></a></li>
+					{{ end }}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+{{ end }}
+{{ end }}

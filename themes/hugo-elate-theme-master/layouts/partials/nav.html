@@ -24,7 +24,7 @@
 
                     <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
                     {{- if $data.homepage.brand.companyLogo }}
-                    <a class="navbar-brand" href="index.html"><picture><source width="{{ $data.homepage.brand.widthLogo }}" height="{{ $data.homepage.brand.heightLogo }}" srcset="{{ $data.homepage.brand.companyLogo }}" media="(min-width: 850px)"><img class="logo-position" width="{{ $data.homepage.brand.widthLogoMobile }}" height="{{ $data.homepage.brand.heightLogoMobile }}" src="{{ $data.homepage.brand.companyLogo }}" alt="logo"></picture></a> 
+                    <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}"><picture><source width="{{ $data.homepage.brand.widthLogo }}" height="{{ $data.homepage.brand.heightLogo }}" srcset="{{ $data.homepage.brand.companyLogo }}" media="(min-width: 850px)"><img class="logo-position" width="{{ $data.homepage.brand.widthLogoMobile }}" height="{{ $data.homepage.brand.heightLogoMobile }}" src="{{ $data.homepage.brand.companyLogo }}" alt="logo"></picture></a> 
                     {{ else }}
                     <a class="navbar-brand" href="index.html">{{ $data.homepage.brand.companyName }}</a> 
                     {{ end }}

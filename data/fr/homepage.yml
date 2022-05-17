@@ -4,8 +4,8 @@ brand:
   companyLogo: "/assets/img/logo-de8b57.png"
   widthLogo: "160"
   heightLogo: "130"
-  widthLogoMobile: "100"
-  heightLogoMobile: "80"
+  widthLogoMobile: "160"
+  heightLogoMobile: "130"
 
 ############################# Home ############################
 home:
@@ -266,13 +266,13 @@ contact:
   title: "Contactez-nous"
   description: "Vous souhaitez nous parler de votre projet, recevoir un devis, ou simplement nous poser une question?<br>Contactez-nous via Whatsapp, courriel ou le formulaire ci-dessous et nous reviendrons vers vous sous 24h."
   details:
-    - icon: '/assets/img/icons-whatsapp-30.png'
+    - icon: '/assets/img/icons8-whatsapp-30.png'
       value: '+34 631 716 240'
 
-    - icon: '/assets/img/icons-mail-30.png'
+    - icon: '/assets/img/icons8-mail-30.png'
       value: 'cedric@codelice.com'
 
-    - icon: '/assets/img/icons-globe-24.png'
+    - icon: '/assets/img/icons8-globe-24.png'
       value: '<a href="https://www.codelice.com/" target="_blank">codelice.com</a>'
 
   name: "Nom"
@@ -293,6 +293,8 @@ blog:
 ################################## Footer ###################
 footer:
   enable: true
+  legalName: 'Mentions Légales'
+  legalLink: '/fr/mentions-legales'
   copyright: 'Conçu par <a href="https://codelice.com/" target="_blank">Codelice</a>'
 
   links:

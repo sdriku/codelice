@@ -1,89 +1,54 @@
 {{ define "main" }}
 
-<section class="feature-list section">
+<style>
+	@media (max-width:765px) {
+		.home-mobile {
+		margin-top: -45% !important;
+		}
+	}
+	@media (min-width:766px) {
+		.home-mobile {
+		margin-top: -30% !important;
+		}
+	}
+
+  
+</style>
+
+<!-- blog hero area -->
+<section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_1.jpg);max-height:50vh;" data-stellar-background-ratio="0.5">
+		<div class="gradient"></div>
+		<div class="container">
+			<div class="text-wrap">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h1 class="to-animate home-mobile" style="color:#de8b57;letter-spacing:5px;"><picture><source srcset="{{ .Params.hero_image }}" media="(min-width: 850px)"><img width="80%" src="{{ .Params.hero_image }}" alt="Company Name heading"></picture></h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slant"></div>
+	</section>
+
+  <section id="fh5co-ressources" data-section="ressources">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h1>{{.Title}}</h1>
+      <div class="col-md-12 section-heading text-left">
+        <h2 class=" left-border to-animate">{{.Title}}</h2>
       </div>
     </div>
-    {{ range $index, $element := (where .Site.RegularPages "Section" "blog") }}
-    {{- if ne (mod $index 2) 1 }}
-    <div class="row mb-40">
-      <div class="col-md-6 text-center mb-5 mb-lg-0">
-        {{ $imagePath := printf "/%s" .Params.image }}
-        {{ $res := resources.Get $imagePath }}
-        {{- $ws := slice 200 300 500 -}}
-        {{- $srcset := slice -}}
-        {{- range $ws -}}
-        {{/* to avoid creating an image that is larger than the source */}}
-        {{- if (le . $res.Width) -}}
-        {{- $w := printf "%dx" . -}}
-        {{- $url := ($res.Resize $w).RelPermalink | safeURL -}}
-        {{- $fmt := printf "%s %dw" $url . -}}
-        {{- $srcset = $srcset | append $fmt -}}
-        {{- end -}}
-        {{- end -}}
-        {{- $set := delimit $srcset "," -}}
-        {{ with $res }}
-        <figure>
-        <img      
-        srcset="{{ $set }}"
-        sizes="(max-width: 699px) 80vw, (min-width: 700px) 40vw"
-        src="{{ $res.RelPermalink }}"
-        alt="{{ .Params.alt }}"
-        width="20%"
-        height="auto"/>
-            </figure>
-        {{ end }}
+    <div class="row">
+      {{ range $index, $element := (where .Site.RegularPages "Section" "blog") }}
+      <div class="col-md-6 col-sm-6 fh5co-ressource to-animate";>
+        <h3>{{ .Title | markdownify }}</h3>
+        <p>{{ .Summary | markdownify }}</p>
+        <a href="{{ .Permalink }}" class="btn btn-primary" style="letter-spacing:1px; font-size:11px;padding:1px 10px 1px 10px;margin-bottom:20px">{{ i18n "read_more" }}</a>
       </div>
-      <div class="col-md-6 align-self-center text-center text-md-left">
-        <div class="content">
-          <h4 class="subheading"><a class="link-title" href="{{.Permalink}}">{{ .Title | markdownify }}</a></h4>
-          <p>{{ .Summary }}</p>
-          <a href="{{ .Permalink }}" class="btn btn-main btn-main-sm">{{ i18n "read_more" }}</a>
-        </div>
-      </div>
-    </div>
-    {{- else }}
-    <div class="row mb-40">
-      <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
-        <div class="content">
-          <h4 class="subheading"><a class="link-title" href="{{.Permalink}}">{{ .Title | markdownify }}</a></h4>
-          <p>{{ .Summary }}</p>
-          <a href="{{ .Permalink }}" class="btn btn-main btn-main-sm">{{ i18n "read_more" }}</a>
-        </div>
-      </div>
-      <div class="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0">
-        {{ $imagePath := printf "/%s" .Params.image }}
-        {{ $res := resources.Get $imagePath }}
-        {{- $ws := slice 200 300 500 -}}
-        {{- $srcset := slice -}}
-        {{- range $ws -}}
-        {{/* to avoid creating an image that is larger than the source */}}
-        {{- if (le . $res.Width) -}}
-        {{- $w := printf "%dx" . -}}
-        {{- $url := ($res.Resize $w).RelPermalink | safeURL -}}
-        {{- $fmt := printf "%s %dw" $url . -}}
-        {{- $srcset = $srcset | append $fmt -}}
-        {{- end -}}
-        {{- end -}}
-        {{- $set := delimit $srcset "," -}}
-        {{ with $res }}
-        <figure>
-        <img    
-        srcset="{{ $set }}"
-        sizes="(max-width: 699px) 80vw, (min-width: 700px) 40vw"
-        src="{{ $res.RelPermalink }}"
-        alt="{{ .Params.alt }}"
-        width="20%"
-        height="auto"/>
-        </figure>
-        {{ end }}
-      </div>
-    </div>
+      <div class="clearfix visible-sm-block"></div>
     {{ end }}
-    {{ end }}
+    </div>
   </div>
 </section>
 

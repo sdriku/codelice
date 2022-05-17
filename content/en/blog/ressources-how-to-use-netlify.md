@@ -1,8 +1,8 @@
 ---
-title: "Meilleur cadeau personnalisé dans votre budget"
+title: "Resources - How to use Netlify"
 date: 2019-10-17T11:22:16+06:00
-image: "assets/img/12.jpg"
 description : "this is a meta description"
+summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 weight: 3
 mainsection: "false"
 draft: false

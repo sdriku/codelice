@@ -1,8 +1,8 @@
 ---
-title: "Comment choisir le bon cadeau."
+title: "Static is not new - Why not popular before"
 date: 2019-10-17T11:22:16+06:00
-image: "assets/img/10.jpg"
 description : "this is a meta description"
+summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 weight: 1
 mainsection: "false"
 draft: false

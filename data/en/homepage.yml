@@ -4,8 +4,8 @@ brand:
   companyLogo: "/assets/img/logo-de8b57.png"
   widthLogo: "160"
   heightLogo: "130"
-  widthLogoMobile: "100"
-  heightLogoMobile: "80"
+  widthLogoMobile: "160"
+  heightLogoMobile: "130"
 
 ############################# Home ############################
 home:
@@ -291,7 +291,10 @@ blog:
 ################################## Footer ###################
 footer:
   enable: true
+  legalName: 'Legal'
+  legalLink: '/en/legal'
   copyright: 'Created by <a href="https://codelice.com/" target="_blank">Codelice</a>'
+  
   links:
     - icon: '/assets/img/icons8-github-30.png'
       link: 'https://github.com/sdriku'

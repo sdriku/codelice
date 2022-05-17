@@ -1,6 +1,7 @@
 ---
-title: "Nos dernières Publications"
-description : "this is a meta description"
+title: "Nuestros ultimos articulos"
+subtitle : "this is a meta description"
+hero_image: '/assets/img/codelice.png'
 mainsection: "true"
 draft: false
 ---

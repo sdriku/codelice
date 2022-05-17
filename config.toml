@@ -8,8 +8,6 @@ theme = "hugo-elate-theme-master"
 disableLanguages = [] # disable language from here
 # enable file for Google robots
 enableRobotsTXT = true
-# enable rel=canonical
-canonifyURLs = true
 
 
 # enable html from .md files

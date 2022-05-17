@@ -8,6 +8,7 @@
 		<div class="container">
 			<div class="">
 				<div class="col-md-12 text-center">
+					<p><a href="{{ .Site.BaseURL | relLangURL }}legal">{{ with $data.homepage.footer.legalName }}{{ . | markdownify }}{{ end }}</a></p>
 					<p>{{ with $data.homepage.footer.copyright }}{{ . | markdownify }}{{ end }}</p>
 				</div>
 			</div>

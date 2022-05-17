@@ -1,8 +1,8 @@
 ---
-title: "Pourquoi acheter une boucle d'oreille fait-main."
+title: "Web - Global Scores"
 date: 2019-10-17T11:22:16+06:00
-image: "assets/img/11.jpg"
 description : "this is a meta description"
+summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 weight: 2
 mainsection: "false"
 draft: false
