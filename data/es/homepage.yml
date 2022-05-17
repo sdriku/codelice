@@ -17,7 +17,14 @@ hero:
   enable: true
   title: "/assets/img/codelice.png"
   subtitle: 'Servicios de Desarollo Web'
-  subtitle2: 'Nuestros sitios web Estaticos son más adecuados para pequeñas y medianas empresas, con enfoque en Performancia: Alta Velocidad, muy bueno SEO, Alta Seguridad<br><br>Negocios Locales<br>Pequeños eCommerce<br>Eventos<br>Tecnical Doc'
+  subtitle2: 'Nuestros sitios web Estaticos son más adecuados para pequeñas y medianas empresas, con enfoque en Performancia: Alta Velocidad, muy bueno SEO, Alta Seguridad'
+  titlelist: 'Los tipos de sitios que diseñamos para vosotros'
+  list:
+    - 'Negocio Locale'
+    - 'Pequeño E-commerce'
+    - 'Associacion'
+    - 'Evento'
+    - 'Doc Tecnica'
   button: 'CONTACTANOS'
  
 # Intro section #
@@ -260,7 +267,7 @@ contact:
   googleMapsApiKey: ""
   form: true
   title: "Contactanos"
-  description: "Cuéntenos sobre su proyecto y sus objectivos.<br>Pronto nos pondremos en contacto con usted y lo hablaremos todo en detalle."
+  description: "Cuéntenos sobre su proyecto y sus objectivos.<br>Contactanos a traves Whatsapp, correo electronico o este formulario abajo, y pronto nos pondremos en contacto con usted para revisar todo en detalle."
   details:
     - icon: '/assets/img/icons-whatsapp-30.png'
       value: '+34 631 716 240'

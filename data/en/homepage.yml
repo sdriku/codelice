@@ -17,7 +17,14 @@ hero:
   enable: true
   title: "/assets/img/codelice.png"
   subtitle: 'Web Development Services'
-  subtitle2: 'We create Static Websites best suited for Small to Medium-size businesses, with a strong focus on Performance: High Speed, Excellent SEO, Top-Security.<br><br>Local Business<br>Small eCommerce<br>Association<br>Events<br>Technical Doc'
+  subtitle2: 'We create Static Websites best suited for Small to Medium-size businesses, with a strong focus on Performance: High Speed, Excellent SEO, Top-Security'
+  titlelist: 'These are the kind of websites we can build for you'
+  list:
+    - 'Local Business'
+    - 'Small E-commerce'
+    - 'Association'
+    - 'Event'
+    - 'Technical Doc'
   button: 'HIRE US'
  
 # Intro section #
@@ -81,7 +88,7 @@ work:
   enable: true
   menuName: "Work"
   title: "Our Work"
-  description: 'You can see below some of our work along with their performance scores on both Desktop (Wifi) and Mobile (3G). You can check by yourself these scores from <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>, Google´s online tool'
+  description: 'You can see below some of our work along with their performance scores on both Desktop (Wifi) and Mobile (3G). You can check by yourself these scores from this Google tool <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
   footertext: ''
 
   row:
@@ -255,7 +262,7 @@ contact:
   googleMapsApiKey: ""
   form: true
   title: "Get in touch"
-  description: "Please tell us about your project, your brand, your goals.<br>We will get back to you by the following business days latest."
+  description: "Please tell us about your project, your brand, your goals.<br>Contact us through Whatsapp, email or using the contact form below, we will get back to you by end of following business day."
   details:
     - icon: '/assets/img/icons8-whatsapp-30.png'
       value: '+34 631 716 240'

@@ -17,7 +17,15 @@ hero:
   enable: true
   title: "/assets/img/codelice.png"
   subtitle: 'Services de Développement Web'
-  subtitle2: 'Nous créons des sites internet Statiques adaptés aux Micro, Petites et Moyennes Entreprises. La performance de nos sites est garantie: Rapidité d´affichage, Excellent SEO, Haute Sécurité<br><br>Commerces de Proximité<br>Sites Vitrines<br>Petits eCommerce<br>Evènements<br>Doc Technique'
+  subtitle2: 'Nous créons des sites internet Statiques adaptés aux Micro, Petites et Moyennes Entreprises. La performance de nos sites est garantie: Rapidité d´affichage, Excellent SEO, Haute Sécurité'
+  titlelist: 'Voici les types de sites que nous concevons pour votre activité'
+  list:
+    - 'Commerce de Proximité'
+    - 'Site Vitrine'
+    - 'Association'
+    - 'Petit E-commerce'
+    - 'Evènement'
+    - 'Doc Technique'
   button: 'CONTACTEZ-NOUS'
 
 # Intro section #
@@ -256,7 +264,7 @@ contact:
   googleMapsApiKey: ""
   form: true
   title: "Contactez-nous"
-  description: "Vous souhaitez nous parler de votre projet, recevoir un devis, ou simplement nous poser une question?<br>Nous reviendrons vers vous rapidement."
+  description: "Vous souhaitez nous parler de votre projet, recevoir un devis, ou simplement nous poser une question?<br>Contactez-nous via Whatsapp, courriel ou le formulaire ci-dessous et nous reviendrons vers vous sous 24h."
   details:
     - icon: '/assets/img/icons-whatsapp-30.png'
       value: '+34 631 716 240'
