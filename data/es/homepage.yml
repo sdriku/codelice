@@ -266,7 +266,7 @@ contact:
   map: false
   googleMapsApiKey: ""
   form: true
-  action: "/es/thanks/"
+  action: "/es/gracias/"
   title: "Contactanos"
   description: "Cuéntenos sobre su proyecto y sus objectivos.<br>Contactanos a traves Whatsapp, Correo electronico o el Formulario abajo, y pronto nos pondremos en contacto con usted para revisar todo en detalle."
   details:
