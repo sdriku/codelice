@@ -27,6 +27,17 @@ unsafe = true
   filename = "sitemap.xml"
   priority = 0.5
 
+
+# with this, assets folder now co-exist with static, the same folder plays both roles
+[module]
+[[module.mounts]]
+  source = "static"
+  target = "assets"
+[[module.mounts]]
+  source = "static"
+  target = "static"
+
+
 # redirects
 [[redirects]]
   from = "/*"
@@ -48,15 +59,25 @@ unsafe = true
   to = "/es/404.html"
   status = 404
 
+[[redirects]]
+  from = "/thanks"
+  to = "/en/thanks.html"
+  status = 404
 
-# with this, assets folder now co-exist with static, the same folder plays both roles
-[module]
-[[module.mounts]]
-  source = "static"
-  target = "assets"
-[[module.mounts]]
-  source = "static"
-  target = "static"
+[[redirects]]
+  from = "/en/thanks.html"
+  to = "/en/thanks.html"
+  status = 404
+
+[[redirects]]
+  from = "/fr/thanks"
+  to = "/fr/thanks.html"
+  status = 404
+
+[[redirects]]
+  from = "/es/thanks"
+  to = "/es/thanks.html"
+  status = 404
 
 
 ############## Navigation in 3 Languages ##############
