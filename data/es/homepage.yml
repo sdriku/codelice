@@ -4,8 +4,8 @@ brand:
   companyLogo: "/assets/img/logo-de8b57.png"
   widthLogo: "160"
   heightLogo: "130"
-  widthLogoMobile: "160"
-  heightLogoMobile: "130"
+  widthLogoMobile: "130"
+  heightLogoMobile: "110"
 
 ############################# Home ############################
 home:
@@ -16,9 +16,9 @@ home:
 hero:
   enable: true
   title: "/assets/img/codelice.png"
-  subtitle: 'Servicios de Desarollo Web'
-  subtitle2: 'Nuestros sitios web Estaticos son más adecuados para pequeñas y medianas empresas, con enfoque en Performancia: Alta Velocidad, muy bueno SEO, Alta Seguridad'
-  titlelist: 'Los tipos de sitios que diseñamos para vosotros'
+  subtitle: 'Desarollo Web'
+  subtitle2: 'Diseñamos sitios web Estaticos para Pequeñas y Medianas Empresas, con enfoque en Performancia: Alta Velocidad, excelente SEO, Alta Seguridad'
+  titlelist: 'Abajo los sitios que diseñamos para vosotros'
   list:
     - 'Negocio Locale'
     - 'Pequeño E-commerce'
@@ -35,42 +35,42 @@ hero:
 intro:
   enable: true
   item:
-    - title: "Velocidad"
+    - title: "Alta Velocidad"
       description: "Sitio Estaticos funcionan sin base de datos. De esta manera su pagina se reproduce con alta velocidad"
       url: "#"
       #button: "Get In Touch"
       icon: "/assets/img/icons8-bolt-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
-    - title: "Servidor"
+    - title: "Alojamieno Gratis"
       description: "Sin base de datos el back-end esta muy ligero. Por esta razon opciones de servidor no tienen costo anual. Configuramos su sitio web y lo alojamos de forma gratuita"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-hosting-64-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
-    - title: "Seguridad"
+    - title: "Alta Seguridad"
       description: "Sin plugins y sin base de datos, no hay ningun riesgo de tener un hack o un virus. ¡Evita dolores de cabeza, estático es seguro"
       url: "#"
       #button: "Click Me"
       icon: "/assets/img/icons8-safe-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
-    - title: "Sin Mantenimiento"
+    - title: "Cero Mantenimiento"
       description: "Estatico es Estable. Sin base de datos, no se necesitan actualizaciones ni copias de seguridad, podeis descansar. Nuestras paginas no rompen"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-maintenance-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
-    - title: "Facil de editar"
+    - title: "Facil de Editar"
       description: "Entregamos su sitio web con herramienta de administración de contenido ya configurada. Modifica fácilmente su nueva pagina web sin ningún conocimiento de programación"
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-update-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
-    - title: "SEO"
+    - title: "Excelente SEO"
       description: "Nuestros sitios están orientados a SEO, así puede mejorar su clasificacion Google. Inserte sus palabras clave en los campos Título y Descripción disponibles para cada página"
       url: "#"
       #button: "Why us?"
@@ -88,7 +88,7 @@ work:
   enable: true
   menuName: "Proyectos"
   title: "Nuestros Proyectos"
-  description: 'Puede ver a continuación unas paginas de nuestros clientes con sus performancias, tanto en Escritorio (Wifi) como en dispositivo Móvil (3G). Podeis comprobar esas performancias desde esta pagina Google <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
+  description: 'Puede ver a continuación unas paginas de nuestros clientes con sus performancias, tanto en Escritorio (Wifi) como en dispositivo Móvil (3G). Podeis comprobar esas performancias desde esta pagina <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
   footertext: ''
 
   row:
@@ -144,19 +144,19 @@ services:
   enable: true
   menuName: "Servicios"
   title: "Servicios"
-  description: "Aqui encuentre lo que hacemos y como podemos ayudaros. Creacion de paginas para cualquier nivel de presupuesto, migracion de sitios, analisis de performancia, contactanos ahora!"
+  description: "Aqui encuentra lo que hacemos y como podemos ayudaros. Si piensa que podemos ayudar a desarollar su ctividad, contactanos hoy a traves de Whatsapp, Email, o el formulario de Contacto."
 
   item:
-    - title: "Creacion de Pagina personalizada"
-      description: "Creamos su pagina web juntos. Envianos informacion basica sobre su negocio y el tipo de sitio que queria conseguir.<br>Nos pondremos en contacto con usted rapidamente. Una vez que nos acordamos sobre performancia minima, funcionalidades, diseño y plazos, empezaremos el trabajo."
+    - title: "Creacion de Pagina Web"
+      description: "Creamos su pagina web juntos. Hablanos sobre su negocio y el tipo de sitio que queria para su actividad.<br>Nos pondremos en contacto con usted para hablar funcionalidades, diseño, plazos y performancia asegurada."
       icon: "/assets/img/icons8-code-50-de8b57.png"
 
-    - title: "Sitio Web semi-personalizado"
-      description: 'Tiene un presupuesto limitado y no puede pagar una pagina personalizada, pero no quiere conformarse con un sitio web dinámico, o sea pesado y lento?<br>Pues, tenemos la solucion ideal por su caso: nuestros modelos casi-listos con performancias ya optimizadas. Si uno parece perfecto para su negocio, envianos una lista de modificaciones: colores, tipografia, funcionalidades, nombre de secciones y mas. Pide y adaptaremos.<br>Ponemos su pagina online en un plazo de 48 horas.<br><a href="http://codomatik.com/" target="_blank">Encuentra tu modelo</a>'
+    - title: "Pagina Web semi-personalizada"
+      description: 'Tiene un presupuesto limitado y no puede pagar una pagina personalizada, pero no quiere conformarse con un sitio web dinámico, o sea pesado, caro y lento?<br>Tenemos la solucion ideal: nuestros modelos casi-listos con performancias ya optimizadas. Si uno parece perfecto para su negocio, envianos una lista de modificaciones: colores, tipografia, funcionalidades, nombre de secciones y mas. Pide y adaptaremos.<br>Ponemos su pagina online en un plazo de 48 horas.<br><a href="http://codomatik.com/" target="_blank">Encuentra su modelo</a>'
       icon: "/assets/img/icons8-animated-themes-50-de8b57.png"
 
-    - title: "Migración de vuestra pagina web"
-      description: "Cansado de pagar la cuota mensual a Squarespace? Queria reducir el tiempo pasado con mantenimiento su sitio Wordpress?>br>Envíanos el enlace de vuestro sitio web y le responderemos con un plan para migrarlo."
+    - title: "Migración de pagina web"
+      description: "Cansado de pagar la cuota mensual a Squarespace? Pasa demasiado tiempo  mantener su sitio Wordpress?>br>Envíanos el enlace de vuestro sitio web y le responderemos con un plan para migrarlo."
       icon: "/assets/img/icons8-migration-64-de8b57.png"
 
     - title: "Mejora del rendimiento"
@@ -267,7 +267,7 @@ contact:
   googleMapsApiKey: ""
   form: true
   title: "Contactanos"
-  description: "Cuéntenos sobre su proyecto y sus objectivos.<br>Contactanos a traves Whatsapp, correo electronico o este formulario abajo, y pronto nos pondremos en contacto con usted para revisar todo en detalle."
+  description: "Cuéntenos sobre su proyecto y sus objectivos.<br>Contactanos a traves Whatsapp, Correo electronico o el Formulario abajo, y pronto nos pondremos en contacto con usted para revisar todo en detalle."
   details:
     - icon: '/assets/img/icons-whatsapp-30.png'
       value: '+34 631 716 240'

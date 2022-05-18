@@ -4,8 +4,8 @@ brand:
   companyLogo: "/assets/img/logo-de8b57.png"
   widthLogo: "160"
   heightLogo: "130"
-  widthLogoMobile: "160"
-  heightLogoMobile: "130"
+  widthLogoMobile: "130"
+  heightLogoMobile: "110"
 
 ############################# Home ############################
 home:
@@ -16,9 +16,9 @@ home:
 hero:
   enable: true
   title: "/assets/img/codelice.png"
-  subtitle: 'Services de Développement Web'
+  subtitle: 'Développement Web'
   subtitle2: 'Nous créons des sites internet Statiques adaptés aux Micro, Petites et Moyennes Entreprises. La performance de nos sites est garantie: Rapidité d´affichage, Excellent SEO, Haute Sécurité'
-  titlelist: 'Voici les types de sites que nous concevons pour votre activité'
+  titlelist: 'Voici les sites que nous concevons pour vous'
   list:
     - 'Commerce de Proximité'
     - 'Site Vitrine'
@@ -36,7 +36,7 @@ hero:
 intro:
   enable: true
   item:
-    - title: "Rapidité d'affichage"
+    - title: "Ultra-Rapide"
       description: "Un site Statique fonctionnant sans base de données, sa vitesse d'affichage est excellente, et bien supérieure à celle d'un site dynamique"
       url: "#"
       #button: "Get In Touch"
@@ -71,7 +71,7 @@ intro:
       icon: "/assets/img/icons8-update-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
-    - title: "SEO"
+    - title: "Excellent SEO"
       description: "Un site Statique est orienté SEO par nature, Google référençant mieux les sites performants. Nous mettons aussi à votre disposition des champs Titre et Description pour chaque page, incluez-y vos mots clés"
       url: "#"
       #button: "Why us?"
@@ -89,7 +89,7 @@ work:
   enable: true
   menuName: "Projets"
   title: "Nos Projets"
-  description: 'Vous trouverez ci-dessous quelques sites conçus pour nos clients ainsi que leurs scores Ordinateur de Bureau (Wifi) et Mobile (3G). Vous pouvez vérifier ses scores par vous-même en vous rendant sur l´outil en ligne de Google nommé <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
+  description: 'Vous trouverez ci-dessous plusieurs sites conçus pour nos clients ainsi que leurs scores Ordinateur (Wifi) et Mobile (3G). Vous pouvez vérifier ses scores vous-même depuis cette page <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
   footertext: ''
 
   row:
@@ -145,23 +145,23 @@ services:
   enable: true
   menuName: "Prestations"
   title: "Prestations"
-  description: "Voici ce que nous offrons et de quelle manière nous pouvons vous aider. Création de sites pour tout budget, migration, analyse de performance, contactez-nous maintenant."
+  description: "Voici ce que nous offrons et de quelle manière nous pouvons vous aider. Si vous pensez que nous pouvons contribuer au développement de votre activité, contactez-nous maintenant via Whatsapp, Email ou le formulaire de Contact dédié."
 
   item:
-    - title: "Création de Site Personnalisé"
-      description: "Nous créons votre site internet de zéro, en accord avec le cahier des charges signé par vos soins. Envoyez-nous les informations de base concernant votre entreprise. Nous vous contacterons rapidement afin de trouver un accord concernant définissant performance minimum, fonctionalités, design et échéances."
+    - title: "Création de Site Internet"
+      description: "Nous créons votre site internet ensemble. Parlez-nous en détails du site qui vous plairait. Nous vous contacterons ensuite afin de définir les fonctionalités, design, échéances et performance garantie de votre site."
       icon: "/assets/img/icons8-code-50-de8b57.png"
 
-    - title: "Site internet Semi-personnalisé"
-      description: 'Votre budget est limité mais vous refusez de perdre votre temps et argent avec un site lourd, inadapté, chronophage en maintenance et coûteux en hébergement?<br>Nous avons la solution qui vous convient: nos modèles sont quasi prêts à l´emploi, et leurs performances déjà optimisées. Trouvez un modèle qui vous plait, et envoyez-nous une liste de modifications: couleurs, typographies, fonctionalités, nom des sections.<br> Votre site peut-être en ligne en 48 heures.<br><a href="http://codomatik.com/" target="_blank">Découvrir nos modèles.</a>'
+    - title: "Création de site Semi-personnalisé"
+      description: 'Votre budget est limité mais vous refusez de perdre votre temps et argent avec un site lourd, inadapté, chronophage en maintenance et coûteux en hébergement?<br>Nous avons la solution qui vous convient: nos modèles sont prêts à l´emploi, et leurs performances déjà optimisées. Trouvez un modèle qui vous plait, et envoyez-nous une liste de modifications: couleurs, typographies, fonctionalités, nom des sections.<br> Votre site peut-être en ligne en 48 heures.<br><a href="http://codomatik.com/" target="_blank">Découvrez nos modèles.</a>'
       icon: "/assets/img/icons8-animated-themes-50-de8b57.png"
 
     - title: "Website Migration"
-      description: "Fatigué par votre paiement mensuel à Squarespace? Agacé par le temps perdu à maintenir et modifier votre site WordPress?<br>Envoyez-nous l´adresse de votre site internet et nous évaluerons comment migrer votre site vers une solution statique."
+      description: "Fatigué par votre paiement mensuel à Squarespace? Agacé par le temps perdu à entretenir et modifier votre site WordPress?<br>Envoyez-nous l´adresse de votre site internet et nous évaluerons comment le migrer vers une solution statique."
       icon: "/assets/img/icons8-migration-64-de8b57.png"
 
     - title: "Optimisation de Performance"
-      description: "La mauvaise performance de votre site internet vous fait perdre des clients potentiels, mais ne savez pas comment l´améliorer ?<br>Envoyez-nous l´adresse de votre site internet et nous trouverons une solution."
+      description: "La mauvaise performance de votre site internet vous fait perdre des clients potentiels, mais ne savez pas comment l´améliorer?<br>Envoyez-nous l´adresse de votre site internet et nous trouverons une solution."
       icon: "/assets/img/icons8-improvement-50-de8b57.png"
 
 #################################### Ressources ########################
@@ -264,7 +264,7 @@ contact:
   googleMapsApiKey: ""
   form: true
   title: "Contactez-nous"
-  description: "Vous souhaitez nous parler de votre projet, recevoir un devis, ou simplement nous poser une question?<br>Contactez-nous via Whatsapp, courriel ou le formulaire ci-dessous et nous reviendrons vers vous sous 24h."
+  description: "Vous souhaitez nous parler de votre projet, recevoir un devis, ou simplement nous poser une question?<br>Contactez-nous via Whatsapp, Courriel ou le Formulaire ci-dessous et nous reviendrons vers vous sous 24h."
   details:
     - icon: '/assets/img/icons8-whatsapp-30.png'
       value: '+34 631 716 240'

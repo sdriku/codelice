@@ -18,3 +18,12 @@
   
 - id: "subscribe"
   translation: "M´abonner"
+
+- id: "404_h2"
+  translation: "Oh Oh !"
+
+- id: "404_h3"
+  translation: "Disculpa pero esa pagina no existe"
+
+- id: "404_button"
+  translation: "Volver al Inicio"

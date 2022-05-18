@@ -4,8 +4,8 @@ brand:
   companyLogo: "/assets/img/logo-de8b57.png"
   widthLogo: "160"
   heightLogo: "130"
-  widthLogoMobile: "160"
-  heightLogoMobile: "130"
+  widthLogoMobile: "130"
+  heightLogoMobile: "110"
 
 ############################# Home ############################
 home:
@@ -16,9 +16,9 @@ home:
 hero:
   enable: true
   title: "/assets/img/codelice.png"
-  subtitle: 'Web Development Services'
-  subtitle2: 'We create Static Websites best suited for Small to Medium-size businesses, with a strong focus on Performance: High Speed, Excellent SEO, Top-Security'
-  titlelist: 'These are the kind of websites we can build for you'
+  subtitle: 'Web Development'
+  subtitle2: 'We create Static Websites for Small to Medium-size Businesses, with a strong focus on Performance: High Speed, Excellent SEO, Top-Security'
+  titlelist: 'These are the websites we can build for you'
   list:
     - 'Local Business'
     - 'Small E-commerce'
@@ -56,7 +56,7 @@ intro:
       icon: "/assets/img/icons8-safe-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
-    - title: "Easy to Maintain"
+    - title: "Zero Maintenance"
       description: "Static is Stable. No Database means no updates and no back-ups needed, you can rest. Our sites do not break"
       url: "#"
       #button: "Why us?"
@@ -70,7 +70,7 @@ intro:
       icon: "/assets/img/icons8-update-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
-    - title: "SEO"
+    - title: "Great SEO"
       description: "Our sites are SEO-oriented so you can increase your Google ranking. Insert your keywords in the Title and Description fields available for each page"
       url: "#"
       #button: "Why us?"
@@ -88,7 +88,7 @@ work:
   enable: true
   menuName: "Work"
   title: "Our Work"
-  description: 'You can see below some of our work along with their performance scores on both Desktop (Wifi) and Mobile (3G). You can check by yourself these scores from this Google tool <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
+  description: 'You can see below some of our work along with their performance scores on both Desktop (Wifi) and Mobile (3G). You can check by yourself these scores from this page <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
   footertext: ''
 
   row:
@@ -144,23 +144,23 @@ services:
   enable: true
   menuName: "Services"
   title: "Our Services"
-  description: "Here is what we do and how we can help you. Website creation for all kind of budget, website migration, Performance Analysis, have a look and contact us today."
+  description: "Here is what we do and how we can help you. If you think we can help you develop your activity, contact us today through Whatsapp, Email or our dedicated Contact form."
 
   item:
-    - title: "Customised Website creation"
-      description: "We create your website together. Send us basic information about the kind of website you would like to get.<br>Once we agree on minimum performance score, functionalities, design and deadlines, it will be time for us to get to work"
+    - title: "Website creation"
+      description: "We create your website together. Tell us about the kind of website you would like to get.<br>Once we agree on functionalities, design, deadlines and guaranteed performance score, it wil be time to get to work."
       icon: "/assets/img/icons8-code-50-de8b57.png"
 
     - title: "Semi-Customised Website creation"
-      description: 'You are on a budget and cannot afford the full bill but, still, you refuse to settle for a heavy and time-consuming dynamic website?<br>Well, our already optimised models could be just what you are looking for. If one looks like a good fit to your business, contact us with modifictions you require: functionalities, colors, fonts, names of sections and more. Just ask and we will adapt the model.<br>Your website can be online in as little as 48h.<br><a href="http://codomatik.com/" target="_blank">Browse through our models.</a>'
+      description: 'You are on a budget and cannot afford the full bill but still, you refuse to settle for a heavy, costly and time-consuming dynamic website?<br>Our already optimised models are just what you are looking for. If one looks like a good fit to your business, contact us with modifications you require: functionalities, colors, fonts, names of sections and more. Just ask and we will adapt the model.<br>Your website can be online in as little as 48h.<br><a href="http://codomatik.com/" target="_blank">Browse through our models.</a>'
       icon: "/assets/img/icons8-animated-themes-50-de8b57.png"
 
     - title: "Website Migration"
-      description: "Tired of paying your monthly fee to Squarespace? Looking to cut time on your Wordpress´ website endless maintenance?<br>Send us the address of your website and we will come back to you with a plan to move your website to a static solution."
+      description: "Tired of paying your monthly fee to Squarespace? Looking to cut time on your Wordpress website´s endless maintenance?<br>Send us the address of your website and we will come back to you with a plan to move your website to a static solution."
       icon: "/assets/img/icons8-migration-64-de8b57.png"
 
     - title: "Performance Analysis"
-      description: "Poor performance of your website does cost you clients, but you are not sure how to pinpoint and solve the issue?<br>Send us the address of your website and we will get back to you with solutions."
+      description: "Poor performance of your website does cost you clients or readers, but you are not sure how to pinpoint and solve the issue?<br>Send us the address of your website and we will get back to you with solutions."
       icon: "/assets/img/icons8-improvement-50-de8b57.png"
 
 #################################### Ressources ########################
@@ -262,7 +262,7 @@ contact:
   googleMapsApiKey: ""
   form: true
   title: "Get in touch"
-  description: "Please tell us about your project, your brand, your goals.<br>Contact us through Whatsapp, email or using the contact form below, we will get back to you by end of following business day."
+  description: "Please tell us about your project, your brand, your goals.<br>Contact us through Whatsapp, Email or the Form below. We will get back to you by end of following business day."
   details:
     - icon: '/assets/img/icons8-whatsapp-30.png'
       value: '+34 631 716 240'
@@ -291,7 +291,7 @@ blog:
 ################################## Footer ###################
 footer:
   enable: true
-  legalName: 'Legal'
+  legalName: 'Legal Notice'
   legalLink: '/en/legal'
   copyright: 'Created by <a href="https://codelice.com/" target="_blank">Codelice</a>'
   
