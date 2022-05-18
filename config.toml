@@ -38,48 +38,6 @@ unsafe = true
   target = "static"
 
 
-# redirects
-[[redirects]]
-  from = "/*"
-  to = "/en/404.html"
-  status = 404
-
-[[redirects]]
-  from = "/en/*"
-  to = "/en/404.html"
-  status = 404
-
-[[redirects]]
-  from = "/fr/*"
-  to = "/fr/404.html"
-  status = 404
-
-[[redirects]]
-  from = "/es/*"
-  to = "/es/404.html"
-  status = 404
-
-[[redirects]]
-  from = "/thanks"
-  to = "/en/thanks.html"
-  status = 404
-
-[[redirects]]
-  from = "/en/thanks.html"
-  to = "/en/thanks.html"
-  status = 404
-
-[[redirects]]
-  from = "/fr/thanks"
-  to = "/fr/thanks.html"
-  status = 404
-
-[[redirects]]
-  from = "/es/thanks"
-  to = "/es/thanks.html"
-  status = 404
-
-
 ############## Navigation in 3 Languages ##############
 
 ############## English language ##############
