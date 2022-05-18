@@ -263,6 +263,7 @@ contact:
   map: false
   googleMapsApiKey: ""
   form: true
+  action: "/fr/thanks/"
   title: "Contactez-nous"
   description: "Vous souhaitez nous parler de votre projet, recevoir un devis, ou simplement nous poser une question?<br>Contactez-nous via Whatsapp, Courriel ou le Formulaire ci-dessous et nous reviendrons vers vous sous 24h."
   details:
