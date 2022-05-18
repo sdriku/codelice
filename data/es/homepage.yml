@@ -270,13 +270,13 @@ contact:
   title: "Contactanos"
   description: "Cuéntenos sobre su proyecto y sus objectivos.<br>Contactanos a traves Whatsapp, Correo electronico o el Formulario abajo, y pronto nos pondremos en contacto con usted para revisar todo en detalle."
   details:
-    - icon: '/assets/img/icons-whatsapp-30.png'
+    - icon: '/assets/img/icons8-whatsapp-30.png'
       value: '+34 631 716 240'
 
-    - icon: '/assets/img/icons-mail-30.png'
+    - icon: '/assets/img/icons8-mail-30.png'
       value: 'cedric@codelice.com'
 
-    - icon: '/assets/img/icons-globe-24.png'
+    - icon: '/assets/img/icons8-globe-24.png'
       value: '<a href="https://www.codelice.com/" target="_blank">codelice.com</a>'
 
   name: "Nombre"
