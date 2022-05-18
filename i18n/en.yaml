@@ -27,3 +27,12 @@
 
 - id: "404_button"
   translation: "Back To Home"
+
+- id: "title"
+  translation: "Thanks !"
+
+- id: "subtitle"
+  translation: "Your message was sent successfully, we will get in touch before end of next business day."
+
+- id: "button_label"
+  translation: "Back to Homepage"

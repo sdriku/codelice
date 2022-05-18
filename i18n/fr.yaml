@@ -27,3 +27,12 @@
 
 - id: "404_button"
   translation: "Retour à l´accueil"
+
+- id: "title"
+  translation: "Merci beaucoup !"
+
+- id: "subtitle"
+  translation: "Votre message a été envoyé avec succès, nous vous contacterons dans les meilleurs délais."
+
+- id: "button_label"
+  translation: "Retour à l´Accueil"

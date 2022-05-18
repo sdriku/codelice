@@ -27,3 +27,12 @@
 
 - id: "404_button"
   translation: "Volver al Inicio"
+
+- id: "title"
+  translation: "Gracias !"
+
+- id: "subtitle"
+  translation: "Su mensaje ha sido enviado, os contactaremos pronto."
+
+- id: "button_label"
+  translation: "Volver al inicio"
