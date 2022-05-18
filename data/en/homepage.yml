@@ -261,7 +261,7 @@ contact:
   map: false
   googleMapsApiKey: ""
   form: true
-  action: "en/thanks/"
+  action: "/thanks/"
   title: "Get in touch"
   description: "Please tell us about your project, your brand, your goals.<br>Contact us through Whatsapp, Email or the Form below. We will get back to you by end of following business day."
   details:
