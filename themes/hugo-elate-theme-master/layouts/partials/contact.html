@@ -26,9 +26,7 @@
 				</div>
 				{{ if $data.homepage.contact.form }}
 				<div class="col-md-6 to-animate">
-						{{ with $data.homepage.contact.action }}
-					<form name="CODELICEcontact" action="{{ . }}" method="POST" accept-charset="UTF-8" netlify-honeypot="CODELICE-bot-field" data-netlify="true">
-						{{ end }}
+					<form name="CODELICEcontact" action="thanks/" method="POST" accept-charset="UTF-8" netlify-honeypot="CODELICE-bot-field" data-netlify="true">
 					<input type="hidden" name="form-name" value="CODELICEcontact">
 					<input style="display:none" name="CODELICE-bot-field">
 					<div class="form-group ">

@@ -8,10 +8,10 @@
 			<div class="text-inner">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
-						<h1 class="text-white font-weight-bold mb-2" style="margin-bottom:5%">Thanks !</h1>
-						<h3 class="text-white mb-40" style="margin-bottom:10%">Your message was sent successfully, we will get in touch before end of next business day.</h3>
+						<h1 class="text-white font-weight-bold mb-2" style="margin-bottom:5%">{{ .Params.title }}</h1>
+						<h3 class="text-white mb-40" style="margin-bottom:10%">{{ .Params.subtitle }}</h3>
 						<div class="to-animate" style="text-align:center">
-						<a href="{{ site.BaseURL | relLangURL }}" class="btn btn-primary"> <i class="ti-angle-double-left"></i>Back to Homepage</a>
+						<a href="{{ site.BaseURL | relLangURL }}" class="btn btn-primary"> <i class="ti-angle-double-left"></i>{{ .Params.button_label }}</a>
 					</div>
 				</div>
 			</div>
