@@ -51,7 +51,7 @@ intro:
       img: "/assets/img/img_7.jpg"
 
     - title: "Sécurité Maximum"
-      description: "Ni plugins ni base de données signifie aucun risque de se faire hacker ou attrapper un virus. Evitez les maux de têtes, optez pour un site Statique"
+      description: "Sans plugins ni base de données, aucun risque pour votre site de se faire hacker ou attraper un virus. Evitez les maux de têtes, optez pour un site Statique"
       url: "#"
       #button: "Click Me"
       icon: "/assets/img/icons8-safe-50-de8b57.png"
@@ -153,7 +153,7 @@ services:
       icon: "/assets/img/icons8-code-50-de8b57.png"
 
     - title: "Création de site Semi-personnalisé"
-      description: 'Votre budget est limité mais vous refusez de perdre votre temps et argent avec un site lourd, inadapté, chronophage en maintenance et coûteux en hébergement?<br>Nous avons la solution qui vous convient: nos modèles sont prêts à l´emploi, et leurs performances déjà optimisées. Trouvez un modèle qui vous plait, et envoyez-nous une liste de modifications: couleurs, typographies, fonctionalités, nom des sections.<br> Votre site peut-être en ligne en 48 heures.<br><a href="http://codomatik.com/" target="_blank">Découvrez nos modèles.</a>'
+      description: 'Votre budget est limité mais vous refusez de perdre votre temps et argent avec un site lourd, inadapté, chronophage en maintenance et coûteux en hébergement?<br>Nous avons la solution qui vous convient: nos modèles sont prêts à l´emploi, et leurs performances déjà optimisées. Trouvez un modèle qui vous plait, et envoyez-nous une liste de modifications: couleurs, typographies, fonctionalités, nom des sections.<br> Votre site peut-être en ligne en 48 heures.<br><a href="/fr/templates/" target="_blank">Découvrez notre Collection de Modèles.</a>'
       icon: "/assets/img/icons8-animated-themes-50-de8b57.png"
 
     - title: "Website Migration"
@@ -287,9 +287,14 @@ contact:
 
 ################################## Postpend links ###################
 blog:
-  enable: false
+  enable: true
   menuName: Blog
   link: "blog/"
+
+templates:
+  enable: true
+  menuName: Collection de Modèles - Trouvez le votre!
+  link: "templates/"
 
 ################################## Footer ###################
 footer:

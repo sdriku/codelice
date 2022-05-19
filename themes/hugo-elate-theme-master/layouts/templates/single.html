@@ -39,8 +39,33 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-9 col-md-7 offset-lg-1">
-        <h1 class="mb-4">{{.Title | markdownify}}</h1>
+	<div class="col-lg-9 col-md-7 offset-lg-1">
+        <h1 class="mb-15">{{.Title | markdownify}}</h1>
+		{{ $imagePath := printf "/%s" .Params.image }}
+		{{ $res := resources.Get $imagePath }}
+		{{- $ws := slice 200 300 500 -}}
+		{{- $srcset := slice -}}
+		{{- range $ws -}}
+		{{/* to avoid creating an image that is larger than the source */}}
+		{{- if (le . $res.Width) -}}
+		{{- $w := printf "%dx" . -}}
+		{{- $url := ($res.Resize $w).RelPermalink | safeURL -}}
+		{{- $fmt := printf "%s %dw" $url . -}}
+		{{- $srcset = $srcset | append $fmt -}}
+		{{- end -}}
+		{{- end -}}
+		{{- $set := delimit $srcset "," -}}
+		{{ with $res }}
+		<figure>
+			<img style="margin-bottom:15px"      
+			srcset="{{ $set }}"
+			sizes="(max-width: 699px) 80vw, (min-width: 700px) 80vw"
+			src="{{ $res.RelPermalink }}"
+			alt="Template {{ .Title | markdownify }}"
+			width="100%"
+			height="auto"/>
+				</figure>
+			{{ end }}
         <div class="content">
           {{.Content}}
         </div>

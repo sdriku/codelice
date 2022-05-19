@@ -152,7 +152,7 @@ services:
       icon: "/assets/img/icons8-code-50-de8b57.png"
 
     - title: "Semi-Customised Website creation"
-      description: 'You are on a budget and cannot afford the full bill but still, you refuse to settle for a heavy, costly and time-consuming dynamic website?<br>Our already optimised models are just what you are looking for. If one looks like a good fit to your business, contact us with modifications you require: functionalities, colors, fonts, names of sections and more. Just ask and we will adapt the model.<br>Your website can be online in as little as 48h.<br><a href="http://codomatik.com/" target="_blank">Browse through our models.</a>'
+      description: 'You are on a budget and cannot afford the full bill but still, you refuse to settle for a heavy, costly and time-consuming dynamic website?<br>Our already optimised models are just what you are looking for. If one looks like a good fit to your business, contact us with modifications you require: functionalities, colors, fonts, names of sections and more. Just ask and we will adapt the model.<br>Your website can be online in as little as 48h.<br><a href="/en/templates/" target="_blank">Browse through our Templates Collection</a>'
       icon: "/assets/img/icons8-animated-themes-50-de8b57.png"
 
     - title: "Website Migration"
@@ -285,9 +285,14 @@ contact:
 
 ################################## Postpend links ###################
 blog:
-  enable: false
+  enable: true
   menuName: Blog
   link: "blog/"
+
+templates:
+  enable: true
+  menuName: Templates Collection - Find Yours!
+  link: "templates/"
 
 ################################## Footer ###################
 footer:

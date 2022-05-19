@@ -152,7 +152,7 @@ services:
       icon: "/assets/img/icons8-code-50-de8b57.png"
 
     - title: "Pagina Web semi-personalizada"
-      description: 'Tiene un presupuesto limitado y no puede pagar una pagina personalizada, pero no quiere conformarse con un sitio web dinámico, o sea pesado, caro y lento?<br>Tenemos la solucion ideal: nuestros modelos casi-listos con performancias ya optimizadas. Si uno parece perfecto para su negocio, envianos una lista de modificaciones: colores, tipografia, funcionalidades, nombre de secciones y mas. Pide y adaptaremos.<br>Ponemos su pagina online en un plazo de 48 horas.<br><a href="http://codomatik.com/" target="_blank">Encuentra su modelo</a>'
+      description: 'Tiene un presupuesto limitado y no puede pagar una pagina personalizada, pero no quiere conformarse con un sitio web dinámico, o sea pesado, caro y lento?<br>Tenemos la solucion ideal: nuestros modelos casi-listos con performancias ya optimizadas. Si uno parece perfecto para su negocio, envianos una lista de modificaciones: colores, tipografia, funcionalidades, nombre de secciones y mas. Pide y adaptaremos.<br>Ponemos su pagina online en un plazo de 48 horas.<br><a href="/es/templates/" target="_blank">Encuentra su Plantilla</a>'
       icon: "/assets/img/icons8-animated-themes-50-de8b57.png"
 
     - title: "Migración de pagina web"
@@ -290,9 +290,14 @@ contact:
 
 ################################## Postpend links ###################
 blog:
-  enable: false
+  enable: true
   menuName: Blog
   link: "blog/"
+
+templates:
+  enable: true
+  menuName: Colección de Plantillas - Encuentra lo Suyo!
+  link: "templates/"
 
 ################################## Footer ###################
 footer:

@@ -66,6 +66,7 @@ unsafe = true
       about = "About"
       contact = "Contact"
       blog = "Blog"
+      templates = "Semi-Customized"
 
 ############## French language ##############
 [Languages.fr]
@@ -93,6 +94,7 @@ unsafe = true
       about = "A propos"
       contact = "Contact"
       blog = "Blog"
+      templates = "Semi-Personnalisé"
 
 ############## Spanish language ##############
 [Languages.es]
@@ -120,7 +122,7 @@ unsafe = true
       about = "About"
       contact = "Contact"
       blog = "Blog"
-
+      templates = "Semi-Personalizado"
 
 ############## Plugins ##############
 

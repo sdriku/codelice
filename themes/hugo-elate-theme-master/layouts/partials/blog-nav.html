@@ -24,7 +24,7 @@
                     {{- if $data.homepage.brand.companyLogo }}
                     <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}"><picture><source width="{{ $data.homepage.brand.widthLogo }}" height="{{ $data.homepage.brand.heightLogo }}" srcset="{{ $data.homepage.brand.companyLogo }}" media="(min-width: 769px)"><img style="margin-top:-30%" width="{{ $data.homepage.brand.widthLogoMobile }}" height="{{ $data.homepage.brand.heightLogoMobile }}" src="{{ $data.homepage.brand.companyLogo }}" alt="logo"></picture></a> 
                     {{ else }}
-                    <a class="navbar-brand" href="index.html">{{ $data.homepage.brand.companyName }}</a> 
+                    <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">{{ $data.homepage.brand.companyName }}</a> 
                     {{ end }}
                 </div>
 
@@ -35,36 +35,16 @@
                         <li><a class="external" href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
                     {{ end }}
 
-                    {{- if $data.homepage.home.enable }}
-                    <li class="active"><a href="{{ .Site.BaseURL }}"><span>{{ $data.homepage.home.menuName }}</span></a></li>
-                    {{ end }}
-                    
-                    {{- if $data.homepage.work.enable }}
-                    <li><a href="#" data-nav-section="work"><span>{{ $data.homepage.work.menuName }}</span></a></li> 
-                    {{ end }}
-
-                    {{ if $data.homepage.testimonials.enable }}
-                    <li><a href="#" data-nav-section="testimonials"><span>{{ $data.homepage.testimonials.menuName }}</span></a></li> 
-                    {{ end }}
-
-                    {{ if $data.homepage.services.enable }}
-                    <li><a href="#" data-nav-section="services"><span>{{ $data.homepage.services.menuName }}</span></a></li> 
-                    {{ end }}
-
-                    {{ if $data.homepage.ressources.enable }}
-                    <li><a href="#" data-nav-section="ressources"><span>{{ $data.homepage.ressources.menuName }}</span></a></li> 
-                    {{ end }}
-
-                    {{ if $data.homepage.about.enable }}
-                    <li><a href="#" data-nav-section="about"><span>{{ $data.homepage.about.menuName }}</span></a></li> 
-                    {{ end }}
-
                     {{ if $data.homepage.contact.enable }}
-                    <li><a href="#" data-nav-section="contact"><span>{{ $data.homepage.contact.menuName }}</span></a></li> 
+                    <li style="background-color:#de8b57 !important;"><a href="#" data-nav-section="contact"><span>{{ $data.homepage.contact.menuName }}</span></a></li> 
                     {{ end }}
 
                     {{ if $data.homepage.blog.enable }}
-                    <li><a class="external" href="{{ $data.homepage.blog.link }}"><span>{{ $data.homepage.blog.menuName }}</span></a></li>
+                    <li><a class="external" href="{{ .Site.BaseURL | relLangURL }}/blog"><span>{{ $data.homepage.blog.menuName }}</span></a></li>
+                    {{ end }}
+
+                    {{ if $data.homepage.templates.enable }}
+                    <li><a class="external" href="{{ .Site.BaseURL | relLangURL }}/templates"><span>{{ $data.homepage.templates.menuName }}</span></a></li>
                     {{ end }}
 
                 </ul>

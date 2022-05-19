@@ -398,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -ms-repeating-linear-gradient(top left, #2c3e50 0%, #bdc3c7 100%);
 }
 #fh5co-home, #fh5co-home .text-wrap {
-  height: 900px;
+  height: 900px;a:serv
 }
 #fh5co-home .text-wrap {
   display: table;
@@ -700,7 +700,8 @@ h1, h2, h3, h4, h5, h6 {
   background: #de8b57;
 }
 #fh5co-services a {
-  color: black;
+  color: #de8b57;
+  font-weight: bold;
   text-decoration: underline;
 }
 #fh5co-services a:hover {
