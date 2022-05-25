@@ -17,15 +17,16 @@ hero:
   enable: true
   title: "/assets/img/codelice.png"
   subtitle: 'Développement Web'
-  subtitle2: 'Nous créons des sites internet Statiques adaptés aux Micro, Petites et Moyennes Entreprises. La performance de nos sites est garantie: Rapidité d´affichage, Excellent SEO, Haute Sécurité'
+  subtitle2: 'Nous créons des sites internet Statiques adaptés aux<br>Micro, Petites et Moyennes Entreprises.<br>La performance de nos sites est garantie:<br>Grande Rapidité, Grande Stabilité, Grande Sécurité'
   titlelist: 'Voici les sites que nous concevons pour vous'
   list:
     - 'Commerce de Proximité'
     - 'Site Vitrine'
     - 'Association'
     - 'Petit E-commerce'
-    - 'Evènement'
-    - 'Doc Technique'
+    - 'Promotion Evènement ou Produit'
+    - 'Documentation Technique'
+    - 'Portfolio'
   button: 'CONTACTEZ-NOUS'
 
 # Intro section #
@@ -37,14 +38,14 @@ intro:
   enable: true
   item:
     - title: "Ultra-Rapide"
-      description: "Un site Statique fonctionnant sans base de données, sa vitesse d'affichage est excellente, et bien supérieure à celle d'un site dynamique"
+      description: "Un site Statique fonctionne sans base de données.<br>Sa vitesse d'affichage est excellente, de loin supérieure à celle d'un site dynamique."
       url: "#"
       #button: "Get In Touch"
       icon: "/assets/img/icons8-bolt-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Hébergement Gratuit"
-      description: "L'infrastructure d'un site statique étant légère par nature, l'hébergement de votre site est gratuit. Nous nous occupons de la mise en place et hébergement de votre site"
+      description: "Un site statique est léger par nature.<br>Nous nous occupons de la mise en ligne de votre site et l'hébergeons gratuitement."
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-hosting-64-de8b57.png"
@@ -89,7 +90,7 @@ work:
   enable: true
   menuName: "Projets"
   title: "Nos Projets"
-  description: 'Vous trouverez ci-dessous plusieurs sites conçus pour nos clients ainsi que leurs scores Ordinateur (Wifi) et Mobile (3G). Vous pouvez vérifier ses scores vous-même depuis cette page <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
+  description: 'Vous trouverez ci-dessous plusieurs sites conçus pour nos clients ainsi que leurs scores Ordinateur (Wifi) et Mobile (3G). Vous pouvez vérifier ses scores vous-même depuis <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
   footertext: ''
 
   row:
@@ -153,7 +154,7 @@ services:
       icon: "/assets/img/icons8-code-50-de8b57.png"
 
     - title: "Création de site Semi-personnalisé"
-      description: 'Votre budget est limité mais vous refusez de perdre votre temps et argent avec un site lourd, inadapté, chronophage en maintenance et coûteux en hébergement?<br>Nous avons la solution qui vous convient: nos modèles sont prêts à l´emploi, et leurs performances déjà optimisées. Trouvez un modèle qui vous plait, et envoyez-nous une liste de modifications: couleurs, typographies, fonctionalités, nom des sections.<br> Votre site peut-être en ligne en 48 heures.<br><a href="/fr/templates/" target="_blank">Découvrez notre Collection de Modèles.</a>'
+      description: '<a href="/fr/templates/" target="_blank">Découvrez notre Collection de Modèles.</a><br>Votre budget est limité mais vous refusez de perdre votre temps et argent avec un site lourd, inadapté, chronophage en maintenance et coûteux en hébergement?<br>Nous avons la solution qui vous convient: nos modèles sont prêts à l´emploi, et leurs performances déjà optimisées. Trouvez un modèle qui vous plait, et envoyez-nous une liste de modifications: couleurs, typographies, fonctionalités, nom des sections.<br> Votre site peut-être en ligne en 48 heures.'
       icon: "/assets/img/icons8-animated-themes-50-de8b57.png"
 
     - title: "Website Migration"
@@ -212,7 +213,7 @@ about:
 
       social: 
         - icon: '/assets/img/icons8-github-30.png'
-          link: 'https://github.com/sdriku'
+          link: 'https://github.com/codelice'
 
         - icon: '/assets/img/icon-hugo-30.png'
           link: 'https://gohugo.io/'

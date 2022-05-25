@@ -17,14 +17,15 @@ hero:
   enable: true
   title: "/assets/img/codelice.png"
   subtitle: 'Web Development'
-  subtitle2: 'We create Static Websites for Small to Medium-size Businesses, with a strong focus on Performance: High Speed, Excellent SEO, Top-Security'
+  subtitle2: 'We create Static Websites for Small to Medium-size Businesses, with a strong focus on Performance:<br>High Speed, High Stability, High Security'
   titlelist: 'These are the websites we can build for you'
   list:
     - 'Local Business'
     - 'Small E-commerce'
     - 'Association'
-    - 'Event'
-    - 'Technical Doc'
+    - 'Landing Page (Event or Product)'
+    - 'Technical Documentation'
+    - 'Portfolio'
   button: 'HIRE US'
  
 # Intro section #
@@ -36,42 +37,42 @@ intro:
   enable: true
   item:
     - title: "Blazing Fast"
-      description: "Static means no datatbase or heavy infrastructure coming with it. Therefore your site is compiled and rendered blazing fast"
+      description: "Static means no datatbase, no heavy infrastructure.<br>Your site is compiled and rendered blazing fast."
       url: "#"
       #button: "Get In Touch"
       icon: "/assets/img/icons8-bolt-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Free Hosting"
-      description: "No Database means a light back-end, therefore most hosting companies do not charge you. We set up your website and host if for free"
+      description: "Static is light, therefore most hosting options are cheap.<br>We set up your website & host if for free."
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-hosting-64-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Top Security"
-      description: "No ugly plugins and no heavy database mean no risk of getting hacked or catching a virus. Avoid headaches, Static is Safe"
+      description: "No ugly plugins & no heavy database mean no risk of getting hacked & no risk of catching a virus.<br>Avoid headaches, Static is Safe."
       url: "#"
       #button: "Click Me"
       icon: "/assets/img/icons8-safe-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Zero Maintenance"
-      description: "Static is Stable. No Database means no updates and no back-ups needed, you can rest. Our sites do not break"
+      description: "Static is Stable.<br>No Database means no updates, no back-ups.<br>You can rest, our sites do not break."
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-maintenance-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Easy to Edit"
-      description: "We deliver your website with a fully configured admin tool. Easily update your new website with no programming knowledge whatsoever"
+      description: "We deliver your site with a fully configured admin tool.<br>Manage your content alone.<br>No programming knowledge needed."
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-update-50-de8b57.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Great SEO"
-      description: "Our sites are SEO-oriented so you can increase your Google ranking. Insert your keywords in the Title and Description fields available for each page"
+      description: "Our sites are SEO friendly.<br>Insert your keywords in the dedicated fields.<br>All available from your admin tool."
       url: "#"
       #button: "Why us?"
       icon: "/assets/img/icons8-seo-50-de8b57.png"
@@ -88,7 +89,7 @@ work:
   enable: true
   menuName: "Work"
   title: "Our Work"
-  description: 'You can see below some of our work along with their performance scores on both Desktop (Wifi) and Mobile (3G). You can check by yourself these scores from this page <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
+  description: 'You can see below some of our work along with their performance scores on both Desktop (Wifi) and Mobile (3G). You can check by yourself these scores from <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
   footertext: ''
 
   row:
@@ -152,7 +153,7 @@ services:
       icon: "/assets/img/icons8-code-50-de8b57.png"
 
     - title: "Semi-Customised Website creation"
-      description: 'You are on a budget and cannot afford the full bill but still, you refuse to settle for a heavy, costly and time-consuming dynamic website?<br>Our already optimised models are just what you are looking for. If one looks like a good fit to your business, contact us with modifications you require: functionalities, colors, fonts, names of sections and more. Just ask and we will adapt the model.<br>Your website can be online in as little as 48h.<br><a href="/en/templates/" target="_blank">Browse through our Templates Collection</a>'
+      description: '<a href="/en/templates/" target="_blank">Browse through our Templates Collection</a><br>You are on a budget and cannot afford the full bill but still, you refuse to settle for a heavy, costly and time-consuming dynamic website?<br>Our already optimised models are just what you are looking for. If one looks like a good fit to your business, contact us with modifications you require: functionalities, colors, fonts, names of sections and more. Just ask and we will adapt the model.<br>Your website can be online in as little as 48h.'
       icon: "/assets/img/icons8-animated-themes-50-de8b57.png"
 
     - title: "Website Migration"
@@ -210,7 +211,7 @@ about:
       alt: "Person1"
       social:
         - icon: '/assets/img/icons8-github-30.png'
-          link: 'https://github.com/sdriku'
+          link: 'https://github.com/codelice'
 
         - icon: '/assets/img/icon-hugo-30.png'
           link: 'https://gohugo.io/'

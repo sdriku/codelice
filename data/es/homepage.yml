@@ -17,14 +17,15 @@ hero:
   enable: true
   title: "/assets/img/codelice.png"
   subtitle: 'Desarollo Web'
-  subtitle2: 'Diseñamos sitios web Estaticos para Pequeñas y Medianas Empresas, con enfoque en Performancia: Alta Velocidad, excelente SEO, Alta Seguridad'
+  subtitle2: 'Diseñamos sitios web Estaticos para Pequeñas y Medianas Empresas, con enfoque en Performancia:<br>Alta Velocidad, Alta Stabilidad, Alta Seguridad'
   titlelist: 'Abajo los sitios que diseñamos para vosotros'
   list:
     - 'Negocio Locale'
     - 'Pequeño E-commerce'
     - 'Associacion'
-    - 'Evento'
-    - 'Doc Tecnica'
+    - 'Promoción de Evento o Producto'
+    - 'Documentacion Tecnica'
+    - 'Portfolio'
   button: 'CONTACTANOS'
  
 # Intro section #
@@ -88,7 +89,7 @@ work:
   enable: true
   menuName: "Proyectos"
   title: "Nuestros Proyectos"
-  description: 'Puede ver a continuación unas paginas de nuestros clientes con sus performancias, tanto en Escritorio (Wifi) como en dispositivo Móvil (3G). Podeis comprobar esas performancias desde esta pagina <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
+  description: 'Puede ver a continuación unas paginas de nuestros clientes con sus performancias, tanto en Escritorio (Wifi) como en dispositivo Móvil (3G). Podeis comprobar esas performancias desde <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
   footertext: ''
 
   row:
@@ -152,7 +153,7 @@ services:
       icon: "/assets/img/icons8-code-50-de8b57.png"
 
     - title: "Pagina Web semi-personalizada"
-      description: 'Tiene un presupuesto limitado y no puede pagar una pagina personalizada, pero no quiere conformarse con un sitio web dinámico, o sea pesado, caro y lento?<br>Tenemos la solucion ideal: nuestros modelos casi-listos con performancias ya optimizadas. Si uno parece perfecto para su negocio, envianos una lista de modificaciones: colores, tipografia, funcionalidades, nombre de secciones y mas. Pide y adaptaremos.<br>Ponemos su pagina online en un plazo de 48 horas.<br><a href="/es/templates/" target="_blank">Encuentra su Plantilla</a>'
+      description: '<a href="/es/templates/" target="_blank">Encuentra su Plantilla</a><br>Tiene un presupuesto limitado y no puede pagar una pagina personalizada, pero no quiere conformarse con un sitio web dinámico, o sea pesado, caro y lento?<br>Tenemos la solucion ideal: nuestros modelos casi-listos con performancias ya optimizadas. Si uno parece perfecto para su negocio, envianos una lista de modificaciones: colores, tipografia, funcionalidades, nombre de secciones y mas. Pide y adaptaremos.<br>Ponemos su pagina online en un plazo de 48 horas.'
       icon: "/assets/img/icons8-animated-themes-50-de8b57.png"
 
     - title: "Migración de pagina web"
@@ -215,7 +216,7 @@ about:
 
       social: 
         - icon: '/assets/img/icons8-github-30.png'
-          link: 'https://github.com/sdriku'
+          link: 'https://github.com/codelice'
 
         - icon: '/assets/img/icon-hugo-30.png'
           link: 'https://gohugo.io/'
