@@ -11,6 +11,38 @@
         margin-top: -25%;
         }
     }
+    .position {
+background-color: transparent;
+color: black;
+font-weight: bold;
+border-radius: 4px;
+border: 1px solid white;
+padding: 1px;
+position: fixed;
+}
+@media (max-width:765px) {
+  .position {
+    color: black;
+    border: white;
+    top: 0.5%;
+    right: 13%;
+  }
+}
+
+.flagselect {
+  background-color: transparent;
+  margin: 2px;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+.flagnoselect {
+  margin: 2x;
+  color: black;
+  font-size: 90%;
+  font-weight: 600;
+}
+    
 </style>    
    
    <header role="banner" id="fh5co-header" style="position:fixed">
@@ -36,22 +68,39 @@
                     {{ end }}
 
                     {{ if $data.homepage.contact.enable }}
-                    <li style="background-color:#de8b57 !important;"><a href="#" data-nav-section="contact"><span>{{ $data.homepage.contact.menuName }}</span></a></li> 
+                    <li><a href="#" data-nav-section="contact"><span>{{ $data.homepage.contact.menuName }}</span></a></li> 
                     {{ end }}
 
                     {{ if $data.homepage.blog.enable }}
-                    <li><a class="external" href="{{ .Site.BaseURL | relLangURL }}/blog"><span>{{ $data.homepage.blog.menuName }}</span></a></li>
+                    <li><a class="external" href="{{ .Site.BaseURL | relLangURL }}/blog" target="_blank"><span>{{ $data.homepage.blog.menuName }}</span></a></li>
                     {{ end }}
 
                     {{ if $data.homepage.templates.enable }}
-                    <li><a class="external" href="{{ .Site.BaseURL | relLangURL }}/templates"><span>{{ $data.homepage.templates.menuName }}</span></a></li>
+                    <li><a class="external" href="{{ .Site.BaseURL | relLangURL }}/templates" target="_blank"><span>{{ $data.homepage.templates.menuName }}</span></a></li>
                     {{ end }}
 
                 </ul>
-                        <!-- Language List -->
-                        
-                        {{ partial "language-switcher.html" .}}
 
-                        <!-- </div> -->
+        <!-- Language List -->
+        {{ if .IsTranslated }}
+        <select class="lang-list position" id="select-language" onchange="location = this.value;">
+          {{ $siteLanguages := .Site.Languages}}
+          {{ $pageLang := .Page.Lang}}
+          {{ range .Page.AllTranslations }}
+          {{ $translation := .}}
+          {{ range $siteLanguages }}
+          {{ if eq $translation.Lang .Lang }}
+          {{ $selected := false }}
+          {{ if eq $pageLang .Lang}}
+          <option class="flagselect" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .Params.languageFlag }}  {{ .LanguageName }}
+          </option>
+          {{ else }}
+          <option class="flagselect" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .Params.languageFlag }}  {{ .LanguageName }}</option>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </select>
+        {{ end }}
     </div>
 </header>

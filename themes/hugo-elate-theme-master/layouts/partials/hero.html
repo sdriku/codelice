@@ -1,3 +1,34 @@
+<style>
+@media (max-width:765px) {
+  #fh5co-home h1 {
+    font-size: 35px !important;
+  }
+  #fh5co-home h2 {
+    font-size: 22px !important;
+  }
+  #fh5co-home h3 {
+    font-size: 16px !important;
+	line-height: 2.1 !important;
+  }
+  #fh5co-home h4 {
+    font-size: 12px !important;
+  }
+}
+@media (min-width:766px) {
+  #fh5co-home h2 {
+    font-size: 24px !important;
+  }
+  #fh5co-home h3 {
+    font-size: 18px !important;
+	line-height: 1.8 !important;
+  }
+  #fh5co-home h4 {
+    font-size: 12px !important;
+  }
+}
+
+
+</style>
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
@@ -10,19 +41,14 @@
 			<div class="text-wrap">
 				<div class="text-inner">
 					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-							<h1 class="to-animate home-mobile" style="color:#de8b57;letter-spacing:5px;">{{ with $data.homepage.hero.title }}<picture><source srcset="{{ $data.homepage.hero.title }}" media="(min-width: 850px)"><img width="80%" src="{{ $data.homepage.hero.title }}" alt="Company Name heading"></picture>{{ end }}</h1>
-							<h2 class="to-animate" style="margin-bottom:30px;font-size:25px;">{{ with $data.homepage.hero.subtitle }}{{ . | markdownify }}{{ end }}</h2>
-							<h2 class="to-animate" style="margin-bottom:60px">{{ with $data.homepage.hero.subtitle2 }}{{ . | markdownify }}{{ end }}</h2>
-							<div class="to-animate" style="text-align:center;">
-								<h2 style="margin-bottom:15px;">{{ $data.homepage.hero.titlelist }}</h2>
-								<ul style="display:inline-block;text-align:left;">
-								{{ range .list }}
-									<li style="margin-bottom: 10px;font-size:medium;">{{ . | markdownify }}</li>
-								{{ end }}
-								</ul>
+							<div class="col-md-12 col-sm-12 text-left">
+							<h2 class="to-animate" style="margin-bottom:30px">{{ with $data.homepage.hero.subtitle }}{{ . | markdownify }}{{ end }}</h2>
+							<h3 class="to-animate" style="margin-bottom:40px; line-height: 1.8;">{{ with $data.homepage.hero.subtitle2 }}{{ . | markdownify }}{{ end }}</h3>
 							</div>
-							<!--<p><a href="#" data-nav-section="contact" class="btn btn-primary">{{ $data.homepage.hero.button }}</a></p>-->
+<!--
+							<div class="col-md-12 col-sm-12 text-center" style="background-image: url('/assets/img/77451.jpg'); background-position: 100% 50%; background-repeat: no-repeat;background-size: cover;width: 100vw; height:30vh;">
+							</div>
+-->
 						</div>
 					</div>
 				</div>

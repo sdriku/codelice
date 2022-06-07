@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+<style>
+	@media (max-width:765px) {
+		.home-mobile {
+		margin-top: -45% !important;
+		}
+	}
+	@media (min-width:766px) {
+		.home-mobile {
+		margin-top: -30% !important;
+		}
+	}
+
+  
+</style>
+
+<!-- blog hero area -->
+<section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_1.jpg);max-height:50vh;" data-stellar-background-ratio="0.5">
+		<div class="gradient"></div>
+		<div class="container">
+			<div class="text-wrap">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h1 class="to-animate home-mobile" style="color:#FDA870;letter-spacing:5px;"><picture><source srcset="{{ .Params.hero_image }}" media="(min-width: 850px)"><img width="80%" src="{{ .Params.hero_image }}" alt="Company Name heading"></picture></h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slant"></div>
+	</section>
+
+  <section id="fh5co-services" data-section="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-heading text-left">
+        <h2 class=" left-border to-animate">{{.Title}}</h2>
+      </div>
+    </div>
+    <div class="row">
+      {{ range $index, $element := (where .Site.RegularPages "Section" "blog") }}
+      <div class="col-md-6 col-sm-6 fh5co-services to-animate";>
+        <h3>{{ .Title | markdownify }}</h3>
+        <p>{{ .Summary | markdownify }}</p>
+        <a href="{{ .Permalink }}" class="btn btn-primary" style="letter-spacing:1px; font-size:11px;padding:1px 10px 1px 10px;margin-bottom:20px">{{ i18n "read_more" }}</a>
+      </div>
+      <div class="clearfix visible-sm-block"></div>
+    {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

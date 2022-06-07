@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+<style>
+	@media (max-width:765px) {
+		.home-mobile {
+		margin-top: -45% !important;
+		}
+	}
+	@media (min-width:766px) {
+		.home-mobile {
+		margin-top: -30% !important;
+		}
+	}
+</style>
+
+<!-- blog hero area -->
+<section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_1.jpg);max-height:50vh;" data-stellar-background-ratio="0.5">
+		<div class="gradient"></div>
+		<div class="container">
+			<div class="text-wrap">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							{{ $data := index .Site.Data .Site.Language.Lang }}
+							{{- if $data.homepage.hero.enable }}
+							{{- with $data.homepage.hero }}
+							<h1 class="to-animate home-mobile" style="color:#FDA870;letter-spacing:5px;">{{ with $data.homepage.hero.title }}<picture><source srcset="{{ $data.homepage.hero.title }}" media="(min-width: 850px)"><img width="80%" src="{{ $data.homepage.hero.title }}" alt="Company Name heading"></picture></h1>
+							{{ end }}
+							{{ end }}
+							{{ end }}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slant"></div>
+	</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 col-md-7 offset-lg-1">
+        <h1 class="mb-4">{{.Title | markdownify}}</h1>
+        <div class="content">
+          {{.Content}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

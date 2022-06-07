@@ -1,7 +1,7 @@
 ############################# Brand ############################
 brand:
   companyName: "Codelice"
-  companyLogo: "/assets/img/logo-de8b57.png"
+  companyLogo: "/assets/img/logo-fda870.png"
   widthLogo: "160"
   heightLogo: "130"
   widthLogoMobile: "130"
@@ -15,9 +15,9 @@ home:
 ############################# Hero ############################
 hero:
   enable: true
-  title: "/assets/img/codelice.png"
+  title: "/assets/img/codelice-fda870.png"
   subtitle: 'Desarollo Web'
-  subtitle2: 'Diseñamos sitios web Estaticos para Pequeñas y Medianas Empresas, con enfoque en Performancia:<br>Alta Velocidad, Alta Stabilidad, Alta Seguridad'
+  subtitle2: 'We help our clients enter the digital world.<br><br>Let´s generate positive reviews, leads and sales.<br><br>Our static solutions guarantee Alta Velocidad, Alta Stabilidad, Alta Seguridad'
   titlelist: 'Abajo los sitios que diseñamos para vosotros'
   list:
     - 'Negocio Locale'
@@ -35,47 +35,62 @@ hero:
 ############################# Intro ############################
 intro:
   enable: true
+  title: "Por que trabajar con nosotros?"
+  description: "Tantas opciones para diseñar un sitio Web: Wordpress o Drupal? Squarespace o Wix? WooCommerce o Spotify?"
   item:
     - title: "Alta Velocidad"
-      description: "Sitio Estaticos funcionan sin base de datos. De esta manera su pagina se reproduce con alta velocidad"
-      url: "#"
-      #button: "Get In Touch"
-      icon: "/assets/img/icons8-bolt-50-de8b57.png"
+      description: "Estatico = sin base de datos.<br>De esta manera su pagina se reproduce con alta velocidad, o sea<br>Mejor conversion y Mejor SEO classificacion"
+      icon: "/assets/img/icons8-bolt-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
-    - title: "Alojamieno Gratis"
-      description: "Sin base de datos el back-end esta muy ligero. Por esta razon opciones de servidor no tienen costo anual. Configuramos su sitio web y lo alojamos de forma gratuita"
-      url: "#"
-      #button: "Why us?"
-      icon: "/assets/img/icons8-hosting-64-de8b57.png"
+    - title: "Alojamieno Barato"
+      description: "Static esta muy ligero = precio de Alojamiento barato.<br> Keep your money for what really matters.<br>We set up your website & host if for 29€/year<br>(for free the 1st year!)."
+      icon: "/assets/img/icons8-hosting-64-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Alta Seguridad"
-      description: "Sin plugins y sin base de datos, no hay ningun riesgo de tener un hack o un virus. ¡Evita dolores de cabeza, estático es seguro"
-      url: "#"
-      #button: "Click Me"
-      icon: "/assets/img/icons8-safe-50-de8b57.png"
+      description: "no plugins y no base de datos = no riesgo de sufrir un hack o virus.<br>Which means no downtime for your website.<br>Do not lose clients, avoid headaches, Static is Safe."
+      icon: "/assets/img/icons8-safe-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Cero Mantenimiento"
-      description: "Estatico es Estable. Sin base de datos, no se necesitan actualizaciones ni copias de seguridad, podeis descansar. Nuestras paginas no rompen"
-      url: "#"
-      #button: "Why us?"
-      icon: "/assets/img/icons8-maintenance-50-de8b57.png"
+      description: "Estatico es Estable. No themes, no plugins = no actualizaciones ni copias de seguridad.<br>Keep your time for yourself with effortless maintenance."
+      icon: "/assets/img/icons8-maintenance-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Facil de Editar"
-      description: "Entregamos su sitio web con herramienta de administración de contenido ya configurada. Modifica fácilmente su nueva pagina web sin ningún conocimiento de programación"
-      url: "#"
-      #button: "Why us?"
-      icon: "/assets/img/icons8-update-50-de8b57.png"
+      description: "Entregamos su sitio web con herramienta de administración de contenido ya configurada.<br>Modifica fácilmente su nueva pagina web sin ningún conocimiento de programación"
+      icon: "/assets/img/icons8-update-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Excelente SEO"
-      description: "Nuestros sitios están orientados a SEO, así puede mejorar su clasificacion Google. Inserte sus palabras clave en los campos Título y Descripción disponibles para cada página"
-      url: "#"
-      #button: "Why us?"
-      icon: "/assets/img/icons8-seo-50-de8b57.png"
+      description: "Our sites are SEO friendly, clients will find you.<br>Insert your keywords in dedicated fields.<br>We take care of the rest."
+      icon: "/assets/img/icons8-seo-50-fda870.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "High Stability"
+      description: "Our Hosting adapts to  traffic and clients´ locations.<br>Your website remains stable through higher traffic.<br>Do not worry about success, Static can handle it"
+      icon: "/assets/img/icons8-seo-50-fda870.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "Mobile Friendly"
+      description: "Our websites respond well to any given screens´ sizes.<br>We guarantee Speed performance for 3G connections.<br>Do not lose clients over a poorly designed mobile version!"
+      icon: "/assets/img/icons8-seo-50-fda870.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "High Versatility"
+      description: "A Contact form to generate leads? A Payment platform or Donation module? An Event section for your bar?<br>A 'Specials of the week' section for your restaurant?<br>A Multilingual website for your clients abroad?<br>This and more is yours as we adapt to your needs."
+      icon: "/assets/img/icons8-seo-50-fda870.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "Our Clients matter"
+      description: "We keep in touch throughout the year.<br>You need a new section for your latest product?<br>A new form to generate leads?<br>A new color for your design?<br>We offer your website a minor lifting, twice a year!"
+      icon: "/assets/img/icons8-seo-50-fda870.png"
+      img: "/assets/img/img_7.jpg"
+
+    - title: "Our Clients are rewarded"
+      description: "You love working with us and<br>do mention our solutions to family and friends?<br>For any new contract we sign thanks to you,<br>10% of the bill goes back to your account!"
+      icon: "/assets/img/icons8-seo-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
   video:
@@ -140,53 +155,106 @@ testimonials:
       img: "/assets/img/person3.jpg"
       alt: "Person3"
 
-#################################### Services ########################
-services:
+#################################### Pricing ########################
+pricing:
   enable: true
   menuName: "Servicios"
-  title: "Servicios"
-  description: "Aqui encuentra lo que hacemos y como podemos ayudaros. Si piensa que podemos ayudar a desarollar su ctividad, contactanos hoy a traves de Whatsapp, Email, o el formulario de Contacto."
+  title: "Servicios y Precios"
+  description: "We charge a fixed price for each project.<br>If we are efficient and allow you to increase your income, great.<br>If we spend more time than planned on your project, our bad.<br>You will not pay more than agreed and still receive what we promised."
 
-  item:
-    - title: "Creacion de Pagina Web"
-      description: "Creamos su pagina web juntos. Hablanos sobre su negocio y el tipo de sitio que queria para su actividad.<br>Nos pondremos en contacto con usted para hablar funcionalidades, diseño, plazos y performancia asegurada."
-      icon: "/assets/img/icons8-code-50-de8b57.png"
+  pricingTable1:
+    # pricing table
+    - title : "Website from scratch"
+      subtitle : "Fully customized"
+      price : "30"
+      # service list
+      serviceList:
+        - service : "Mobile-Optimized Website"
+        - service : "Powerful Website Metrics"
+        - service : "Free Custom Domain"
+        - service : "24/7 Customer Support"
+        - service : "Fully Integrated E-Commerce"
+        - service : "Sell unlimited Product"
 
-    - title: "Pagina Web semi-personalizada"
-      description: '<a href="/es/templates/" target="_blank">Encuentra su Plantilla</a><br>Tiene un presupuesto limitado y no puede pagar una pagina personalizada, pero no quiere conformarse con un sitio web dinámico, o sea pesado, caro y lento?<br>Tenemos la solucion ideal: nuestros modelos casi-listos con performancias ya optimizadas. Si uno parece perfecto para su negocio, envianos una lista de modificaciones: colores, tipografia, funcionalidades, nombre de secciones y mas. Pide y adaptaremos.<br>Ponemos su pagina online en un plazo de 48 horas.'
-      icon: "/assets/img/icons8-animated-themes-50-de8b57.png"
+      button:
+        label : "Try it now"
+        link : "#"
 
-    - title: "Migración de pagina web"
-      description: "Cansado de pagar la cuota mensual a Squarespace? Pasa demasiado tiempo  mantener su sitio Wordpress?>br>Envíanos el enlace de vuestro sitio web y le responderemos con un plan para migrarlo."
-      icon: "/assets/img/icons8-migration-64-de8b57.png"
 
-    - title: "Mejora del rendimiento"
-      description: "Baja performancia de su pagina os cuesta clientes, pero no sabeis como mejorarla?<br>Envíanos el enlace de vuestro sitio web y os encontraremos soluciones."
-      icon: "/assets/img/icons8-improvement-50-de8b57.png"
+    # pricing table
+    - title : "Website migration"
+      subtitle : "We make sure you settle in ok"
+      price : "60"
+      # service list
+      serviceList:
+        - service : "Mobile-Optimized Website"
+        - service : "Powerful Website Metrics"
+        - service : "Free Custom Domain"
+        - service : "24/7 Customer Support"
+        - service : "Fully Integrated E-Commerce"
+        - service : "Sell unlimited Product"
 
-#################################### Ressources ########################
-ressources:
-  enable: false
-  menuName: "Recursos"
-  title: "Recursos"
-  description: "Esta sección le ayuda a aprovechar al máximo las herramientas que ofrecemos. Puede encontrar documentos, videos y guías que lo ayudarán a gestionar su sitio web."
+      button:
+        label : "Try it now"
+        link : "#"
 
-  item:
-    - title: "Demo Netlify CMS"
-      link: ""
-      description: "Want to edit or add content easily, but lack the technical knowledge? That´s fine, we configure your website on Netlify, then from there all you have to do is follow our many detailed instructions. No code, no hassle, you will love it."
+  pricingTable2:
+    # pricing table
+    - title : "3 Simple Pages"
+      subtitle : "Any Template with minor editions"
+      price : "30"
+      # service list
+      serviceList:
+        - service : "pay extra for multilingual"
+        - service : "pay extra for blog"
+        - service : "pay extra for x y z functionnality"
+        - service : "how much does it really cost to go Wpress or SqSpace?"
+        - service : "Calculate for each the time spent + risk if downtime + monthly fee + support level"
+        - service : "Compare it to my 29€ a year package + price of website"
 
-    - title: "How to make the most of your CMS"
-      link: ""
-      description: "Feeling overwhelemed by all these notes we left in your tool? Afraid you missed something?<br>Here are a few tips about how to use your CMS. As a bonus, find a video where we showcase how to use the CMS, from first login to achieving a production-ready website."
+      button:
+        label : "Try it now"
+        link : "templates/"
 
-    - title: "Shortcodes for you to customize your content"
-      link: ""
-      description: "Hugo allows to add lines of code into your website directly from your CMS! While you absolutely do not need them, this can give you more options while adding content to your website.<br>We did prepare a few shortcodes for you to copy and paste into your CMS. In this article we present each and every shortcode: what they do and how to use them."
 
-    - title: "Quick guide about image selection for your website"
-      link: ""
-      description: "We promise you top-notch performance and effortless website building, and we deliver by resizing your images natively.<br>However it all starts with image selection, and while we cannot do this for you, we can try to help.<br>Here is a quick guide about size, dimension, extension, followed by a few Do´s and don´ts." 
+    # pricing table
+    - title : "Single Web Page"
+      subtitle : "Any template with major changes"
+      price : "60"
+      # service list
+      serviceList:
+        - service : "Mobile-Optimized Website"
+        - service : "Powerful Website Metrics"
+        - service : "Free Custom Domain"
+        - service : "24/7 Customer Support"
+        - service : "Fully Integrated E-Commerce"
+        - service : "Sell unlimited Product"
+
+      button:
+        label : "Try it now"
+        link : "templates/"
+
+        
+    # pricing table
+    - title : "Complete Website"
+      subtitle : "We create your website from the ground up."
+      price : "90"
+      # service list
+      serviceList:
+        - service : "Mobile-Optimized Website"
+        - service : "Powerful Website Metrics"
+        - service : "Free Custom Domain"
+        - service : "24/7 Customer Support"
+        - service : "Fully Integrated E-Commerce"
+        - service : "Sell unlimited Product"
+
+      button:
+        label : "Try it now"
+        link : "templates/"
+
+  # cta content comes from 'hompage.yml'
+  cta:
+    enable: false
 
 ################################## Subscription ###################
 subscription:
@@ -203,14 +271,14 @@ subscription:
 ############################## About ##########################
 about:
   enable: true
-  menuName: "Acerca de"
-  title: "Acerca de"
+  menuName: "Quiénes somos"
+  title: "Quiénes somos"
   description: "Somos un equipo de 3 desarrolladores, expertos en encontrar la solución adecuada a su caso y en entregar proyectos dentro de los plazos."
   
   item:
     - name: "Cedric"
       position: "Desarollador Front End"
-      description: "Joven desarrollador nacido en Francia y viviendo en España, seré su primer punto de contacto a la hora de planificar proyecto, dar presupuestos y facturas...<br>Le estoy esperando, contactanos pronto!"
+      description: "Joven desarrollador nacido en Francia y viviendo en España, seré su primer punto de contacto a la hora de planificar proyecto, dar presupuestos y facturas...<br>Os estamos esperando, contactanos pronto!"
       img: "/assets/img/about-pic.jpg"
       alt: "Person1"
 
@@ -223,6 +291,26 @@ about:
 
         - icon: '/assets/img/icon-gatsby-30.png'
           link: 'https://www.gatsbyjs.com/'
+
+#################################### Blog ########################
+services:
+  enable: enable
+  menuName: "Blog"
+  title: "Nuestros ultimos Articulos"
+  description: "Here is what we do and how we can help you. If you think we can help you develop your activity, contact us today through Whatsapp, Email or our dedicated Contact form."
+
+  item:
+    - title: "Website creation"
+      description: "We create your website together. Tell us about the kind of website you would like to get.<br>Once we agree on functionalities, design, deadlines and guaranteed performance score, it wil be time to get to work."
+
+    - title: "Website creation"
+      description: "We create your website together. Tell us about the kind of website you would like to get.<br>Once we agree on functionalities, design, deadlines and guaranteed performance score, it wil be time to get to work."
+
+    - title: "Website creation"
+      description: "We create your website together. Tell us about the kind of website you would like to get.<br>Once we agree on functionalities, design, deadlines and guaranteed performance score, it wil be time to get to work."
+
+    - title: "Website creation"
+      description: "We create your website together. Tell us about the kind of website you would like to get.<br>Once we agree on functionalities, design, deadlines and guaranteed performance score, it will be time to get to work."
 
 ############################## Counters ##########################
 counters:
@@ -263,13 +351,13 @@ counters:
 ################################## Contact ###################
 contact:
   enable: true
-  menuName: Contacto
+  menuName: Contactanos
   map: false
   googleMapsApiKey: ""
   form: true
   action: "/gracias/"
   title: "Contactanos"
-  description: "Cuéntenos sobre su proyecto y sus objectivos.<br>Contactanos a traves Whatsapp, Correo electronico o el Formulario abajo, y pronto nos pondremos en contacto con usted para revisar todo en detalle."
+  description: "Cuéntenos sobre su proyecto y sus objectivos.<br>Contactanos a traves Whatsapp, Correo electronico o el Formulario abajo.<br> Pronto nos pondremos en contacto con usted para revisar todo en detalle."
   details:
     - icon: '/assets/img/icons8-whatsapp-30.png'
       value: '631 716 240'

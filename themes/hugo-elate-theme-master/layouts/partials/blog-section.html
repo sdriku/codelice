@@ -1,0 +1,30 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{- if $data.homepage.services.enable }}
+{{- with $data.homepage.services }}
+
+<section id="fh5co-services" data-section="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-left">
+					<a href="{{ .Site.BaseURL | relLangURL }}/blog" target="_blank"><h2 class=" left-border to-animate">{{ with $data.homepage.services.title }}{{ . | markdownify }}{{ end }}</h2></a>
+					<div class="row">
+						<div class="col-md-8 subtext to-animate">
+							<h3>{{ with $data.homepage.services.description }}{{ . | markdownify }}{{ end }}</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			{{ range .item }}
+				<div class="col-md-6 col-sm-6 fh5co-services to-animate">
+					<h3>{{ .title | markdownify }}</h3>
+					<p>{{ .description | markdownify }}</p>
+				</div>
+				<div class="clearfix visible-sm-block"></div>
+			{{ end }}
+			</div>
+		</div>
+	</section>
+{{ end }}
+{{ end }}

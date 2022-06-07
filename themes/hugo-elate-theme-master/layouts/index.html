@@ -24,16 +24,16 @@
 				{{ partial "testimonials.html" .}}
 			{{ end }}
 
-			{{ if $data.homepage.services.enable }}
-				{{ partial "services.html" .}}
-			{{ end }}
-
-			{{ if $data.homepage.ressources.enable }}
-				{{ partial "ressources.html" .}}
+			{{ if $data.homepage.pricing.enable }}
+				{{ partial "pricing.html" .}}
 			{{ end }}
 			
 			{{ if $data.homepage.about.enable }}
 				{{ partial "about.html" .}}
+			{{ end }}
+
+			{{ if $data.homepage.services.enable }}
+				{{ partial "blog-section.html" .}}
 			{{ end }}
 
 			{{ if $data.homepage.counters.enable }}

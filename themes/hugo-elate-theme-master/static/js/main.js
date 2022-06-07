@@ -322,19 +322,19 @@
 		}
 	};
 
-	var ressourcesAnimate = function() {
-		var ressources = $('#fh5co-ressources');
-		if ( ressources.length > 0 ) {	
+	var pricingAnimate = function() {
+		var pricing = $('#fh5co-pricing');
+		if ( pricing.length > 0 ) {	
 
-			ressources.waypoint( function( direction ) {
+			pricing.waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
-					var sec = ressources.find('.to-animate').length,
+					var sec = pricing.find('.to-animate').length,
 						sec = parseInt((sec * 200) + 400);
 
 					setTimeout(function() {
-						ressources.find('.to-animate').each(function( k ) {
+						pricing.find('.to-animate').each(function( k ) {
 							var el = $(this);
 							
 							setTimeout ( function () {
@@ -345,7 +345,7 @@
 					}, 200);
 
 					setTimeout(function() {
-						ressources.find('.to-animate-2').each(function( k ) {
+						pricing.find('.to-animate-2').each(function( k ) {
 							var el = $(this);
 							
 							setTimeout ( function () {
@@ -506,7 +506,7 @@
 		workAnimate();
 		testimonialAnimate();
 		servicesAnimate();
-		ressourcesAnimate();
+		pricingAnimate();
 		aboutAnimate();
 		countersAnimate();
 		contactAnimate();
