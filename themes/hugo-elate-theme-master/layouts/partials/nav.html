@@ -14,7 +14,8 @@
 
 .position {
 background-color: transparent !important;
-color: rgba(255, 255, 255, 0.5);
+/*color: rgba(255, 255, 255, 0.5);*/
+color: #FDA870;
 position: relative;
 font-size: 15px;
 font-weight: 300;
@@ -22,11 +23,6 @@ border: none;
 margin: 8px;
 top: 10%;
 cursor: pointer;
-}
-@media (max-width:768px) {
-  .position {
-    color: rgba(0, 0, 0, 0.5) !important;
-  }
 }
 
 li:hover {
@@ -41,6 +37,19 @@ span:hover {
   background-color: transparent !important;
 }
 
+.flagselect {
+  background-color: transparent;
+  margin: 2px;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+.flagnoselect {
+  margin: 2x;
+  color: black;
+  font-size: 90%;
+  font-weight: 600;
+}
 </style>    
 
 
@@ -111,7 +120,7 @@ span:hover {
                       <option class="flagselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .Params.languageFlag }}  {{ .LanguageName }}
                       </option>
                       {{ else }}
-                      <option class="flagselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .Params.languageFlag }}  {{ .LanguageName }}</option>
+                      <option class="flagnoselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
                       {{ end }}
                       {{ end }}
                       {{ end }}
@@ -123,4 +132,5 @@ span:hover {
                 </ul>
 
     </div>
+    </nav>
 </header>

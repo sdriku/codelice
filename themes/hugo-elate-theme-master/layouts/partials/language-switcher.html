@@ -42,7 +42,7 @@ right: 13%;
 
         <!-- Language List -->
         {{ if .IsTranslated }}
-        <select class="lang-list position" id="select-language" onchange="location = this.value;">
+        <select class="lang-list position" id="select-language" onchange="location = this.value;" style="background-color: transparent !important">
           {{ $siteLanguages := .Site.Languages}}
           {{ $pageLang := .Page.Lang}}
           {{ range .Page.AllTranslations }}
@@ -54,7 +54,7 @@ right: 13%;
           <option class="flagselect" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .Params.languageFlag }}  {{ .LanguageName }}
           </option>
           {{ else }}
-          <option class="flagselect" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .Params.languageFlag }}  {{ .LanguageName }}</option>
+          <option class="flagnoselect" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
           {{ end }}
           {{ end }}
           {{ end }}

@@ -16,22 +16,12 @@ home:
 hero:
   enable: true
   title: "/assets/img/codelice-fda870.png"
-  subtitle: 'Développement Web'
-  subtitle2: 'We help our clients enter the digital world.<br><br>Let´s generate positive reviews, leads and sales.<br><br>Our static solutions guarantee High Speed & Security, Great SEO, Low-Maintenance'
-  titlelist: 'Voici les sites que nous concevons pour vous'
-  list:
-    - 'Commerce de Proximité'
-    - 'Site Vitrine'
-    - 'Association'
-    - 'Petit E-commerce'
-    - 'Promotion Evènement ou Produit'
-    - 'Documentation Technique'
-    - 'Portfolio'
-  button: 'CONTACTEZ-NOUS'
-
+  subtitle: 'Website & Business Developers'
+  subtitle2: 'Leading our clients into the digital world, using Jamstack technologies<br><br>High Speed, High Security, Low Maintenance<br><br>Let´s generate great customer experience, 5 star reviews, leads and sales, effortlessly.'
+  button_label: "Start your project"
+ 
 # Intro section #
 # Available icons: http://simplelineicons.com/ #
-
 
 ############################# Intro ############################
 intro:
@@ -161,97 +151,118 @@ pricing:
   enable: true
   menuName: "Services"
   title: "Services and Pricing"
-  description: "We charge a fixed price for each project.<br>If we are efficient and allow you to increase your income, great.<br>If we spend more time than planned on your project, our bad.<br>You will not pay more than agreed and still receive what we promised."
+  description: "We charge a fixed price for each project.<br>That way you keep your budget in control, no surprises.<br>We agree upfront on a Guaranteed Performance. If we don´t meet the agreed objectives, you get 25% off the bill. No surprises."
 
-  pricingTable1:
-    # pricing table
-    - title : "Website from scratch"
-      subtitle : "Fully customized"
-      price : "30"
-      # service list
-      serviceList:
-        - service : "Mobile-Optimized Website"
-        - service : "Powerful Website Metrics"
-        - service : "Free Custom Domain"
-        - service : "24/7 Customer Support"
-        - service : "Fully Integrated E-Commerce"
-        - service : "Sell unlimited Product"
+  tableLg:
+    enable: true
+    pricingTableLg:
+      # pricing table
+      - title : "Website creation from scratch"
+        subtitle : "Let´s build a unique website together"
+        # service list
+        serviceList:
+          - service : "As many Features as your Website needs"
+          - service : "Custom Design"
+          - service : "1st Class Website Metrics: Performance - SEO - Accessibility"
+          - service : "Website SEO-ready"
+          - service : "Mobile-Optimized Website"
+          - service : "Fully Integrated Content Management tool"
+          - service : "Free Hosting & Custom Domain the 1st year"
 
-      button:
-        label : "Try it now"
-        link : "#"
+        button:
+          label : "Request a Quote"
+          link : "#fh5co-contact"
 
+  tableMd:
+    enable: true
+    pricingTableMd:
+      # pricing table
+      - title : "Template-based creation"
+        subtitle : "Let´s start from one of our templates"
+        # service list
+        serviceList:
+          - service : "Price of each template already set - no surprises"
+          - service : "Quick customisation: we add or remove Pages, rename Sections, change Design basics (Colors and Typography)"
+          - service : "Price also includes: Top Performance, Top SEO & Accessibility scores, Hosting setup, Content Management tool Configuration"
+          - service : "Go Multilingual: optional for 100€ extra per language"
+          - service : "Free Hosting the 1st year, 39€ after that"
+          - service : "Our Hosting comes with 2 free modifications a year"
 
-    # pricing table
-    - title : "Website migration"
-      subtitle : "We make sure you settle in ok"
-      price : "60"
-      # service list
-      serviceList:
-        - service : "Mobile-Optimized Website"
-        - service : "Powerful Website Metrics"
-        - service : "Free Custom Domain"
-        - service : "24/7 Customer Support"
-        - service : "Fully Integrated E-Commerce"
-        - service : "Sell unlimited Product"
-
-      button:
-        label : "Try it now"
-        link : "#"
-
-  pricingTable2:
-    # pricing table
-    - title : "3 Simple Pages"
-      subtitle : "Any Template with minor editions"
-      price : "30"
-      # service list
-      serviceList:
-        - service : "pay extra for multilingual"
-        - service : "pay extra for blog"
-        - service : "pay extra for x y z functionnality"
-        - service : "how much does it really cost to go Wpress or SqSpace?"
-        - service : "Calculate for each the time spent + risk if downtime + monthly fee + support level"
-        - service : "Compare it to my 29€ a year package + price of website"
-
-      button:
-        label : "Try it now"
-        link : "templates/"
+        button:
+          label : "Find my Template"
+          link : "/templates"
+          target: "_blank"
 
 
-    # pricing table
-    - title : "Single Web Page"
-      subtitle : "Any template with major changes"
-      price : "60"
-      # service list
-      serviceList:
-        - service : "Mobile-Optimized Website"
-        - service : "Powerful Website Metrics"
-        - service : "Free Custom Domain"
-        - service : "24/7 Customer Support"
-        - service : "Fully Integrated E-Commerce"
-        - service : "Sell unlimited Product"
+      # pricing table
+      - title : "Website Migration"
+        subtitle : "Let´s boost your website´s performance"
+        # service list
+        serviceList:
+          - service : "Domain migration"
+          - service : "Architecure migrated as it was, or Restrucured if needed"
+          - service : "SEO-first approach, so migration does not affect current ranking"
+          - service : "Design migrated as it was or Redesign if necessary"
+          - service : "Content Management System migration"
+          - service : "1st Class Website Metrics:  Performance - SEO - Accessibility"
+          - service : "Free Hosting the 1st year"
 
-      button:
-        label : "Try it now"
-        link : "templates/"
+        button:
+          label : "Request a Quote"
+          link : "#fh5co-contact"
 
-        
-    # pricing table
-    - title : "Complete Website"
-      subtitle : "We create your website from the ground up."
-      price : "90"
-      # service list
-      serviceList:
-        - service : "Mobile-Optimized Website"
-        - service : "Powerful Website Metrics"
-        - service : "Free Custom Domain"
-        - service : "24/7 Customer Support"
-        - service : "Fully Integrated E-Commerce"
-        - service : "Sell unlimited Product"
+  tableSm:
+    enable: false
+    pricingTableSm:
+      # pricing table
+      - title : "3 Simple Pages"
+        subtitle : "Any Template with minor editions"
+        # service list
+        serviceList:
+          - service : "pay extra for multilingual"
+          - service : "pay extra for blog"
+          - service : "pay extra for x y z functionnality"
+          - service : "how much does it really cost to go Wpress or SqSpace?"
+          - service : "Calculate for each the time spent"
+          - service : "Compare it to my 29€ a year package + price of website"
 
-      button:
-        label : "Try it now"
-        link : "templates/"
+        button:
+          label : "Request a Quote"
+          link : "#fh5co-contact"
+
+
+      # pricing table
+      - title : "Single Web Page"
+        subtitle : "Any template with major changes"
+        # service list
+        serviceList:
+          - service : "Mobile-Optimized Website"
+          - service : "Powerful Website Metrics"
+          - service : "Free Custom Domain"
+          - service : "24/7 Customer Support"
+          - service : "Fully Integrated E-Commerce"
+          - service : "Sell unlimited Product"
+
+        button:
+          label : "Request a Quote"
+          link : "#fh5co-contact"
+
+          
+      # pricing table
+      - title : "Complete Website"
+        subtitle : "We create your website from the ground up."
+        # service list
+        serviceList:
+          - service : "Mobile-Optimized Website"
+          - service : "Powerful Website Metrics"
+          - service : "Free Custom Domain"
+          - service : "24/7 Customer Support"
+          - service : "Fully Integrated E-Commerce"
+          - service : "Sell unlimited Product"
+
+        button:
+          label : "Request a Quote"
+          link : "#fh5co-contact"
 
   # cta content comes from 'hompage.yml'
   cta:
@@ -282,7 +293,6 @@ about:
       description: "Jeune Développeur né en France, et vivant en Espagne, ayant été formé à la gestion de relation clientèle lors d'une vie précédente.<br><br>Je serai votre interlocuteur au moment de parler projet, devis et facturation.<br>En espérant vous parler rapidement!"
       img: "/assets/img/about-pic.jpg"
       alt: "Person1"
-
       social: 
         - icon: '/assets/img/icons8-github-30.png'
           link: 'https://github.com/codelice'
@@ -294,24 +304,41 @@ about:
           link: 'https://www.gatsbyjs.com/'
 
 #################################### Blog ########################
-services:
+blog:
   enable: enable
   menuName: "Blog"
+  link: "blog/"
   title: "Our Latest Articles"
-  description: "Here is what we do and how we can help you. If you think we can help you develop your activity, contact us today through Whatsapp, Email or our dedicated Contact form."
+  description: "Quick Guides, Tips and Tricks, General Information about Jamstack solutions - find here all you need to know about making your website a success"
 
   item:
-    - title: "Website creation"
-      description: "We create your website together. Tell us about the kind of website you would like to get.<br>Once we agree on functionalities, design, deadlines and guaranteed performance score, it wil be time to get to work."
+    - title: "SEO Strategies"
+      description: "From basic concepts explained clearly to more advanced SEO techniques, learn how we can boost your website´s traffic together"
+      link: "/blog/#seo-strategies"
+      link2: "#seo-strategies"
 
-    - title: "Website creation"
-      description: "We create your website together. Tell us about the kind of website you would like to get.<br>Once we agree on functionalities, design, deadlines and guaranteed performance score, it wil be time to get to work."
+    - title: "Performance Optimization"
+      description: "CDN, files minification, image selection, font self-hosting: dozens of levers allow significant increase of your website´s performance, which will soon boost your conversion. Discover them in this section"
+      link: "/blog/#performance-optimisation"
+      link2: "#performance-optimisation"
 
-    - title: "Website creation"
-      description: "We create your website together. Tell us about the kind of website you would like to get.<br>Once we agree on functionalities, design, deadlines and guaranteed performance score, it wil be time to get to work."
+    - title: "Website Features"
+      description: "The main misconception about static websites: 'You can only create blogs with that, right?' Well, no. Not anymore. Find out here all the functionalities that we can add to your website, a few them usually belonging to the dynamic website category"
+      link: "/blog/#website-features"
+      link2: "#website-features"
 
-    - title: "Website creation"
-      description: "We create your website together. Tell us about the kind of website you would like to get.<br>Once we agree on functionalities, design, deadlines and guaranteed performance score, it wil be time to get to work."
+    - title: "Jamstack - Pros and Cons"
+      description: "We talk here about what we can do. And about what we cannot do. Because even though this makes a very sad, in specific cases our clients are indeed better off with a dynamic website. Let´s review all of this here"
+      link: "/blog/#jamstack-pros-cons"
+      link2: "#jamstack-pros-cons"
+
+#################################### Templates ########################
+templates:
+  enable: true
+  menuName: Templates Collection - Find Yours!
+  link: "templates/"
+  title: "Browse our Templates Collection"
+  description: "Looking to create a template on a budget?<br>You own a Bar or a Restaurant? A Local Business or an E-commerce? You are a Freelancer looking to set up his portfolio, or an Event Organizer looking to promote his next gathering?<br>Have a look below, we have what you are looking for"
 
 ############################## Counters ##########################
 counters:
@@ -377,17 +404,6 @@ contact:
   button: "Envoyer"
 
   form_action: 'https://formspree.io/f/mknykvkd'
-
-################################## Postpend links ###################
-blog:
-  enable: true
-  menuName: Blog
-  link: "blog/"
-
-templates:
-  enable: true
-  menuName: Collection de Modèles - Trouvez le votre!
-  link: "templates/"
 
 ################################## Footer ###################
 footer:

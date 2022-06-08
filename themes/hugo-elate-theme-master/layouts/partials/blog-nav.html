@@ -11,22 +11,29 @@
         margin-top: -25%;
         }
     }
-    .position {
-background-color: transparent;
-color: black;
-font-weight: bold;
-border-radius: 4px;
-border: 1px solid white;
-padding: 1px;
-position: fixed;
-}
-@media (max-width:765px) {
-  .position {
-    color: black;
-    border: white;
-    top: 0.5%;
-    right: 13%;
+.position {
+  background-color: transparent !important;
+  /*color: rgba(255, 255, 255, 0.5);*/
+  color: #FDA870;
+  position: relative;
+  font-size: 15px;
+  font-weight: 300;
+  border: none;
+  margin: 8px;
+  top: 10%;
+  cursor: pointer;
   }
+
+  li:hover {
+  background-color: transparent !important;
+}
+
+.position:hover{
+  background-color: transparent !important;
+}
+
+span:hover {
+  background-color: transparent !important;
 }
 
 .flagselect {
@@ -45,9 +52,10 @@ position: fixed;
     
 </style>    
    
-   <header role="banner" id="fh5co-header" style="position:fixed">
+   <header role="banner" id="fh5co-header">
         <div class="container">
             <!-- <div class="row"> -->
+              <nav class="navbar navbar-default" style="background-color: transparent !important;">
                 <div class="navbar-header">
                     <!-- Mobile Toggle Menu Button -->
                     {{ $data := index .Site.Data .Site.Language.Lang }}
@@ -79,28 +87,32 @@ position: fixed;
                     <li><a class="external" href="{{ .Site.BaseURL | relLangURL }}/templates" target="_blank"><span>{{ $data.homepage.templates.menuName }}</span></a></li>
                     {{ end }}
 
-                </ul>
+                    <li class="lang-list position" style="background-color: transparent !important;"><span style="background-color: transparent !important;">
+                      <!-- Language List -->
+                      {{ if .IsTranslated }}
+                      <select class="lang-list position" style="background-color: transparent !important;" id="select-language" onchange="location = this.value;">
+                        {{ $siteLanguages := .Site.Languages}}
+                        {{ $pageLang := .Page.Lang}}
+                        {{ range .Page.AllTranslations }}
+                        {{ $translation := .}}
+                        {{ range $siteLanguages }}
+                        {{ if eq $translation.Lang .Lang }}
+                        {{ $selected := false }}
+                        {{ if eq $pageLang .Lang}}
+                        <option class="flagselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .Params.languageFlag }}  {{ .LanguageName }}
+                        </option>
+                        {{ else }}
+                        <option class="flagnoselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+                        {{ end }}
+                        {{ end }}
+                        {{ end }}
+                        {{ end }}
+                      </select>
+                      {{ end }}
+                    </span>
+                    </li>
+                  </ul>
 
-        <!-- Language List -->
-        {{ if .IsTranslated }}
-        <select class="lang-list position" id="select-language" onchange="location = this.value;">
-          {{ $siteLanguages := .Site.Languages}}
-          {{ $pageLang := .Page.Lang}}
-          {{ range .Page.AllTranslations }}
-          {{ $translation := .}}
-          {{ range $siteLanguages }}
-          {{ if eq $translation.Lang .Lang }}
-          {{ $selected := false }}
-          {{ if eq $pageLang .Lang}}
-          <option class="flagselect" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .Params.languageFlag }}  {{ .LanguageName }}
-          </option>
-          {{ else }}
-          <option class="flagselect" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .Params.languageFlag }}  {{ .LanguageName }}</option>
-          {{ end }}
-          {{ end }}
-          {{ end }}
-          {{ end }}
-        </select>
-        {{ end }}
     </div>
+    </nav>
 </header>
