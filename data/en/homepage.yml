@@ -30,22 +30,22 @@ intro:
   description: "So many choices out there: Wordpress or Drupal?<br>Squarespace or Wix? WooCommerce or Spotify?"
   item:
     - title: "Blazing Fast"
-      description: "Static = no datatbase, no heavy infrastructure.<br>Your site is rendered blazing fast, which means<br>Better Conversion rate and Better SEO ranking."
+      description: "Static = no datatbase, no heavy infrastructure.<br>Your site is rendered blazing fast, which leads to Better Conversion rate and Better SEO ranking."
       icon: "/assets/img/icons8-bolt-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Cheap Hosting"
-      description: "Static is light = hosting is cheap.<br>Keep your money for what really matters.<br>We set up your website & host if for 29€/year<br>(for free the 1st year!)."
+      description: "Static is light = hosting is cheap.<br>Keep your money for what really matters. We set up your website & host if for 29€/year (for free the 1st year!)."
       icon: "/assets/img/icons8-hosting-64-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "High Security"
-      description: "No heavy plugins & database = no risk of getting hacked.<br>Which means no downtime for your website.<br>Do not lose clients, avoid headaches, Static is Safe."
+      description: "No heavy plugins & database = no risk of getting hacked = no downtime.<br>Do not lose clients, avoid headaches, Static is Safe."
       icon: "/assets/img/icons8-safe-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Zero Maintenance"
-      description: "Static is Stable.<br>No themes, no plugins = no updates, no back-ups.<br>Keep your time for yourself with effortless maintenance."
+      description: "Static is Stable.<br>No themes & plugins = no updates & back-ups.<br>Keep your time for yourself with effortless maintenance."
       icon: "/assets/img/icons8-maintenance-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
@@ -55,32 +55,32 @@ intro:
       img: "/assets/img/img_7.jpg"
 
     - title: "Great SEO"
-      description: "Our sites are SEO friendly, clients will find you.<br>Insert your keywords in dedicated fields.<br>We take care of the rest."
+      description: "Our sites are SEO ready. Insert your keywords in dedicated fields.<br>You will be found on Search Engines."
       icon: "/assets/img/icons8-seo-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "High Stability"
-      description: "Our Hosting adapts to  traffic and clients´ locations.<br>Your website remains stable through higher traffic.<br>Do not worry about success, Static can handle it"
+      description: "Our Hosting adapts to  traffic and clients´ locations. Our websites remain stable through higher traffic.<br>Do not worry about success, Static can handle it."
       icon: "/assets/img/icons8-seo-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Mobile Friendly"
-      description: "Our websites respond well to any given screens´ sizes.<br>We guarantee Speed performance for 3G connections.<br>Do not lose clients over a poorly designed mobile version!"
+      description: "Our websites respond well to any given screens´ size. Their performance remain strong even on 3G connections.<br>Do not lose clients over a poorly designed mobile version!"
       icon: "/assets/img/icons8-seo-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
-    - title: "High Versatility"
-      description: "A Contact form to generate leads? A Payment platform or Donation module? An Event section for your bar?<br>A 'Specials of the week' section for your restaurant?<br>A Multilingual website for your clients abroad?<br>This and more is yours as we adapt to your needs."
+    - title: "Features-Rich"
+      description: "All kind of Forms to generate leads?<br>A Payment platform or Donation module?<br>An Event section for your bar or 'This Week´s special' for your restaurant?<br>A Multilingual website?<br>Our websites adapt to your needs."
       icon: "/assets/img/icons8-seo-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Our Clients matter"
-      description: "We keep in touch throughout the year.<br>You need a new section for your latest product?<br>A new form to generate leads?<br>A new color for your design?<br>We offer your website a minor lifting, twice a year!"
+      description: "Months after we delivered your website, you realize that you need a new section for your latest product?<br>Or a new color for your design?<br>We offer your website a lifting, once a year!"
       icon: "/assets/img/icons8-seo-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Our Clients are rewarded"
-      description: "You love working with us and<br>do mention our solutions to family and friends?<br>For any new contract we sign thanks to you,<br>10% of the bill goes back to your account!"
+      description: "You love working with us and do mention our solutions to family and friends?<br>For any new contract we sign thanks to you, 10% of the bill goes back to your account!"
       icon: "/assets/img/icons8-seo-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
@@ -385,16 +385,13 @@ contact:
   form: true
   action: "/thanks/"
   title: "Get in touch"
-  description: "Tell us about your Project. Your Goals. Your Budget.<br>Via Whatsapp, Email or this Contact form.<br>We get back to you within a day."
+  description: "Tell us about your Project, your Goals, your Budget.<br>Via Whatsapp, Email or this Contact form.<br>We get back to you within a day."
   details:
-    - icon: '/assets/img/icons8-whatsapp-30.png'
+    - icon: '/assets/img/icons8-whatsapp-48.png'
       value: '+34 631 716 240'
 
-    - icon: '/assets/img/icons8-mail-30.png'
+    - icon: '/assets/img/icons8-email-open-50.png'
       value: 'cedric@codelice.com'
-
-    - icon: '/assets/img/icons8-globe-24.png'
-      value: '<a href="https://www.codelice.com/" target="_blank">codelice.com</a>'
 
   name: "Name"
   email: "Email"
@@ -410,7 +407,10 @@ footer:
   enable: true
   legalName: 'Legal Notice'
   legalLink: '/en/legal'
-  copyright: 'Created by <a href="https://codelice.com/" target="_blank">Codelice</a>'
+  cookiesName: 'Cookies'
+  cookiesLink: ''
+  privacyName: 'Privacy Policy'
+  privacyLink: ''
   
   links:
     - icon: '/assets/img/icons8-github-30.png'

@@ -60,33 +60,33 @@ intro:
       img: "/assets/img/img_7.jpg"
 
     - title: "High Stability"
-      description: "Our Hosting adapts to  traffic and clients´ locations.<br>Your website remains stable through higher traffic.<br>Do not worry about success, Static can handle it"
+      description: "Our Hosting adapts to  traffic and clients´ locations. Our websites remain stable through higher traffic.<br>Do not worry about success, Static can handle it."
       icon: "/assets/img/icons8-seo-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Mobile Friendly"
-      description: "Our websites respond well to any given screens´ sizes.<br>We guarantee Speed performance for 3G connections.<br>Do not lose clients over a poorly designed mobile version!"
+      description: "Our websites respond well to any given screens´ size. Their performance remain strong even on 3G connections.<br>Do not lose clients over a poorly designed mobile version!"
       icon: "/assets/img/icons8-seo-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
-    - title: "High Versatility"
-      description: "A Contact form to generate leads? A Payment platform or Donation module? An Event section for your bar?<br>A 'Specials of the week' section for your restaurant?<br>A Multilingual website for your clients abroad?<br>This and more is yours as we adapt to your needs."
+    - title: "Features-Rich"
+      description: "All kind of Forms to generate leads?<br>A Payment platform or Donation module?<br>An Event section for your bar or 'This Week´s special' for your restaurant?<br>A Multilingual website?<br>Our websites adapt to your needs."
       icon: "/assets/img/icons8-seo-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Our Clients matter"
-      description: "We keep in touch throughout the year.<br>You need a new section for your latest product?<br>A new form to generate leads?<br>A new color for your design?<br>We offer your website a minor lifting, twice a year!"
+      description: "Months after we delivered your website, you realize that you need a new section for your latest product?<br>Or a new color for your design?<br>We offer your website a lifting, once a year!"
       icon: "/assets/img/icons8-seo-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
     - title: "Our Clients are rewarded"
-      description: "You love working with us and<br>do mention our solutions to family and friends?<br>For any new contract we sign thanks to you,<br>10% of the bill goes back to your account!"
+      description: "You love working with us and do mention our solutions to family and friends?<br>For any new contract we sign thanks to you, 10% of the bill goes back to your account!"
       icon: "/assets/img/icons8-seo-50-fda870.png"
       img: "/assets/img/img_7.jpg"
 
   video:
     enable: false
-    title: "Mira este video"
+    title: "Watch the video"
     icon: "icon-play2"
     url: "https://vimeo.com/channels/staffpicks/93951774"
 
@@ -387,14 +387,11 @@ contact:
   title: "Contactanos"
   description: "Cuéntenos sobre su proyecto y sus objectivos.<br>Contactanos a traves Whatsapp, Correo electronico o el Formulario abajo.<br> Pronto nos pondremos en contacto con usted para revisar todo en detalle."
   details:
-    - icon: '/assets/img/icons8-whatsapp-30.png'
-      value: '631 716 240'
+    - icon: '/assets/img/icons8-whatsapp-48.png'
+      value: '+34 631 716 240'
 
-    - icon: '/assets/img/icons8-mail-30.png'
+    - icon: '/assets/img/icons8-email-open-50.png'
       value: 'cedric@codelice.com'
-
-    - icon: '/assets/img/icons8-globe-24.png'
-      value: '<a href="https://www.codelice.com/" target="_blank">codelice.com</a>'
 
   name: "Nombre"
   email: "Correo electronico"
@@ -408,9 +405,12 @@ contact:
 ################################## Footer ###################
 footer:
   enable: true
-  legalName: 'Legal'
-  legalLink: '/es/legal'
-  copyright: 'Diseño de <a href="https://codelice.com/" target="_blank">Codelice</a>'
+  legalName: 'Aviso Legal'
+  legalLink: 'legal'
+  cookiesName: 'Cookies'
+  cookiesLink: ''
+  privacyName: 'Politica de Privacidad'
+  privacyLink: ''
 
   links:
     - icon: '/assets/img/icons8-github-30.png'
