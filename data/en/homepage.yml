@@ -16,7 +16,7 @@ home:
 hero:
   enable: true
   title: "/assets/img/codelice-fda870.png"
-  subtitle: 'Website & Business Developers'
+  subtitle: 'Website Developers'
   subtitle2: 'Leading our clients into the digital world, using Jamstack technologies<br><br>High Speed, High Security, Low Maintenance<br><br>Let´s generate great customer experience, 5 star reviews, leads and sales, effortlessly.'
   button_label: "Start your project"
  
@@ -35,7 +35,7 @@ intro:
       img: "/assets/img/img_7.jpg"
 
     - title: "Cheap Hosting"
-      description: "Static is light = hosting is cheap.<br>Keep your money for what really matters. We set up your website & host if for 29€/year (for free the 1st year!)."
+      description: "Static is light = hosting is cheap.<br>Keep your money for what really matters. We set up your website & host if for 39€/year (for free the 1st year!)."
       icon: "/assets/img/icons8-hosting-64-fda870.png"
       img: "/assets/img/img_7.jpg"
 
@@ -224,7 +224,7 @@ pricing:
           - service : "pay extra for x y z functionnality"
           - service : "how much does it really cost to go Wpress or SqSpace?"
           - service : "Calculate for each the time spent"
-          - service : "Compare it to my 29€ a year package + price of website"
+          - service : "Compare it to my 39€ a year package + price of website"
 
         button:
           label : "Request a Quote"
@@ -388,7 +388,7 @@ contact:
   description: "Tell us about your Project, your Goals, your Budget.<br>Via Whatsapp, Email or this Contact form.<br>We get back to you within a day."
   details:
     - icon: '/assets/img/icons8-whatsapp-48.png'
-      value: '+34 631 716 240'
+      value: '+33 7 45 43 38 43<br>+34 000 000 000'
 
     - icon: '/assets/img/icons8-email-open-50.png'
       value: 'cedric@codelice.com'
@@ -406,11 +406,11 @@ contact:
 footer:
   enable: true
   legalName: 'Legal Notice'
-  legalLink: '/en/legal'
+  legalLink: 'legal-notice'
   cookiesName: 'Cookies'
-  cookiesLink: ''
+  cookiesLink: 'cookies'
   privacyName: 'Privacy Policy'
-  privacyLink: ''
+  privacyLink: 'privacy-policy'
   
   links:
     - icon: '/assets/img/icons8-github-30.png'

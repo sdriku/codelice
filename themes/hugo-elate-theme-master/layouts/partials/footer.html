@@ -8,9 +8,9 @@
 		<div class="container">
 			<div>
 				<div class="col-md-12 col-sm-12 text-center" style="margin-bottom:25px">
-					<p class="col-md-4 col-sm-4"><a href="{{ .Site.BaseURL | relLangURL }}legal">{{ with $data.homepage.footer.legalName }}{{ . | markdownify }}{{ end }}</a></p>
-					<p class="col-md-4 col-sm-4"><a href="{{ .Site.BaseURL | relLangURL }}legal">{{ with $data.homepage.footer.cookiesName }}{{ . | markdownify }}{{ end }}</a></p>
-					<p class="col-md-4 col-sm-4"><a href="{{ .Site.BaseURL | relLangURL }}legal">{{ with $data.homepage.footer.privacyName }}{{ . | markdownify }}{{ end }}</a></p>
+					<p class="col-md-4 col-sm-4"><a href="{{ .Site.BaseURL | relLangURL }}{{ with $data.homepage.footer.legalLink }}{{ . }}{{ end }}">{{ with $data.homepage.footer.legalName }}{{ . | markdownify }}{{ end }}</a></p>
+					<p class="col-md-4 col-sm-4"><a href="{{ .Site.BaseURL | relLangURL }}{{ with $data.homepage.footer.cookiesLink }}{{ . }}{{ end }}">{{ with $data.homepage.footer.cookiesName }}{{ . | markdownify }}{{ end }}</a></p>
+					<p class="col-md-4 col-sm-4"><a href="{{ .Site.BaseURL | relLangURL }}{{ with $data.homepage.footer.privacyLink }}{{ . }}{{ end }}">{{ with $data.homepage.footer.privacyName }}{{ . | markdownify }}{{ end }}</a></p>
 				</div>
 			</div>
 			<div class="row">

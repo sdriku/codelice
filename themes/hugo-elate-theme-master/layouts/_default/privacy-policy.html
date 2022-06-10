@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+
+<!-- blog hero area -->
+<section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_1.jpg);max-height:50vh;" data-stellar-background-ratio="0.5">
+		<div class="gradient"></div>
+		<div class="container" style="background-image: url('/assets/img/5125962.jpg'); background-position: 100% 50%; background-repeat: no-repeat;background-size: cover;width: 100vw">
+			<div class="text-wrap">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h1 class="to-animate home-mobile" style="color:#fda870;letter-spacing:5px;"></h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slant"></div>
+	</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-7 offset-lg-1">
+        <h1 class="mb-4">{{.Title | markdownify}}</h1>
+        <div class="content">
+          {{.Content}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,9 +1,9 @@
 ---
 title: "Aviso Legal"
 date: 2019-10-17T11:22:16+06:00
-description: "Voici les Mentions légales d'A. Office Gestion Web, votre Assistante de Direction."
+description: ""
 mainsection: "false"
-layout: "legal"
+layout: "aviso-legal"
 ---
 
 ## Editeur du site Internet

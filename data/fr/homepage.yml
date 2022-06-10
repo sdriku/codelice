@@ -16,8 +16,8 @@ home:
 hero:
   enable: true
   title: "/assets/img/codelice-fda870.png"
-  subtitle: 'Website & Business Developers'
-  subtitle2: 'Leading our clients into the digital world, using Jamstack technologies<br><br>High Speed, High Security, Low Maintenance<br><br>Let´s generate great customer experience, 5 star reviews, leads and sales, effortlessly.'
+  subtitle: 'Développeurs Web'
+  subtitle2: 'Nous assurons à nos clients un passage au monde digital sans heurts<br><br>High Speed, High Security, Low Maintenance<br><br>Let´s generate great customer experience, 5 star reviews, leads and sales, effortlessly.'
   button_label: "Start your project"
  
 # Intro section #
@@ -26,8 +26,8 @@ hero:
 ############################# Intro ############################
 intro:
   enable: true
-  title: "Why choose our solutions"
-  description: "So many choices out there: Wordpress or Drupal? Squarespace or Wix? WooCommerce or Spotify?"
+  title: "Pourquoi choisir nos solutions"
+  description: "Tant de choix disponibles: Wordpress ou Drupal?<br>Squarespace ou Wix? WooCommerce ou Spotify?"
   item:
     - title: "Ultra-Rapide"
       description: "Statique = sans base de données, infrastructure légère.<br>Sa vitesse d'affichage est excellente, ce qui vous apportera<br>Meilleure Conversion et Meilleur classement SEO"
@@ -35,7 +35,7 @@ intro:
       img: "/assets/img/img_7.jpg"
 
     - title: "Hébergement Low-Cost"
-      description: "Statique est léger = Hébergement est peu coûteux.<br>Keep your money for what really matters.<br>We set up your website & host if for 29€/year<br>(for free the 1st year!)."
+      description: "Statique est léger = Hébergement est peu coûteux.<br>Keep your money for what really matters.<br>We set up your website & host if for 39€/year<br>(for free the 1st year!)."
       icon: "/assets/img/icons8-hosting-64-fda870.png"
       img: "/assets/img/img_7.jpg"
 
@@ -224,7 +224,7 @@ pricing:
           - service : "pay extra for x y z functionnality"
           - service : "how much does it really cost to go Wpress or SqSpace?"
           - service : "Calculate for each the time spent"
-          - service : "Compare it to my 29€ a year package + price of website"
+          - service : "Compare it to my 39€ a year package + price of website"
 
         button:
           label : "Request a Quote"
@@ -388,7 +388,7 @@ contact:
   description: "Vous souhaitez nous parler de votre projet, recevoir un devis, ou simplement nous poser une question?<br>Contactez-nous via Whatsapp, Courriel ou le Formulaire ci-dessous et nous reviendrons vers vous sous 24h."
   details:
     - icon: '/assets/img/icons8-whatsapp-48.png'
-      value: '+34 631 716 240'
+      value: '07 45 43 38 43'
 
     - icon: '/assets/img/icons8-email-open-50.png'
       value: 'cedric@codelice.com'
@@ -406,11 +406,11 @@ contact:
 footer:
   enable: true
   legalName: 'Mentions Légales'
-  legalLink: '/fr/mentions-legales'
+  legalLink: 'mentions-legales'
   cookiesName: 'Cookies'
-  cookiesLink: ''
+  cookiesLink: 'cookies'
   privacyName: 'Politique de Confidentialité'
-  privacyLink: ''
+  privacyLink: 'politique-confidentialite'
 
   links:
     - icon: '/assets/img/icons8-github-30.png'

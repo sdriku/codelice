@@ -9,17 +9,27 @@
       font-size: 18px !important;
     }
 	}
+  @media (min-width:900px) {
+  .hero-align {
+    margin-left:25vw;
+  }
+}
+@media (max-width:1000px) {
+  .hero-mobile {
+    margin-top:-15%;
+  }
+}
 </style>
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 <!-- templates hero area -->
 <section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_1.jpg);height:75vh;" data-stellar-background-ratio="0.5">
 		<div class="gradient"></div>
-		<div class="container">
+		<div class="container" style="background-image: url('/assets/img/5125962.jpg'); background-position: 100% 50%; background-repeat: no-repeat;background-size: cover;width: 100vw">
 			<div class="text-wrap">
 				<div class="text-inner">
 					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 text-left home-mobile" style="margin-bottom:3%;">
+						<div class="col-lg-12 col-md-12 col-sm-12 text-left hero-align home-mobile" style="margin-bottom:3%;">
 							<h1>{{ with $data.homepage.templates.title }}{{ . | markdownify }}{{ end }}</h1>
 							<h2>{{ with $data.homepage.templates.description }}{{ . | markdownify }}{{ end }}</h2>
 						</div>
