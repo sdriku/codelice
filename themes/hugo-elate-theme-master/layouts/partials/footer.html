@@ -1,3 +1,13 @@
+<style>
+.footer-links a {
+	color: white;
+	text-decoration: underline;
+ }
+ .footer-links a:hover {
+	color: #FDA870;
+ }
+</style>
+
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{- if $data.homepage.footer.enable }}
@@ -6,11 +16,11 @@
 <footer id="footer" role="contentinfo">
 		<a href="#" class="gotop js-gotop"><i><img height="50" src="/assets/img/icons8-arrow-up-64-fda870.png" alt="Go to Top of the Page"></i></a>
 		<div class="container">
-			<div>
+			<div class="footer-links">
 				<div class="col-md-12 col-sm-12 text-center" style="margin-bottom:25px">
-					<p class="col-md-4 col-sm-4"><a href="{{ .Site.BaseURL | relLangURL }}{{ with $data.homepage.footer.legalLink }}{{ . }}{{ end }}">{{ with $data.homepage.footer.legalName }}{{ . | markdownify }}{{ end }}</a></p>
-					<p class="col-md-4 col-sm-4"><a href="{{ .Site.BaseURL | relLangURL }}{{ with $data.homepage.footer.cookiesLink }}{{ . }}{{ end }}">{{ with $data.homepage.footer.cookiesName }}{{ . | markdownify }}{{ end }}</a></p>
-					<p class="col-md-4 col-sm-4"><a href="{{ .Site.BaseURL | relLangURL }}{{ with $data.homepage.footer.privacyLink }}{{ . }}{{ end }}">{{ with $data.homepage.footer.privacyName }}{{ . | markdownify }}{{ end }}</a></p>
+					<p class="col-md-4 col-sm-4 col-xs-4"><a href="{{ .Site.BaseURL | relLangURL }}{{ with $data.homepage.footer.legalLink }}{{ . }}{{ end }}">{{ with $data.homepage.footer.legalName }}{{ . | markdownify }}{{ end }}</a></p>
+					<p class="col-md-4 col-sm-4 col-xs-4"><a href="{{ .Site.BaseURL | relLangURL }}{{ with $data.homepage.footer.cookiesLink }}{{ . }}{{ end }}">{{ with $data.homepage.footer.cookiesName }}{{ . | markdownify }}{{ end }}</a></p>
+					<p class="col-md-4 col-sm-4 col-xs-4"><a href="{{ .Site.BaseURL | relLangURL }}{{ with $data.homepage.footer.privacyLink }}{{ . }}{{ end }}">{{ with $data.homepage.footer.privacyName }}{{ . | markdownify }}{{ end }}</a></p>
 				</div>
 			</div>
 			<div class="row">

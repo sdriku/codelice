@@ -8,15 +8,15 @@ layout: "mentions-legales"
 
 ## Editeur du site Internet
 
-- Nom micro-entreprise: A. Office Gestion Web
-- Prénom et Nom: Armelle TATEOSSIAN
+- Nom micro-entreprise: Codelice
+- Prénom et Nom: Cédric TATEOSSIAN
 - Adresse: 13 le Vieux Terrier - 27930 Guichainville
-- Nº SIRET: 330 638 271 000 24
-- Code APE: 8211Z
+- Nº SIRET: 914 157 201 000 15
+- Code APE: 7410Z
 - Nº Identification TVA: Exemption micro-entreprise
-- Tél: 06 68 32 84 18
-- Email: aofficegestionweb@gmail.com
-- Web: www.assist-secretariat.com
+- Tél: +33 7 45 43 38 43
+- Email: cedric@codelice.com
+- Web: https://www.codelice.com
 
 ***
 

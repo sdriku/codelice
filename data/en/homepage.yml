@@ -1,7 +1,7 @@
 ############################# Brand ############################
 brand:
   companyName: "Codelice"
-  companyLogo: "/assets/img/logo-fda870.png"
+  companyLogo: "/assets/img/codelice-logo-png.png"
   widthLogo: "160"
   heightLogo: "130"
   widthLogoMobile: "130"
@@ -294,18 +294,18 @@ about:
       img: "/assets/img/about-pic.jpg"
       alt: "Person1"
       social:
-        - icon: '/assets/img/icons8-github-30.png'
+        - icon: '/assets/img/icons8-github.svg'
           link: 'https://github.com/codelice'
 
         - icon: '/assets/img/icon-hugo-30.png'
           link: 'https://gohugo.io/'
 
-        - icon: '/assets/img/icon-gatsby-30.png'
+        - icon: '/assets/img/icons8-gatsbyjs.svg'
           link: 'https://www.gatsbyjs.com/'
 
 #################################### Blog ########################
 blog:
-  enable: enable
+  enable: true
   menuName: "Blog"
   link: "blog/"
   title: "Our Latest Articles"
@@ -388,7 +388,7 @@ contact:
   description: "Tell us about your Project, your Goals, your Budget.<br>Via Whatsapp, Email or this Contact form.<br>We get back to you within a day."
   details:
     - icon: '/assets/img/icons8-whatsapp-48.png'
-      value: '+33 7 45 43 38 43<br>+34 000 000 000'
+      value: '+33 7 45 43 38 43<br>+34 613 212 305'
 
     - icon: '/assets/img/icons8-email-open-50.png'
       value: 'cedric@codelice.com'
@@ -413,11 +413,14 @@ footer:
   privacyLink: 'privacy-policy'
   
   links:
-    - icon: '/assets/img/icons8-github-30.png'
+    - icon: '/assets/img/icons8-github.svg'
       link: 'https://github.com/sdriku'
 
     - icon: '/assets/img/icon-hugo-30.png'
       link: 'https://gohugo.io/'
 
-    - icon: '/assets/img/icon-gatsby-30.png'
+    - icon: '/assets/img/icons8-gatsbyjs.svg'
       link: 'https://www.gatsbyjs.com/'
+
+    - icon: '/assets/img/nextjs_icon_132160.png'
+      link: 'https://nextjs.org/'

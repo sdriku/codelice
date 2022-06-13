@@ -24,7 +24,7 @@
 				{{ partial "testimonials.html" .}}
 			{{ end }}
 
-			{{ if $data.homepage.pricing.enable }}
+			{{ if $data.homepage.blog.enable }}
 				{{ partial "pricing.html" .}}
 			{{ end }}
 			
@@ -32,7 +32,7 @@
 				{{ partial "about.html" .}}
 			{{ end }}
 
-			{{ if $data.homepage.services.enable }}
+			{{ if $data.homepage.blog.enable }}
 				{{ partial "blog-section.html" .}}
 			{{ end }}
 
