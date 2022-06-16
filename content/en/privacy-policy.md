@@ -6,38 +6,15 @@ mainsection: "false"
 layout: "privacy-policy"
 ---
 
-## Editeur du site Internet
 
-- Nom micro-entreprise: A. Office Gestion Web
-- Prénom et Nom: Armelle TATEOSSIAN
-- Adresse: 13 le Vieux Terrier - 27930 Guichainville
-- Nº SIRET: 330 638 271 000 24
-- Code APE: 8211Z
-- Nº Identification TVA: Exemption micro-entreprise
-- Tél: 06 68 32 84 18
-- Email: aofficegestionweb@gmail.com
-- Web: www.assist-secretariat.com
+Safety Measures.-SSL
 
-***
+The Owner has contracted an SSL (Secure Sockets Layer) certificate for its website.
 
-## Crédits
+An SSL certificate protects all personal and confidential information that can be handled on a website, regardless of the information which may be transmitting, such as any of the contact forms on the website, the server, or the data entered for the subscription of newsletters or access to protected areas, etc.
 
-- Outil de gestion du contenu: Netlify CMS
-- Technologies utilisées: Hugo / HTML / CSS / Javascript
-- Conception du site et réalisation: Codelice
-- Hébergement: Netlify Inc. - 44 Montgomery Street, Suite 300 - San Francisco, California 94104 - USA
+The website address should be looking in green, activating the https protocol which may allow safe connexions from THE USER’S web server.
 
-***
-
-## Données personnelles
-
-Aucune information personnelle n'est collectée à votre insu ni cédée à des tiers. Ce site n'utilise pas de cookies, nous ne collectons pas les informations personnelles de nos clients.
-
-***
-
-## Loi applicable
-
-L'usage de ce site web est régi par la loi française à l'exception de toute autre législation.
 
 *******
 Privacy Policy *Example*

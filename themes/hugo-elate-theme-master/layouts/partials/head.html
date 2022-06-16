@@ -75,7 +75,12 @@
     {{ range site.Params.plugins.js }}
     <script src="{{ .link | absURL }}"></script>
     {{ end }}
-    
+
+    {{ if $.Param "cookieconsent" -}}
+    {{ $cookieconsent := resources.Get "js/cookieconsent.js" | minify | fingerprint -}}
+    <script defer src="{{ $cookieconsent.RelPermalink }}"></script>
+    {{ end -}}
+        
     <!-- SEO properly done in HUGO -->
    <meta property="og:site_name" content="{{ $.Site.Title }}" />
    <meta property="og:title" content="{{ $.Site.Title }}" />

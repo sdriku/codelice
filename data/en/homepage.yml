@@ -7,6 +7,15 @@ brand:
   widthLogoMobile: "130"
   heightLogoMobile: "110"
 
+############################# Cookies ############################
+cookie:
+  enable: true
+  cookieconsent_message: "This website uses non essential cookies for tracking and analytics that you can accept or decline."
+  cookieconsent_accept: "Accept"
+  cookieconsent_decline: "Decline"
+  privacyPolicy: "Privacy Policy"
+  privacyLink: "privacy-policy"
+
 ############################# Home ############################
 home:
   enable: true
