@@ -1,11 +1,12 @@
 ############################# Brand ############################
 brand:
   companyName: "Codelice"
-  companyLogo: "/assets/img/codelice-logo-png.png"
-  widthLogo: "160"
-  heightLogo: "130"
-  widthLogoMobile: "130"
-  heightLogoMobile: "110"
+  logoDesktop: "/assets/img/codelice-logo-desktop.png"
+  logoMobile: "/assets/img/codelice-logo-mobile.png"
+  widthLogo: "150"
+  heightLogo: "115"
+  widthLogoMobile: "100"
+  heightLogoMobile: "80"
 
 ############################# Cookies ############################
 cookie:
@@ -283,7 +284,7 @@ subscription:
   menuName: "Subscription"
   mailchimp_form_action: "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
   mailchimp_form_name: "b_463ee871f45d2d93748e77cad_a0a2c6d074"
-  bg_image: "/assets/img/full_image_1.jpg"
+  bg_image: ""
   title: "Get Product Updates"
   content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
   placeholder: "Your Email Address Here"
@@ -354,7 +355,7 @@ counters:
   enable: false
   menuName: "Counters"
   title: "Stats"
-  background: "/assets/img/full_image_1.jpg"
+  background: ""
 
   item:
     - description: "Finished Projects"

@@ -62,8 +62,8 @@ span:hover {
                     {{ $data := index .Site.Data .Site.Language.Lang }}
 
                     <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-                    {{- if $data.homepage.brand.companyLogo }}
-                    <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}"><picture><source width="{{ $data.homepage.brand.widthLogo }}" height="{{ $data.homepage.brand.heightLogo }}" srcset="{{ $data.homepage.brand.companyLogo }}" media="(min-width: 769px)"><img style="margin-top:-30%" width="{{ $data.homepage.brand.widthLogoMobile }}" height="{{ $data.homepage.brand.heightLogoMobile }}" src="{{ $data.homepage.brand.companyLogo }}" alt="logo"></picture></a> 
+                    {{- if $data.homepage.brand.logoDesktop }}
+                    <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}"><picture><source width="{{ $data.homepage.brand.widthLogo }}" height="{{ $data.homepage.brand.heightLogo }}" srcset="{{ $data.homepage.brand.logoDesktop }}" media="(min-width: 769px)"><img style="margin-top:-30%" width="{{ $data.homepage.brand.widthLogoMobile }}" height="{{ $data.homepage.brand.heightLogoMobile }}" src="{{ $data.homepage.brand.logoMobile }}" alt="logo"></picture></a> 
                     {{ else }}
                     <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">{{ $data.homepage.brand.companyName }}</a> 
                     {{ end }}
