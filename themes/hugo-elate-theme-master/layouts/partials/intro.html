@@ -1,7 +1,7 @@
 <style>
 	@media (max-width:768px) {
 		.mobilevh {
-			height:60vh !important;
+			height:50vh !important;
 		}
 	}
 </style>
@@ -23,13 +23,18 @@
 					</div>
 				</div>
 				{{ range .item }}
-				<div class="fh5co-block to-animate mobilevh" style="background-image: url('{{ .img }}');">
+				<div class="fh5co-block to-animate mobilevh" style="background: #0F2027;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			  ">
 					<div class="overlay-darker"></div>
 					<div class="overlay"></div>
 					<div class="fh5co-text">
-						<i><img src="{{ .icon }}" alt="icon" width="50" height="50"></i>
-						<h2 style="margin-bottom: 5%">{{ .title }}</h2>
-						<p style="line-height:2;text-align:left;margin-left:5% !important;margin-right:2%">{{ .description | markdownify }}</p>
+						<h2 class="btn btn-primary" style="background: #0F2027;  /* fallback for old browsers */
+						background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+						background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */margin-bottom:8%">{{ .title }}</h2>
+						<p style="line-height:2;text-align:center;margin-left:5% !important;margin-right:2%">{{ .description | markdownify }}</p>
+						<p style="background:#FDA870;border: 2px solid #FDA870;font-weight:bold;padding:10px;border-radius:4px;">{{ .lastLine | markdownify }}</p>
 					</div>
 				</div>
 				{{ end }}
