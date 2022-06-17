@@ -13,7 +13,7 @@ layout: "aviso-legal"
 - Dirección: 13 le Vieux Terrier - 27930 Guichainville
 - Nº SIRET: 914 157 201 000 15
 - Codigo APE: 7410Z
-- Nº Identificaión TVA: Exención micro-empresa
+- Nº Identificación TVA: Exención micro-empresa
 - Tel: +33 7 45 43 38 43
 - Email: cedric@codelice.com
 - Web: https://www.codelice.com
@@ -30,7 +30,7 @@ layout: "aviso-legal"
 
 ***
 
-## Propriedad y Reproducción
+## Propiedad y Reproducción
 
 El diseño y cada uno de los elementos (incluyendo marca, logo y nombre de dominio), que aparecen en Codelice.com, están protegidos por las leyes vigentes en relación con la propiedad intelectual, y pertenecen a Codelice.com o son objeto de un permiso de uso.
 
@@ -40,9 +40,9 @@ Ningún elemento del sitio web (artículos, imágenes, logo) puede ser copiado, 
 
 ## Datos individuales
 
-Ningun dato personal esta recogido. Este sitio web no usa cookies, no recogemos datos personales de nuestros usuarios.
+Ningún dato personal queda recogido. Este sitio web no usa cookies, no recogemos datos personales de nuestros usuarios.
 
-La Politica de Privacidad y de Protección de datos se puede encontrar en esa pagina : [Politica de Privacidad](/es/politica-privacidad).
+La Politica de Privacidad y de Protección de datos se puede encontrar en esa página : [Politica de Privacidad](/es/politica-privacidad).
 
 ***
 
@@ -50,7 +50,7 @@ La Politica de Privacidad y de Protección de datos se puede encontrar en esa pa
 
 De momento no usamos ninguna herramienta de análisis en nuestro sitio web.
 
-Por cierto, eso podría cambiar en el futuro, por si acaso querríamos mejorar  En este caso, actualizaríamos esta pagina como el contenido de nuestra [Politica de Privacidad](/es/politica-privacidad).
+Eso podría cambiar en el futuro en el caso de que quisiéramos mejorar, si así fuera, actualizaríamos tanto la página como el contenido de nuestra [Politica de Privacidad](/es/politica-privacidad).
 
 ***
 

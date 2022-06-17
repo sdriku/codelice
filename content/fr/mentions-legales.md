@@ -34,7 +34,7 @@ layout: "mentions-legales"
 
 La présentation et chacun des éléments (y compris les marques, logos et noms de domaine) apparaissant sur Codelice.com, sont protégés par les lois en vigueur sur la propriété intellectuelle, et appartiennent à Codelice.com ou font l’objet d’une autorisation d’utilisation.
 
-Aucun élément composant le Site (textes des articles, images, logos) ne peut être copié, reproduit, modifié, réédité, chargé, dénaturé, transmis ou distribué de quelque manière que ce soit, sous quelque support que ce soit, de façon partielle ou intégrale, sans l’autorisation écrite et préalable de Codelice.com et sous réserve du respect des droits de propriété intellectuelle et de tout autre droit de propriété dont il est fait mention.
+Aucun élément composant le site (textes des articles, images, logos) ne peut être copié, reproduit, modifié, réédité, chargé, dénaturé, transmis ou distribué de quelque manière que ce soit, sous quelque support que ce soit, de façon partielle ou intégrale, sans l’autorisation écrite et préalable de Codelice.com et sous réserve du respect des droits de propriété intellectuelle et de tout autre droit de propriété dont il est fait mention.
 
 ***
 
@@ -50,7 +50,7 @@ Notre politique de confidentialité et de protection des données personnelles e
 
 Nous n'utilisons pas actuellement d'outils d'analyse sur notre site.
 
-Cependant la situation pourrait changer à l'avenir, dans le but notamment d'améliorer l'expérience de nos utilisateurs. Si un tel chagement intervenait, nous nous engageons à mettre à jour cette section ainsi que notre [Politique de Confidentialité](/fr/politique-confidentialite).
+Cependant ceci pourrait changer à l'avenir, dans le but notamment d'améliorer l'expérience de nos utilisateurs. Si un tel changement intervenait, nous nous engageons à mettre à jour cette section ainsi que notre [Politique de Confidentialité](/fr/politique-confidentialite).
 
 ***
 

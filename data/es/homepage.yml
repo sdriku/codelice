@@ -389,13 +389,13 @@ counters:
 ################################## Contact ###################
 contact:
   enable: true
-  menuName: Contactanos
+  menuName: Contacto
   map: false
   googleMapsApiKey: ""
   form: true
   action: "/gracias/"
-  title: "Contactanos"
-  description: "Cuéntenos sobre su proyecto y sus objectivos.<br>Contactanos a traves Whatsapp, Correo electronico o el Formulario abajo.<br> Pronto nos pondremos en contacto con usted para revisar todo en detalle."
+  title: "Contacto"
+  description: "Cuéntenos sobre su proyecto y sus objetivos.<br>Contactanos a traves Whatsapp, Correo electronico o el Formulario abajo.<br> Pronto nos pondremos en contacto con usted para revisar todo en detalle."
   details:
     - icon: '/assets/img/icons8-whatsapp-48.png'
       value: '613 212 305'
