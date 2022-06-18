@@ -41,7 +41,7 @@ intro:
   item:
     - title: "Blazing Fast"
       description: "No database, no heavy infrastructure<br>Your site is rendered blazing fast<br><br>"
-      lastLine: "Better Conversion rate & Better SEO ranking"
+      lastLine: "Better Conversion rate & SEO ranking"
 
     - title: "Cheap Hosting"
       description: "A light website is cheap to host<br>Invest your money in what really matters.<br><br>"
@@ -49,9 +49,9 @@ intro:
 
     - title: "High Security"
       description: "No hacking attempt & no virus threat<br>Do not lose clients nor waste your time<br>Static is Safe<br><br>"
-      lastLine: "No downtime"
+      lastLine: "No downtime, our sites never rest"
 
-    - title: "Zero Maintenance"
+    - title: "No Maintenance"
       description: "No themes, no plugins<br>No updates, no back-ups required<br><br>"
       lastLine: "Keep your time for yourself"
 
@@ -61,27 +61,27 @@ intro:
 
     - title: "Great SEO"
       description: "Our sites are SEO ready<br>Insert your keywords in dedicated fields<br><br>"
-      lastLine: "You will be found on Search Engines"
+      lastLine: "Clients will find your website"
 
     - title: "High Stability"
-      description: "Our websites remain stable through high traffic<br>No matter where your clients are located<br>Do not worry about success<br><br>"
+      description: "Our websites handle well high traffic<br>No matter where your clients are located<br>Do not worry about success<br><br>"
       lastLine: "Our sites do not break"
 
     - title: "Mobile Friendly"
-      description: "Strong performance on 3G connections.<br>Do not lose clients over a<br>poorly designed mobile version<br><br>"
+      description: "Strong performance on 3G connections<br>Do not lose clients over a<br>poorly designed mobile version<br><br>"
       lastLine: "Our sites respond well to any device"
 
     - title: "Features-Rich"
-      description: "You want a specific Form to generate leads?<br>A Payment platform or Donation module?<br>An Event section? A Multilingual website?<br><br>"
+      description: "Need a specific Form to generate leads?<br>A Payment platform or Donation module?<br>Event section or Multilingual website?<br><br>"
       lastLine: "What you need is what you get"
 
-    - title: "Our Clients matter"
+    - title: "Free Lifting"
       description: "In six-months time, you need<br>a new section for your latest product?<br>Or a new color for your design?<br><br>"
-      lastLine: "We offer your website a lifting, once a year!"
+      lastLine: "We offer your website a yearly lifting!"
 
-    - title: "Our Clients are rewarded"
-      description: "You love working with us and often<br>mention our solutions to family and friends?<br>For any new contract signed thanks to you<br><br>"
-      lastLine: "10% of the bill goes back to your account!"
+    - title: "Referral Plan"
+      description: "You love working with us and mention<br>our solutions to family and friends?<br>For any new client you send our way<br><br>"
+      lastLine: "10% of the bill goes back to you!"
 
   video:
     enable: false

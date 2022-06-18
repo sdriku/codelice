@@ -40,48 +40,48 @@ intro:
   description: "Tantas opciones existen: Wordpress o Drupal?<br>Squarespace o Wix? WooCommerce o Shopify?"
   item:
     - title: "Alta Velocidad"
-      description: "No base de datos, infrastructura ligera<br>Su sitio web se reproduce con alta velocidad<br><br>"
-      lastLine: "Mejor conversion y Mejor SEO classificacion"
+      description: "No base de datos, infrastructura ligera<br>Su sitio se reproduce con alta velocidad<br><br>"
+      lastLine: "Mejor conversion y SEO ranking"
 
     - title: "Hosting Barato"
       description: "Un sitio ligero esta mas barato<br> Keep your money for what really matters.<br><br>"
       lastLine: "Alojamos su sitio web por 49€/año"
 
     - title: "Alta Seguridad"
-      description: "No intento de hack & no virus<br>Ni pierde clientes ni vuestro tiempo<br>Un sitio estatico es un sitio seguro<br><br>"
-      lastLine: "No inactividad, nuestros sitios nunca descansan"
+      description: "No intento de hack & no virus<br>Ni pierde clientes ni su tiempo<br><br>"
+      lastLine: "Un sitio estático esta seguro"
 
-    - title: "Cero Mantenimiento"
-      description: "No themes, no plugins<br>No actualizaciones ni copias de seguridad<br><br>"
-      lastLine: "Ahorra su tiempo"
+    - title: "No Mantenimiento"
+      description: "No themes, no plugins<br>No actualizaciones<br>No copia de seguridad<br><br>"
+      lastLine: "Ahorrá su tiempo"
 
     - title: "Facil de Editar"
-      description: "Entrega incluye Administrador de Contenido<br>Ningún conocimiento de programación es necesario<br><br>"
-      lastLine: "Modifica el contenido facilmente"
+      description: "Entrega con Admin de Contenido<br>Ningún conocimiento de<br>programación necesario<br><br>"
+      lastLine: "Editá su contenido facilmente"
 
     - title: "Great SEO"
-      description: "Nuestros sitios estan orientados SEO<br>Insert your keywords in dedicated fields<br><br>"
-      lastLine: "You will be found on Search Engines"
+      description: "Nuestros sitios estan orientados SEO<br>Insertá sus palabras clave en los campos SEO<br><br>"
+      lastLine: "Sus clientes encontrarán su sitio"
 
-    - title: "High Stability"
-      description: "Our websites remain stable through high traffic<br>No matter where your clients are located<br>Do not worry about success<br><br>"
-      lastLine: "Our sites do not break"
+    - title: "Alta Estabilidad"
+      description: "Nuestros sitios manejan alto tráfico<br>No importa dónde están sus clientes<br>Tener éxito ya no es un problema <br><br>"
+      lastLine: "Su sitio no se rompe"
 
-    - title: "Mobile Friendly"
-      description: "Strong performance on 3G connections.<br>Do not lose clients over a<br>poorly designed mobile version<br><br>"
-      lastLine: "Our sites respond well to any device"
+    - title: "Optimizado Móvil"
+      description: "Excelente rendimiento en conexión 3G<br>No pierdá clientes a debido<br>de una versión móvil mal diseñada<br><br>"
+      lastLine: "Su sitio se adapta a cualquier dispositivo"
 
-    - title: "Features-Rich"
-      description: "You want a specific Form to generate leads?<br>A Payment platform or Donation module?<br>An Event section? A Multilingual website?<br><br>"
-      lastLine: "What you need is what you get"
+    - title: "Modulable"
+      description: "Quiere un tipo de Formulario específico?<br>Una plataforma de Pago o Donación?<br>Sección Evento? Sitio	Multilingüe?<br><br>"
+      lastLine: "Le diseñamos lo que necesita"
 
-    - title: "Our Clients matter"
-      description: "In six-months time, you need<br>a new section for your latest product?<br>Or a new color for your design?<br><br>"
-      lastLine: "We offer your website a lifting, once a year!"
+    - title: "Lifting Gratis"
+      description: "En 6 meses, necesita una nueva<br>paginá para su último producto?<br>O otros colores para su diseño?<br><br>"
+      lastLine: "Regalamos un lifting, una vez al año!"
 
-    - title: "Our Clients are rewarded"
-      description: "You love working with us and often<br>mention our solutions to family and friends?<br>For any new contract signed thanks to you<br><br>"
-      lastLine: "10% of the bill goes back to your account!"
+    - title: "Referral"
+      description: "Le encanta trabajar con nosostros y<br>aveces lo habla con familia y amigos?<br>Por cada cliente que nos envia<br><br>"
+      lastLine: "10% de la factura vuelve a su cuenta!"
 
   video:
     enable: false

@@ -36,51 +36,51 @@ hero:
 ############################# Intro ############################
 intro:
   enable: true
-  title: "Pourquoi choisir nos solutions"
+  title: "Pourquoi nous choisir"
   description: "Tant de choix disponibles: Wordpress ou Drupal?<br>Squarespace ou Wix? WooCommerce ou Shopify?"
   item:
     - title: "Ultra-Rapide"
-      description: "Pas de base de données, infrastructure légère<br>Sa vitesse d'affichage est excellente<br><br>"
-      lastLine: "Meilleure Conversion et Meilleur classement SEO"
+      description: "Sans base de données<br>Infrastructure légère<br>Excellente vitesse d'affichage<br><br>"
+      lastLine: "Meilleurs Conversion et rang SEO"
 
-    - title: "Hébergement Low-Cost"
+    - title: "Hébergement Eco"
       description: "Un site léger est peu coûteux.<br>Investissez votre argent ailleurs<br><br>"
-      lastLine: "Nous hébergeons votre site pour 39€/an"
+      lastLine: "Hébergement du site pour 49€/an"
 
     - title: "Sécurité Maximum"
       description: "Ni tentative de hack ni menace virale.<br>Ne perdez ni vos clients ni votre temps<br>Un site statique est un site sûr<br><br>"
       lastLine: "Votre site est toujours disponible"
 
-    - title: "Zéro Maintenance"
+    - title: "No Maintenance"
       description: "Ni thêmes ni plugins<br>Ni mises à jour ni sauvegardes requises<br><br>"
       lastLine: "Faites meilleur usage de votre temps"
 
     - title: "Facile à Modifier"
-      description: "Livraison inclue un Gestionnaire de Contenu<br>Aucune connaissance en programmation nécessaire<br><br>"
+      description: "Livraison avec Gestionnaire de Contenu<br>Aucune connaissance en<br>programmation nécessaire<br><br>"
       lastLine: "Gérez votre contenu seul"
 
     - title: "Excellent SEO"
-      description: "Nos sites sont orientés SEO<br>Insérez vos mots-clés dans les champs dédiés<br><br>"
-      lastLine: "Vos clients vous trouveront sur Google"
+      description: "Nos sites sont orientés SEO<br>Insérez vos mots-clés dans les champs SEO dédiés<br><br>"
+      lastLine: "Vos clients trouveront votre website"
 
     - title: "Grande Stabilité"
       description: "Nos sites gèrent les traffics élevés<br>Peu importe où se situent vos clients<br><br>"
-      lastLine: "Nos sites ne cassent pas"
+      lastLine: "Votre site ne casse pas"
 
-    - title: "Adaptatifs"
-      description: "Excellente performance sur connection 3G<br>Vous perdez des clients par la faute d'une version mobile ratée<br><br>"
-      lastLine: "Nos sites s'adaptent à tout type d'écrans"
+    - title: "Optimisés Mobile"
+      description: "Excellente performance en réseau 3G<br>Ne perdez plus de clients par la faute d'une version mobile ratée<br><br>"
+      lastLine: "Votre site s'adapte à tout écran"
 
     - title: "Modulables"
-      description: "Vous souhaitez un Formulaire spécifique?<br>Une plateforme de Paiement ou Donation?<br>Une section Evènements? Un site Multilingue?<br><br>"
-      lastLine: "Nous vous livrons ce dont vous avez besoin"
+      description: "Besoin d'un Formulaire spécifique?<br>Plateforme de Paiement ou Donation?<br>Section Evènements ou site Multilingue?<br><br>"
+      lastLine: "Nous créons selon vos besoin"
 
-    - title: "Nos Clients comptent"
-      description: "Six mois après livraison, vous souhaitez<br>une nouvelle page pour votre dernier produit?<br>Ou une nouvelle couleur pour votre design?<br><br>"
-      lastLine: "Nous offrons une amélioration à l'année à votre site !"
+    - title: "Lifting Gratuit"
+      description: "Six mois après livraison, vous souhaitez<br>une page pour votre nouveau produit?<br>Ajouter une couleur à votre design?<br><br>"
+      lastLine: "Nous vous offrons un lifting annuel!"
 
-    - title: "Nos Clients sont récompensés"
-      description: "Vous aimez travailler avec Codelice et<br>mentionnez nos solutions à vos proches?<br>Pour chaque nouveau client signé grâce à vous<br><br>"
+    - title: "Parrainage"
+      description: "Vous aimez travailler avec nous et<br>en parlez à vos proches?<br>Pour chaque nouveau client parrainé<br><br>"
       lastLine: "10% de la facture vous est offert!"
 
   video:
