@@ -36,7 +36,7 @@ hero:
 ############################# Intro ############################
 intro:
   enable: true
-  title: "Por que trabajar con nosotros?"
+  title: "¿Por que eligirnos?"
   description: "Tantas opciones existen: Wordpress o Drupal?<br>Squarespace o Wix? WooCommerce o Shopify?"
   item:
     - title: "Alta Velocidad"

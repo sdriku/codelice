@@ -36,7 +36,7 @@ hero:
 ############################# Intro ############################
 intro:
   enable: true
-  title: "Why choose our solutions"
+  title: "Why choose us?"
   description: "So many choices out there: Wordpress or Drupal?<br>Squarespace or Wix? WooCommerce or Shopify?"
   item:
     - title: "Blazing Fast"
@@ -49,7 +49,7 @@ intro:
 
     - title: "High Security"
       description: "No hacking attempt & no virus threat<br>Do not lose clients nor waste your time<br>Static is Safe<br><br>"
-      lastLine: "No downtime, our sites never rest"
+      lastLine: "No downtime, your site never rest"
 
     - title: "No Maintenance"
       description: "No themes, no plugins<br>No updates, no back-ups required<br><br>"
@@ -65,11 +65,11 @@ intro:
 
     - title: "High Stability"
       description: "Our websites handle well high traffic<br>No matter where your clients are located<br>Do not worry about success<br><br>"
-      lastLine: "Our sites do not break"
+      lastLine: "Your site does not break"
 
     - title: "Mobile Friendly"
       description: "Strong performance on 3G connections<br>Do not lose clients over a<br>poorly designed mobile version<br><br>"
-      lastLine: "Our sites respond well to any device"
+      lastLine: "Your site responds well to any device"
 
     - title: "Features-Rich"
       description: "Need a specific Form to generate leads?<br>A Payment platform or Donation module?<br>Event section or Multilingual website?<br><br>"
