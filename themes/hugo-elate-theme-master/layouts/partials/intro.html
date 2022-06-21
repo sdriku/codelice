@@ -1,10 +1,10 @@
 <style>
 	@media (max-width:768px) {
 		.mobilevh {
-			height:50vh !important;
+			height:48vh !important;
 		}
 		.mobilevw {
-			width: 100vw !important;
+			width: 96vw !important;
 		}
 	}
 </style>
@@ -26,18 +26,15 @@
 					</div>
 				</div>
 				{{ range .item }}
-				<div class="fh5co-block to-animate mobilevh mobilevw" style="background: #0F2027;  /* fallback for old browsers */
-				background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-				background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-			  ">
+				<div class="fh5co-block to-animate mobilevh mobilevw">
 					<div class="overlay-darker"></div>
-					<div class="overlay"></div>
+					<div class="overlay" style="background: #004345;  /* fallback for old browsers */
+					background: -webkit-linear-gradient(to top, #004345, #007670);  /* Chrome 10-25, Safari 5.1-6 */
+					background: linear-gradient(to top, #004345, #007670); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */border:ridge 4px white;margin:1px"></div>
 					<div class="fh5co-text">
-						<h2 class="btn btn-primary" style="background: #0F2027;  /* fallback for old browsers */
-						background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-						background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */margin-bottom:8%">{{ .title }}</h2>
-						<p style="line-height:2;text-align:center;margin-left:5% !important;margin-right:2%">{{ .description | markdownify }}</p>
-						<p style="background:#FDA870;border: 2px solid #FDA870;font-weight:bold;padding:10px;border-radius:4px;">{{ .lastLine | markdownify }}</p>
+						<h2 class="btn btn-primary" style="background:transparent;border: ridge 2px white !important;margin-bottom:8%;pointer-events: none;">{{ .title }}</h2>
+						<p style="line-height:2;text-align:center;margin-left:5% !important;margin-right:2%;color: white;">{{ .description | markdownify }}</p>
+						<p class="btn-primary" style="background:#EF8C55;font-weight:bold;padding:10px;border-radius:4px;">{{ .lastLine | markdownify }}</p>
 					</div>
 				</div>
 				{{ end }}

@@ -15,7 +15,7 @@
     .position {
 background-color: transparent !important;
 /*color: rgba(255, 255, 255, 0.5);*/
-color: #FDA870;
+color: #EF8C55;
 position: relative;
 font-size: 15px;
 font-weight: 300;
@@ -82,10 +82,6 @@ span:hover {
 
                     {{ if $data.homepage.blog.enable }}
                     <li><a class="external" href="{{ .Site.BaseURL | relLangURL }}/blog" target="_blank"><span>{{ $data.homepage.blog.menuName }}</span></a></li>
-                    {{ end }}
-
-                    {{ if $data.homepage.templates.enable }}
-                    <li><a class="external" href="{{ .Site.BaseURL | relLangURL }}/templates" target="_blank"><span>{{ $data.homepage.templates.menuName }}</span></a></li>
                     {{ end }}
 
                     <li class="lang-list position" style="background-color: transparent !important;"><span style="background-color: transparent !important;">

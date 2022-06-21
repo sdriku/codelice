@@ -26,9 +26,9 @@ home:
 hero:
   enable: true
   title: "/assets/img/codelice-fda870.png"
-  subtitle: 'Desarolladores Web'
-  subtitle2: 'Leading our clients into the digital world, using Jamstack technologies<br><br>High Speed, High Security, Low Maintenance<br><br>Let´s generate great customer experience, 5 star reviews, leads and sales, effortlessly.'
-  button_label: "Start your project"
+  subtitle: 'Desarolladores Web JAMstack'
+  subtitle2: 'Cuidamos a nuestros clientes al mundo digital, según las reglas JAMstack<br><br>Alta Velocidad y Seguridad<br><br>Satisfacción del cliente más alta, más reseñas positivas, subida de ventas'
+  button_label: "Iniciad su proyecto"
  
 # Intro section #
 # Available icons: http://simplelineicons.com/ #
@@ -48,7 +48,7 @@ intro:
       lastLine: "Alojamos su sitio web por 49€/año"
 
     - title: "Alta Seguridad"
-      description: "No intento de hack & no virus<br>Ni pierde clientes ni su tiempo<br><br>"
+      description: "No intento de hack & no virus<br>Ni pierde clientes ni su tiempo<br>Vuestro sitio nunca descansa<br><br>"
       lastLine: "Un sitio estático esta seguro"
 
     - title: "No Mantenimiento"
@@ -56,7 +56,7 @@ intro:
       lastLine: "Ahorrá su tiempo"
 
     - title: "Facil de Editar"
-      description: "Entrega con Admin de Contenido<br>Ningún conocimiento de<br>programación necesario<br><br>"
+      description: "Entrega con Admin de Contenido<br>Ningún conocimiento técnico necesario<br><br>"
       lastLine: "Editá su contenido facilmente"
 
     - title: "Great SEO"
@@ -150,7 +150,7 @@ pricing:
   enable: true
   menuName: "Services"
   title: "Services and Pricing"
-  description: "We charge a fixed price for each project.<br>That way you keep your budget in control, no surprises.<br>We agree upfront on a Guaranteed Performance. If we don´t meet the agreed objectives, you get 25% off the bill. No surprises."
+  description: "We charge a fixed price for your project.<br>You keep expenses under control, no surprises."
 
   tableLg:
     enable: true
@@ -166,6 +166,18 @@ pricing:
           - service : "Website SEO-ready"
           - service : "Mobile-Optimized Website"
           - service : "Fully Integrated Content Management tool"
+          - service : "Free Hosting & Custom Domain the 1st year"
+          - service : "Free Hosting & Custom Domain the 1st year"
+          - service : "Free Hosting & Custom Domain the 1st year"
+        serviceList2:
+          - service : "As many Features as your Website needs"
+          - service : "Custom Design"
+          - service : "1st Class Website Metrics: Performance - SEO - Accessibility"
+          - service : "Website SEO-ready"
+          - service : "Mobile-Optimized Website"
+          - service : "Fully Integrated Content Management tool"
+          - service : "Free Hosting & Custom Domain the 1st year"
+          - service : "Free Hosting & Custom Domain the 1st year"
           - service : "Free Hosting & Custom Domain the 1st year"
 
         button:
@@ -330,14 +342,6 @@ blog:
       description: "We talk here about what we can do. And about what we cannot do. Because even though this makes a very sad, in specific cases our clients are indeed better off with a dynamic website. Let´s review all of this here"
       link: "/blog/#jamstack-pros-cons"
       link2: "#jamstack-pros-cons"
-
-#################################### Templates ########################
-templates:
-  enable: true
-  menuName: Templates Collection - Find Yours!
-  link: "templates/"
-  title: "Browse our Templates Collection"
-  description: "Looking to create a template on a budget?<br>You own a Bar or a Restaurant? A Local Business or an E-commerce? You are a Freelancer looking to set up his portfolio, or an Event Organizer looking to promote his next gathering?<br>Have a look below, we have what you are looking for"
 
 ############################## Counters ##########################
 counters:

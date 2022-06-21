@@ -1,12 +1,12 @@
 <style>
   .card-pricing {
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #004345;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #004345, #007670);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #004345, #007670); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
-  max-width: 50vw !important;
+  max-width: 80vw;
   margin-right:auto;
   margin-left: auto;
   border-radius: 25px;
@@ -91,14 +91,25 @@
           <div class="card-body text-center card-pricing" style="color:white;padding-top:15px;padding-bottom:15px;border-radius:25px">
             <h4 class="text-black display-3" style="margin-bottom:15px !important">{{ .title }}</h4>
             <p class="text-light display-2" style="margin-bottom:5% !important">{{ .subtitle | markdownify }}</p>
-            <ul class="list-unstyled text-left lgtable" style="margin-bottom:30px !important;margin-left:15vw">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+            <ul class="list-unstyled text-left lgtable" style="margin-bottom:30px !important">
               {{ range .serviceList }}
-              <li class="text-white" style="margin-bottom:15px !important">{{ .service | markdownify }}</li>
+              <li class="text-white" style="margin-bottom:15px !important;margin-left:10%">{{ .service | markdownify }}</li>
               {{ end }}
             </ul>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <ul class="list-unstyled text-left lgtable" style="margin-bottom:30px !important;">
+              {{ range .serviceList2 }}
+              <li class="text-white" style="margin-bottom:15px !important;margin-left:10%">{{ .service | markdownify }}</li>
+              {{ end }}
+            </ul>
+          </div>
+          <div class="col-lg-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
             {{ with .button }}
             <a href="{{ site.BaseURL | relLangURL }}{{ .link }}" class="btn btn-primary btn-lg">{{ .label }}</a>
             {{ end }}
+          </div>
           </div>
         </div>
       </div>
@@ -116,7 +127,7 @@
           <div class="card-body text-center card-pricing" style="color:white;padding-top:15px;padding-bottom:15px;border-radius:25px">
             <h4 class="text-black display-3" style="margin-bottom:15px !important">{{ .title }}</h4>
             <p class="text-light display-2" style="margin-bottom:5% !important">{{ .subtitle | markdownify }}</p>
-            <ul class="list-unstyled text-left" style="margin-bottom:30px !important;margin-left:7.5vw">
+            <ul class="list-unstyled text-left" style="margin-bottom:30px !important;margin-left:15%">
               {{ range .serviceList }}
               <li class="text-white" style="margin-bottom:15px !important">{{ .service | markdownify }}</li>
               {{ end }}

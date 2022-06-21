@@ -26,9 +26,9 @@ home:
 hero:
   enable: true
   title: "/assets/img/codelice-fda870.png"
-  subtitle: 'Développeurs Web'
-  subtitle2: 'Nous assurons à nos clients un passage au monde digital sans heurts<br><br>High Speed, High Security, Low Maintenance<br><br>Let´s generate great customer experience, 5 star reviews, leads and sales, effortlessly.'
-  button_label: "Start your project"
+  subtitle: 'Développeurs Web JAMstack'
+  subtitle2: 'Nous accompagnons votre entrée sur le web, selon les principes JAMstack<br><br>Grande Rapidité et Haute Sécurité<br><br>Expérience client unique, plus de revues positives, hausse de vos revenus'
+  button_label: "Lancez votre projet"
  
 # Intro section #
 # Available icons: http://simplelineicons.com/ #
@@ -40,7 +40,7 @@ intro:
   description: "Tant de choix disponibles: Wordpress ou Drupal?<br>Squarespace ou Wix? WooCommerce ou Shopify?"
   item:
     - title: "Ultra-Rapide"
-      description: "Sans base de données<br>Infrastructure légère<br>Excellente vitesse d'affichage<br><br>"
+      description: "Infrastructure légère<br>Excellente vitesse d'affichage<br><br>"
       lastLine: "Meilleurs Conversion et rang SEO"
 
     - title: "Hébergement Eco"
@@ -48,15 +48,15 @@ intro:
       lastLine: "Hébergement du site pour 49€/an"
 
     - title: "Sécurité Maximum"
-      description: "Ni tentative de hack ni menace virale.<br>Ne perdez ni vos clients ni votre temps<br>Un site statique est un site sûr<br><br>"
+      description: "Ni tentative de hack ni menace virale.<br>Ne perdez ni vos clients ni votre temps<br><br>"
       lastLine: "Votre site est toujours disponible"
 
-    - title: "No Maintenance"
+    - title: "0 Maintenance"
       description: "Ni thêmes ni plugins<br>Ni mises à jour ni sauvegardes requises<br><br>"
       lastLine: "Faites meilleur usage de votre temps"
 
     - title: "Facile à Modifier"
-      description: "Livraison avec Gestionnaire de Contenu<br>Aucune connaissance en<br>programmation nécessaire<br><br>"
+      description: "Livraison avec Gestionnaire de Contenu<br>Aucune connaissance technique requise<br><br>"
       lastLine: "Gérez votre contenu seul"
 
     - title: "Excellent SEO"
@@ -68,7 +68,7 @@ intro:
       lastLine: "Votre site ne casse pas"
 
     - title: "Optimisés Mobile"
-      description: "Excellente performance en réseau 3G<br>Ne perdez plus de clients par la faute d'une version mobile ratée<br><br>"
+      description: "Excellente performance en réseau 3G<br>Ne perdez plus de clients à cause d'une version mobile ratée<br><br>"
       lastLine: "Votre site s'adapte à tout écran"
 
     - title: "Modulables"
@@ -150,7 +150,7 @@ pricing:
   enable: true
   menuName: "Services"
   title: "Services and Pricing"
-  description: "We charge a fixed price for each project.<br>That way you keep your budget in control, no surprises.<br>We agree upfront on a Guaranteed Performance. If we don´t meet the agreed objectives, you get 25% off the bill. No surprises."
+  description: "We charge a fixed price for your project.<br>You keep expenses under control, no surprises."
 
   tableLg:
     enable: true
@@ -166,6 +166,18 @@ pricing:
           - service : "Website SEO-ready"
           - service : "Mobile-Optimized Website"
           - service : "Fully Integrated Content Management tool"
+          - service : "Free Hosting & Custom Domain the 1st year"
+          - service : "Free Hosting & Custom Domain the 1st year"
+          - service : "Free Hosting & Custom Domain the 1st year"
+        serviceList2:
+          - service : "As many Features as your Website needs"
+          - service : "Custom Design"
+          - service : "1st Class Website Metrics: Performance - SEO - Accessibility"
+          - service : "Website SEO-ready"
+          - service : "Mobile-Optimized Website"
+          - service : "Fully Integrated Content Management tool"
+          - service : "Free Hosting & Custom Domain the 1st year"
+          - service : "Free Hosting & Custom Domain the 1st year"
           - service : "Free Hosting & Custom Domain the 1st year"
 
         button:
@@ -330,14 +342,6 @@ blog:
       description: "We talk here about what we can do. And about what we cannot do. Because even though this makes a very sad, in specific cases our clients are indeed better off with a dynamic website. Let´s review all of this here"
       link: "/blog/#jamstack-pros-cons"
       link2: "#jamstack-pros-cons"
-
-#################################### Templates ########################
-templates:
-  enable: true
-  menuName: Templates Collection - Find Yours!
-  link: "templates/"
-  title: "Browse our Templates Collection"
-  description: "Looking to create a template on a budget?<br>You own a Bar or a Restaurant? A Local Business or an E-commerce? You are a Freelancer looking to set up his portfolio, or an Event Organizer looking to promote his next gathering?<br>Have a look below, we have what you are looking for"
 
 ############################## Counters ##########################
 counters:

@@ -11,6 +11,7 @@
 *	Edit this section
 *
 * ======================================================= */
+/*previous color: FDA870*/
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 300;
@@ -24,13 +25,13 @@ body {
 }
 
 a {
-  color: #FDA870;
+  color: #EF8C55;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus, a:after {
-  color: #FDA870;
+  color: #EF8C55;
   outline: none;
 }
 
@@ -214,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #fh5co-header .navbar-brand {
-    color: #FDA870 !important;
+    color: #EF8C55 !important;
   }
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -223,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
   }
   #fh5co-header #navbar li a:hover {
-    color: #FDA870 !important;
+    color: #EF8C55 !important;
   }
   #fh5co-header #navbar li a span:before {
     background: transparent !important;
@@ -231,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #FDA870 !important;
+    color: #EF8C55 !important;
   }
   #fh5co-header #navbar li.active a span:before {
     visibility: visible;
@@ -245,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header #navbar li a {
   font-family: "Source Sans Pro", Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   position: relative;
   font-size: 19px;
   font-weight: 300;
@@ -315,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
-  color: #FDA870;
+  color: #EF8C55;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
@@ -324,18 +325,18 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
-  color: #FDA870;
+  color: #EF8C55;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #FDA870;
+  color: #EF8C55;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  background-color: #FDA870;
+  background-color: #EF8C55;
 }
 #fh5co-header .navbar-default {
   border: transparent;
@@ -359,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #adadad;
 }
 #fh5co-header .navbar-default .brand-slogan em {
-  color: #FDA870;
+  color: #EF8C55;
   font-style: normal;
 }
 #fh5co-header a {
@@ -377,6 +378,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #bdc3c7;
   color: #fff;
   overflow: hidden;
+  max-height: 110vh;
 }
 
 #fh5co-home .gradient {
@@ -388,8 +390,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   opacity: .9;
   -webkit-backface-visibility: hidden;
-  background: #2C5364;
 }
+
 #fh5co-home, #fh5co-home .text-wrap {
   height: 900px;a:serv
 }
@@ -491,17 +493,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   vertical-align: middle;
   padding: 30px;
-  background: #fff;
-  -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
-  -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
-  -ms-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
-  -o-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
-  box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
-  z-index: 7;
-  flex-grow: 1;
-  background-size: cover;
-  position: relative;
-  background-repeat: no-repeat;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro .fh5co-block {
@@ -513,8 +504,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-intro .fh5co-block > .overlay-darker {
   z-index: 8;
-  opacity: .5;
-  background: #474747;
+  background: #004345;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #004345, #007670);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #004345, #007670); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: absolute;
   left: 0;
   right: 0;
@@ -540,7 +532,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-intro .fh5co-block > .fh5co-text .fh5co-intro-icon {
   font-size: 50px;
-  color: #FDA870;
+  color: #EF8C55;
   margin-bottom: 30px;
   display: block;
 }
@@ -566,8 +558,8 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 #fh5co-intro .fh5co-block:hover .btn:hover, #fh5co-intro .fh5co-block:focus .btn:hover {
-  background: #FDA870 !important;
-  border: 2px solid #FDA870 !important;
+  background: #EF8C55 !important;
+  border: 2px solid #EF8C55 !important;
 }
 
 .watch-video {
@@ -589,7 +581,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 120px;
   width: 120px;
   margin: 0 auto;
-  border: 2px solid #FDA870;
+  border: 2px solid #EF8C55;
   line-height: 0px;
   display: table;
   text-align: center;
@@ -639,9 +631,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-services {
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #004345;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #004345, #007670);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #004345, #007670); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
@@ -691,14 +683,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #fh5co-services .section-heading h2.left-border:after {
-  background: #FDA870;
+  background: #EF8C55;
 }
 #fh5co-services a {
-  color: #FDA870;
+  color: #EF8C55;
   text-decoration: underline;
 }
 #fh5co-services a:hover {
-  color: #FDA870;
+  color: #EF8C55;
 }
 
 
@@ -738,7 +730,7 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 #fh5co-pricing .section-heading h2.left-border:after {
-  background: #FDA870;
+  background: #EF8C55;
 }
 #fh5co-pricing a {
   color: black;
@@ -746,12 +738,12 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: underline;
 }
 #fh5co-pricing a:hover {
-  color:#FDA870;
+  color:#EF8C55;
 }
 
 
 #fh5co-counters {
-  background: #FDA870;
+  background: #EF8C55;
   overflow: hidden;
   background-color: transparent;
   background-size: cover;
@@ -830,7 +822,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-icon {
   font-size: 40px;
-  color: #FDA870;
+  color: #EF8C55;
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-number {
   font-size: 70px;
@@ -859,7 +851,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: none;
   padding: 30px;
   background: #fff;
-  background: #FDA870;
+  background: #EF8C55;
   font-size: 20px;
   font-weight: 300;
   position: relative;
@@ -875,7 +867,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 40px;
   border-top: 10px solid black;
   border-top-color: #fff;
-  border-top-color: #FDA870;
+  border-top-color: #EF8C55;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
@@ -891,7 +883,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 #fh5co-testimonials .box-testimony .author a {
-  color: #FDA870;
+  color: #EF8C55;
 }
 #fh5co-testimonials .box-testimony .author a:hover {
   text-decoration: underline;
@@ -922,16 +914,16 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.8);
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #004345;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #004345, #007670);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #004345, #007670); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #fh5co-work a {
-  color: #FDA870;
+  color: #EF8C55;
   text-decoration: underline;
 }
 #fh5co-work a:hover {
-  color: #FDA870;
+  color: #EF8C55;
 }
 #fh5co-work:before, #fh5co-work:after {
   position: absolute;
@@ -960,7 +952,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #fh5co-work .section-heading h2:after {
-  background: #FDA870;
+  background: #EF8C55;
 }
 #fh5co-work .section-heading h3 {
   color: rgba(255, 255, 255, 0.8);
@@ -1057,7 +1049,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
 }
 .fh5co-person .fh5co-position {
-  color: #FDA870;
+  color: #EF8C55;
   display: block;
   margin-bottom: 20px;
 }
@@ -1073,7 +1065,7 @@ h1, h2, h3, h4, h5, h6 {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #FDA870;
+  border-color: #EF8C55;
 }
 
 .btn {
@@ -1129,7 +1121,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 80px;
   height: 2px;
-  background: #FDA870;
+  background: #EF8C55;
   left: 0%;
   margin-left: 0px;
   bottom: 0;
@@ -1140,7 +1132,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 80px;
   height: 2px;
-  background: #FDA870;
+  background: #EF8C55;
   left: 50%;
   margin-left: -40px;
   bottom: 0;
@@ -1175,7 +1167,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-  background: #FDA870;
+  background: #EF8C55;
 }
 .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
   outline: none;
@@ -1189,18 +1181,18 @@ h1, h2, h3, h4, h5, h6 {
   *display: inline;
   width: 25px;
   height: 3px;
-  color: #FDA870;
+  color: #EF8C55;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #FDA870;
+  background: #EF8C55;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
-  background: #FDA870;
+  background: #EF8C55;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -1269,9 +1261,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 50px 0;
   color: white;
   position: relative;
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #2C5364, #203A43);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #2C5364, #203A43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #004345;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #004345, #007670);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #004345, #007670); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
 #footer .gotop {
   position: absolute;
@@ -1293,9 +1285,9 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #2C5364, #203A43);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #2C5364, #203A43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #004345;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #004345, #007670);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #004345, #007670); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #footer .gotop:hover, #footer .gotop:focus {
   top: -25px;
@@ -1315,14 +1307,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #FDA870;
+  background: #EF8C55;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #FDA870;
+  background: #EF8C55;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -1362,11 +1354,11 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: none;
 }
 .social li a.social-box {
-  background: #FDA870;
+  background: #EF8C55;
   color: #fff;
 }
 .social li a.social-circle {
-  background: #FDA870;
+  background: #EF8C55;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1377,11 +1369,11 @@ h1, h2, h3, h4, h5, h6 {
   background: #393e46 !important;
 }
 .social.social-box a {
-  background: #FDA870;
+  background: #EF8C55;
   color: #fff;
 }
 .social.social-circle a {
-  background: #FDA870;
+  background: #EF8C55;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
