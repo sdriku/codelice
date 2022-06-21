@@ -44,7 +44,7 @@ intro:
       lastLine: "Better Conversion rate & SEO ranking"
 
     - title: "Cheap Hosting"
-      description: "A light website is cheap to host<br>Invest your money in what really matters.<br><br>"
+      description: "A light website is cheap to host<br>Invest your money in what really matters<br><br>"
       lastLine: "We host your website for 49€/year"
 
     - title: "High Security"
@@ -316,7 +316,7 @@ about:
 
 #################################### Blog ########################
 blog:
-  enable: true
+  enable: false
   menuName: "Blog"
   link: "blog/"
   title: "Our Latest Articles"

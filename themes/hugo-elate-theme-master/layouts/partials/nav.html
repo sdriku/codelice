@@ -14,8 +14,7 @@
 
 .position {
 background-color: transparent !important;
-/*color: rgba(255, 255, 255, 0.5);*/
-color: #EF8C55;
+color: #A2BABB;
 position: relative;
 font-size: 15px;
 font-weight: 300;
@@ -23,18 +22,6 @@ border: none;
 margin-top: 9px;
 margin-left: 6px;
 cursor: pointer;
-}
-
-li:hover {
-  background-color: transparent !important;
-}
-
-.position:hover{
-  background-color: transparent !important;
-}
-
-span:hover {
-  background-color: transparent !important;
 }
 
 .flagselect {
@@ -98,11 +85,11 @@ span:hover {
                     {{ end }}
 
                     {{ if $data.homepage.contact.enable }}
-                    <li><a href="#" data-nav-section="contact"><span style="font-weight:bolder !important;">{{ $data.homepage.contact.menuName }}</span></a></li> 
+                    <li><a href="#" data-nav-section="contact"><span>{{ $data.homepage.contact.menuName }}</span></a></li> 
                     {{ end }}
 
                     {{ if $data.homepage.blog.enable }}
-                    <li><a class="external" href="{{ $data.homepage.blog.link }}"><span>{{ $data.homepage.blog.menuName }}</span></a></li>
+                    <li><a class="external" href="{{ $data.homepage.blog.link }}" target="_blank"><span>{{ $data.homepage.blog.menuName }}</span></a></li>
                     {{ end }}
                     
                     <li class="lang-list position" style="background-color: transparent !important;"><span style="background-color: transparent !important;">
@@ -117,11 +104,10 @@ span:hover {
                       {{ if eq $translation.Lang .Lang }}
                       {{ $selected := false }}
                       {{ if eq $pageLang .Lang}}
-                      <option class="flagselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .Params.languageFlag }}  {{ .LanguageName }}
-                      </option>
-                      {{ else }}
-                      <option class="flagnoselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-                      {{ end }}
+                      <option class="flagselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .Params.languageFlag }}  {{ .Params.languageNameShort }}
+                        {{ else }}
+                        <option class="flagnoselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+                        {{ end }}
                       {{ end }}
                       {{ end }}
                       {{ end }}

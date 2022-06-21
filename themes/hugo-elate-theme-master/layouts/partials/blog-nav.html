@@ -15,7 +15,7 @@
     .position {
 background-color: transparent !important;
 /*color: rgba(255, 255, 255, 0.5);*/
-color: #EF8C55;
+color: #A2BABB;
 position: relative;
 font-size: 15px;
 font-weight: 300;
@@ -96,7 +96,7 @@ span:hover {
                         {{ if eq $translation.Lang .Lang }}
                         {{ $selected := false }}
                         {{ if eq $pageLang .Lang}}
-                        <option class="flagselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .Params.languageFlag }}  {{ .LanguageName }}
+                        <option class="flagselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .Params.languageFlag }}  {{ .Params.languageNameShort }}
                         </option>
                         {{ else }}
                         <option class="flagnoselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>

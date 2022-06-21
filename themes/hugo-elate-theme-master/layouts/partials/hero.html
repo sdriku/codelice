@@ -26,18 +26,17 @@
     font-size: 12px !important;
   }
 }
-@media (min-width:900px) {
+@media (min-width:1000px) {
   .hero-align {
     margin-left:25vw;
   }
 }
-@media (max-width:1000px) {
+@media (max-width:750px) {
   .hero-mobile {
-    margin-top:-15%;
+    position: fixed;
+    top:15%;
   }
 }
-
-
 </style>
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
@@ -53,7 +52,7 @@
 					<div class="row">
 							<div class="col-md-12 col-sm-12 text-left hero-align hero-mobile">
 							<h2 class="to-animate" style="margin-bottom:30px">{{ with $data.homepage.hero.subtitle }}{{ . | markdownify }}{{ end }}</h2>
-							<h3 class="to-animate" style="margin-bottom:5%; line-height: 1.8;">{{ with $data.homepage.hero.subtitle2 }}{{ . | markdownify }}{{ end }}</h3>
+							<h3 class="to-animate" style="margin-bottom:10%; line-height: 1.8;">{{ with $data.homepage.hero.subtitle2 }}{{ . | markdownify }}{{ end }}</h3>
               <a href="#fh5co-contact" class="btn btn-primary btn-lg">{{ with $data.homepage.hero.button_label }}{{ . | markdownify }}{{ end }}</a>
             </div>
 						</div>

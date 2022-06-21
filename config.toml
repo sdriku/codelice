@@ -43,8 +43,8 @@ unsafe = true
 ############## English language ##############
 [Languages.en]
   languageName = "English"
-  languageNameShort = "en"
-  languageFlag = ""
+  languageNameShort = "En"
+  languageFlag = "🇬🇧"
   languageCode = "en-gb"
   contentDir = "content/en"
   weight = 1
@@ -71,8 +71,8 @@ unsafe = true
 ############## French language ##############
 [Languages.fr]
   languageName = "Français"
-  languageNameShort = "fr"
-  languageFlag = ""
+  languageNameShort = "Fr"
+  languageFlag = "🇫🇷"
   languageCode = "fr-fr"
   contentDir = "content/fr"
   weight = 2
@@ -99,8 +99,8 @@ unsafe = true
 ############## Spanish language ##############
 [Languages.es]
   languageName = "Español"
-  languageNameShort = "es"
-  languageFlag = ""
+  languageNameShort = "Es"
+  languageFlag = "🇪🇸"
   languageCode = "es-es"
   contentDir = "content/es"
   weight = 3

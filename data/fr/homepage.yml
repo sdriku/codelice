@@ -44,11 +44,11 @@ intro:
       lastLine: "Meilleurs Conversion et rang SEO"
 
     - title: "Hébergement Eco"
-      description: "Un site léger est peu coûteux.<br>Investissez votre argent ailleurs<br><br>"
+      description: "Un site léger est peu coûteux<br>Investissez votre argent ailleurs<br><br>"
       lastLine: "Hébergement du site pour 49€/an"
 
     - title: "Sécurité Maximum"
-      description: "Ni tentative de hack ni menace virale.<br>Ne perdez ni vos clients ni votre temps<br><br>"
+      description: "Ni tentative de hack ni menace virale<br>Ne perdez ni vos clients ni votre temps<br><br>"
       lastLine: "Votre site est toujours disponible"
 
     - title: "0 Maintenance"
@@ -316,7 +316,7 @@ about:
 
 #################################### Blog ########################
 blog:
-  enable: true
+  enable: false
   menuName: "Blog"
   link: "blog/"
   title: "Our Latest Articles"

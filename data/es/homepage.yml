@@ -44,7 +44,7 @@ intro:
       lastLine: "Mejor conversion y SEO ranking"
 
     - title: "Hosting Barato"
-      description: "Un sitio ligero esta mas barato<br> Keep your money for what really matters.<br><br>"
+      description: "Un sitio ligero esta mas barato<br> Keep your money for what really matters<br><br>"
       lastLine: "Alojamos su sitio web por 49€/año"
 
     - title: "Alta Seguridad"
@@ -316,7 +316,7 @@ about:
 
 #################################### Blog ########################
 blog:
-  enable: true
+  enable: false
   menuName: "Blog"
   link: "blog/"
   title: "Our Latest Articles"
