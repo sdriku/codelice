@@ -375,10 +375,11 @@ h1, h2, h3, h4, h5, h6 {
   background-attachment: fixed;
   position: relative;
   width: 100%;
+  height: fit-content;
   background-color: #bdc3c7;
   color: #fff;
   overflow: hidden;
-  max-height: 110vh;
+  max-height: 120vh;
 }
 
 #fh5co-home .gradient {
