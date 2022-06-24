@@ -37,7 +37,7 @@ hero:
 intro:
   enable: true
   title: "Why choose us & go JAMstack?"
-  description: "So many choices out there: Wordpress or Drupal?<br>Squarespace or Wix? WooCommerce or Shopify?"
+  description: "10 reasons why Static will suit your needs,<br>say goodbye to Wordpress, Drupal and Squarespace!"
   item:
     - title: "Blazing Fast"
       description: "No database, no heavy infrastructure<br>Your site is rendered blazing fast<br><br>"
@@ -163,17 +163,13 @@ pricing:
           - service : "Mobile-Optimized Website"
           - service : "Fully Integrated Content Management tool"
           - service : "Free Hosting & Custom Domain the 1st year"
-          - service : "Free Hosting & Custom Domain the 1st year"
-          - service : "Free Hosting & Custom Domain the 1st year"
         serviceList2:
-          - service : "As many Features as your Website needs"
+          - service : "1 hour class on how to use your Content Management Tool"
           - service : "Custom Design"
           - service : "1st Class Website Metrics: Performance - SEO - Accessibility"
           - service : "Website SEO-ready"
           - service : "Mobile-Optimized Website"
           - service : "Fully Integrated Content Management tool"
-          - service : "Free Hosting & Custom Domain the 1st year"
-          - service : "Free Hosting & Custom Domain the 1st year"
           - service : "Free Hosting & Custom Domain the 1st year"
 
         button:
@@ -192,12 +188,12 @@ pricing:
           - service : "Quick customisation: we add or remove Pages, rename Sections, change Design basics (Colors and Typography)"
           - service : "Price also includes: Top Performance, Top SEO & Accessibility scores, Hosting setup, Content Management tool Configuration"
           - service : "Go Multilingual: optional for 100€ extra per language"
-          - service : "Free Hosting the 1st year, 39€ after that"
+          - service : "Free Hosting the 1st year, 49€ after that"
           - service : "Our Hosting comes with 2 free modifications a year"
 
         button:
           label : "Find my Template"
-          link : "/templates"
+          link : "https://www.codomatik.com"
           target: "_blank"
 
 
@@ -231,7 +227,7 @@ pricing:
           - service : "pay extra for x y z functionnality"
           - service : "how much does it really cost to go Wpress or SqSpace?"
           - service : "Calculate for each the time spent"
-          - service : "Compare it to my 39€ a year package + price of website"
+          - service : "Compare it to my 49€ a year package + price of website"
 
         button:
           label : "Request a Quote"
@@ -292,7 +288,7 @@ about:
   enable: true
   menuName: "About"
   title: "About"
-  description: "We are a Team of 3 developers, master at finding the right solution for your case and at delivering projects within deadlines."
+  description: "We are a team of 3 developers, master at finding the right solutions for your project."
   
   item:
     - name: "Cedric"
@@ -384,7 +380,7 @@ contact:
   form: true
   action: "/thanks/"
   title: "Get in touch"
-  description: "Tell us about your Project, your Goals, your Budget.<br>Via Whatsapp, Email or this Contact form.<br>We get back to you within a day."
+  description: "Tell us about your Project, your Goals, your Budget.<br>We get back to you within a day."
   details:
     - icon: '/assets/img/icons8-whatsapp-48.png'
       value: '+33 7 45 43 38 43<br>+34 613 212 305'

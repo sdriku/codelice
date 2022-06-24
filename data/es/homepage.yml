@@ -37,7 +37,7 @@ hero:
 intro:
   enable: true
   title: "¿Por que eligirnos?"
-  description: "Tantas opciones existen: Wordpress o Drupal?<br>Squarespace o Wix? WooCommerce o Shopify?"
+  description: "10 buen motivos para eligir un sitio estatico,<br>dile goodbye a Wordpress, Drupal y Squarespace!"
   item:
     - title: "Alta Velocidad"
       description: "No base de datos, infrastructura ligera<br>Su sitio se reproduce con alta velocidad<br><br>"
@@ -163,8 +163,6 @@ pricing:
           - service : "Mobile-Optimized Website"
           - service : "Fully Integrated Content Management tool"
           - service : "Free Hosting & Custom Domain the 1st year"
-          - service : "Free Hosting & Custom Domain the 1st year"
-          - service : "Free Hosting & Custom Domain the 1st year"
         serviceList2:
           - service : "As many Features as your Website needs"
           - service : "Custom Design"
@@ -172,8 +170,6 @@ pricing:
           - service : "Website SEO-ready"
           - service : "Mobile-Optimized Website"
           - service : "Fully Integrated Content Management tool"
-          - service : "Free Hosting & Custom Domain the 1st year"
-          - service : "Free Hosting & Custom Domain the 1st year"
           - service : "Free Hosting & Custom Domain the 1st year"
 
         button:
@@ -192,12 +188,12 @@ pricing:
           - service : "Quick customisation: we add or remove Pages, rename Sections, change Design basics (Colors and Typography)"
           - service : "Price also includes: Top Performance, Top SEO & Accessibility scores, Hosting setup, Content Management tool Configuration"
           - service : "Go Multilingual: optional for 100€ extra per language"
-          - service : "Free Hosting the 1st year, 39€ after that"
+          - service : "Free Hosting the 1st year, 49€ after that"
           - service : "Our Hosting comes with 2 free modifications a year"
 
         button:
           label : "Find my Template"
-          link : "/templates"
+          link : "https://www.codomatik.com"
           target: "_blank"
 
 
@@ -231,7 +227,7 @@ pricing:
           - service : "pay extra for x y z functionnality"
           - service : "how much does it really cost to go Wpress or SqSpace?"
           - service : "Calculate for each the time spent"
-          - service : "Compare it to my 39€ a year package + price of website"
+          - service : "Compare it to my 49€ a year package + price of website"
 
         button:
           label : "Request a Quote"
@@ -292,7 +288,7 @@ about:
   enable: true
   menuName: "Quiénes somos"
   title: "Quiénes somos"
-  description: "Somos un equipo de 3 desarrolladores, expertos en encontrar la solución adecuada a su caso y en entregar proyectos dentro de los plazos."
+  description: "Somos un equipo de 3 desarrolladores, expertos en encontrar la solución adecuada a su caso."
   
   item:
     - name: "Cedric"
@@ -384,7 +380,7 @@ contact:
   form: true
   action: "/gracias/"
   title: "Contacto"
-  description: "Cuéntenos sobre su proyecto y sus objetivos.<br>Contactanos a traves Whatsapp, Correo electronico o el Formulario abajo.<br> Pronto nos pondremos en contacto con usted para revisar todo en detalle."
+  description: "Cuéntenos sobre su Proyecto, sus Objetivos, su Presupuesto.<br>Pronto os contactaremos para revisar todo en detalle."
   details:
     - icon: '/assets/img/icons8-whatsapp-48.png'
       value: '613 212 305'

@@ -37,7 +37,7 @@ hero:
 intro:
   enable: true
   title: "Pourquoi nous choisir?"
-  description: "Tant de choix disponibles: Wordpress ou Drupal?<br>Squarespace ou Wix? WooCommerce ou Shopify?"
+  description: "10 bonnes raisons de choisir un site statique,<br> dites au revoir à Wordpress, Drupal et Squarespace!"
   item:
     - title: "Ultra-Rapide"
       description: "Infrastructure légère<br>Excellente vitesse d'affichage<br><br>"
@@ -163,8 +163,6 @@ pricing:
           - service : "Mobile-Optimized Website"
           - service : "Fully Integrated Content Management tool"
           - service : "Free Hosting & Custom Domain the 1st year"
-          - service : "Free Hosting & Custom Domain the 1st year"
-          - service : "Free Hosting & Custom Domain the 1st year"
         serviceList2:
           - service : "As many Features as your Website needs"
           - service : "Custom Design"
@@ -172,8 +170,6 @@ pricing:
           - service : "Website SEO-ready"
           - service : "Mobile-Optimized Website"
           - service : "Fully Integrated Content Management tool"
-          - service : "Free Hosting & Custom Domain the 1st year"
-          - service : "Free Hosting & Custom Domain the 1st year"
           - service : "Free Hosting & Custom Domain the 1st year"
 
         button:
@@ -188,16 +184,16 @@ pricing:
         subtitle : "Let´s start from one of our templates"
         # service list
         serviceList:
-          - service : "Price of each template already set - no surprises"
+          - service : "Basic price of each template is already set - no surprises"
           - service : "Quick customisation: we add or remove Pages, rename Sections, change Design basics (Colors and Typography)"
           - service : "Price also includes: Top Performance, Top SEO & Accessibility scores, Hosting setup, Content Management tool Configuration"
           - service : "Go Multilingual: optional for 100€ extra per language"
-          - service : "Free Hosting the 1st year, 39€ after that"
+          - service : "Free Hosting the 1st year, 49€ after that"
           - service : "Our Hosting comes with 2 free modifications a year"
 
         button:
           label : "Find my Template"
-          link : "/templates"
+          link : "https://www.codomatik.com"
           target: "_blank"
 
 
@@ -207,7 +203,7 @@ pricing:
         # service list
         serviceList:
           - service : "Domain migration"
-          - service : "Architecure migrated as it was, or Restrucured if needed"
+          - service : "Architecure migrated as it was, or Restructured if needed"
           - service : "SEO-first approach, so migration does not affect current ranking"
           - service : "Design migrated as it was or Redesign if necessary"
           - service : "Content Management System migration"
@@ -231,7 +227,7 @@ pricing:
           - service : "pay extra for x y z functionnality"
           - service : "how much does it really cost to go Wpress or SqSpace?"
           - service : "Calculate for each the time spent"
-          - service : "Compare it to my 39€ a year package + price of website"
+          - service : "Compare it to my 49€ a year package + price of website"
 
         button:
           label : "Request a Quote"
@@ -292,7 +288,7 @@ about:
   enable: true
   menuName: "A propos"
   title: "A propos"
-  description: "Nous sommes une équipe de 3 développeurs, spécialistes à livrer dans les délais la solution adaptée à votre projet."
+  description: "Nous sommes une équipe de 3 développeurs, spécialistes à livrer des solutions adaptées à votre projet."
   
   item:
     - name: "Cedric"
@@ -384,7 +380,7 @@ contact:
   form: true
   action: "/merci/"
   title: "Contactez-nous"
-  description: "Vous souhaitez nous parler de votre projet, recevoir un devis, ou simplement nous poser une question?<br>Contactez-nous via Whatsapp, Courriel ou le Formulaire ci-dessous et nous reviendrons vers vous sous 24h."
+  description: "Parlez-nous de votre Projet, vos Objectifs, votre Budget.<br>Nous revenons vers vous sous 24h."
   details:
     - icon: '/assets/img/icons8-whatsapp-48.png'
       value: '07 45 43 38 43'
