@@ -76,7 +76,7 @@ unsafe = true
   languageCode = "fr-fr"
   contentDir = "content/fr"
   weight = 2
-  title = "Welcome to Codelice"
+  title = "Bienvenue chez Codelice"
   description = ""
   home = "Accueil"
   # footer content
@@ -104,7 +104,7 @@ unsafe = true
   languageCode = "es-es"
   contentDir = "content/es"
   weight = 3
-  title = "Welcome to Codelice"
+  title = "Bienvenido a Codelice"
   description = ""
   home = "Accueil"
   # footer content
