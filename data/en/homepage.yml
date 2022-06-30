@@ -26,8 +26,8 @@ home:
 hero:
   enable: true
   title: "/assets/img/codelice-fda870.png"
-  subtitle: 'JAMstack & Business Developers'
-  subtitle2: 'Leading our clients into the digital world, using JAMstack principles<br><br>High Speed and Security<br><br>Great customer experience and reviews, increasing leads and sales'
+  subtitle: 'Website Development Services,<br>the JAMstack way'
+  subtitle2: 'Leading our clients into the digital world, providing great customer experience and increasing leads and sales'
   button_label: "Start your project"
  
 # Intro section #
@@ -36,8 +36,8 @@ hero:
 ############################# Intro ############################
 intro:
   enable: true
-  title: "Why choose us & go JAMstack?"
-  description: "10 reasons why Static will suit your needs,<br>say goodbye to Wordpress, Drupal and Squarespace!"
+  title: "Why choose us?"
+  description: "10 reasons to leave Wordpress or Shopify<br>and join our JAMstack solutions"
   item:
     - title: "Blazing Fast"
       description: "No database, no heavy infrastructure<br>Your site is rendered blazing fast<br><br>"
@@ -90,7 +90,7 @@ work:
   enable: true
   menuName: "Work"
   title: "Our Work"
-  description: 'You can see below some of our work along with their performance scores on both Desktop (Wifi) and Mobile (3G). You can check by yourself these scores from <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
+  description: 'You can see below some of our work, along with their great performance on both Desktop (Wifi) and Mobile (3G)'
   footertext: ''
 
   row:
@@ -145,7 +145,7 @@ testimonials:
 pricing:
   enable: true
   menuName: "Services"
-  title: "Services and Pricing"
+  title: "Our Services"
   description: "We charge a fixed price for your project.<br>You keep expenses under control, no surprises."
 
   tableLg:
@@ -173,14 +173,36 @@ pricing:
           - service : "Free Hosting & Custom Domain the 1st year"
 
         button:
-          label : "Request a Quote"
+          label : "Get a Quote"
           link : "#fh5co-contact"
+
+
+      - title : "Template-based Creation"
+        subtitle : "Let´s build a unique website together"
+        # service list
+        serviceList:
+          - service : "Price of each template already set - no surprises"
+          - service : "Quick customisation: we add or remove Pages, rename Sections, change Design basics (Colors and Typography)"
+          - service : "Price also includes: Top Performance, Top SEO & Accessibility scores, Hosting setup, Content Management tool Configuration"
+          - service : "Website SEO-ready"
+          - service : "Mobile-Optimized Website"
+        serviceList2:
+          - service : "Go Multilingual: optional for 100€ extra per language"
+          - service : "Free Hosting the 1st year, 49€ after that"
+          - service : "Our Hosting comes with 2 free modifications a year"
+          - service : "Website SEO-ready"
+          - service : "Mobile-Optimized Website"
+
+        button:
+          label : "Find a Template"
+          link : "https://www.codomatik.com"
+          target: "_blank"
 
   tableMd:
     enable: true
     pricingTableMd:
       # pricing table
-      - title : "Template-based Creation"
+      - title : "Performance Improvements"
         subtitle : "Let´s start from one of our templates"
         # service list
         serviceList:
@@ -192,9 +214,8 @@ pricing:
           - service : "Our Hosting comes with 2 free modifications a year"
 
         button:
-          label : "Find my Template"
-          link : "https://www.codomatik.com"
-          target: "_blank"
+          label : "Get a Diagnostic"
+          link : "#fh5co-contact"
 
 
       # pricing table
@@ -211,7 +232,7 @@ pricing:
           - service : "Free Hosting the 1st year"
 
         button:
-          label : "Request a Quote"
+          label : "Get a Quote"
           link : "#fh5co-contact"
 
   tableSm:
@@ -288,7 +309,7 @@ about:
   enable: true
   menuName: "About"
   title: "About"
-  description: "We are a team of 3 developers, master at finding the right solutions for your project."
+  description: "We are a team of 3 developers,<br>master at finding the right solution for your project."
   
   item:
     - name: "Cedric"
@@ -384,9 +405,13 @@ contact:
   details:
     - icon: '/assets/img/icons8-whatsapp-48.png'
       value: '+33 7 45 43 38 43<br>+34 613 212 305'
+      link: 'https://wa.me/whatsappphonenumber/?text=urlencodedtext'
+      label: 'Send us a Whatsapp'
 
     - icon: '/assets/img/icons8-email-open-50.png'
       value: 'cedric@codelice.com'
+      link:  'mailto:cedric@codelice.com'
+      label: 'Send us an Email'
 
   name: "Name"
   email: "Email"

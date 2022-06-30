@@ -6,7 +6,7 @@ mainsection: "false"
 layout: "privacy-policy"
 ---
 <br>
-We are committed to ensuring that the collection and processing of your data, carried out from the site https://www.codelice.com/, complies with the general data protection regulations (GPRD) and the Data Protection Act. Freedoms.
+We are committed to ensuring that the collection and processing of your data, carried out from the site https://www.codelice.com/, complies with the general data protection regulations (GPRD) of the EU and with the French law "Informatique et Libertés".
 This Policy informs you about how CODELICE, its subcontractors and any partners process your personal data.
 
 This Policy is applicable to customers and users of CODELICE's offers and services.
@@ -49,7 +49,7 @@ CODELICE
 Subject: Data protection
 13 le Vieux Terrier
 27930 Guichainville
-FRANCE
+France
 
 If you had not received any relevant feedback, you can exercise your right to lodge a complaint with the Commission Nationale de l'Informatique et des Libertés (CNIL), the supervisory authority in charge of compliance with the obligations in terms of personal data in France.
 

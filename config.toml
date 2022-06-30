@@ -42,7 +42,7 @@ unsafe = true
 
 ############## English language ##############
 [Languages.en]
-  languageName = "English"
+  languageName = "En"
   languageNameShort = "En"
   languageFlag = "🇬🇧"
   languageCode = "en-gb"
@@ -70,7 +70,7 @@ unsafe = true
 
 ############## French language ##############
 [Languages.fr]
-  languageName = "Français"
+  languageName = "Fr"
   languageNameShort = "Fr"
   languageFlag = "🇫🇷"
   languageCode = "fr-fr"
@@ -98,7 +98,7 @@ unsafe = true
 
 ############## Spanish language ##############
 [Languages.es]
-  languageName = "Español"
+  languageName = "Es"
   languageNameShort = "Es"
   languageFlag = "🇪🇸"
   languageCode = "es-es"

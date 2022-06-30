@@ -5,8 +5,8 @@ brand:
   logoMobile: "/assets/img/codelice-logo-mobile.png"
   widthLogo: "150"
   heightLogo: "115"
-  widthLogoMobile: "100"
-  heightLogoMobile: "80"
+  widthLogoMobile: "120"
+  heightLogoMobile: "90"
 
 ############################# Cookies ############################
 cookie:
@@ -26,8 +26,8 @@ home:
 hero:
   enable: true
   title: "/assets/img/codelice-fda870.png"
-  subtitle: 'Desarolladores Web JAMstack'
-  subtitle2: 'Cuidamos a nuestros clientes al mundo digital, según las reglas JAMstack<br><br>Alta Velocidad y Seguridad<br><br>Satisfacción del cliente más alta, más reseñas positivas, subida de ventas'
+  subtitle: 'Servicios de Desarollo Web,<br>con el JAMstack'
+  subtitle2: 'Cuidamos a nuestros clientes al mundo digital, facilitando una satisfacción cliente más alta y subida de ventas'
   button_label: "Iniciad su proyecto"
  
 # Intro section #
@@ -37,7 +37,7 @@ hero:
 intro:
   enable: true
   title: "¿Por que eligirnos?"
-  description: "10 buen motivos para eligir un sitio estatico,<br>dile goodbye a Wordpress, Drupal y Squarespace!"
+  description: "10 motivos para dejar Wordpress o Shopify<br>y unirse a nuestras soluciones JAMstack"
   item:
     - title: "Alta Velocidad"
       description: "No base de datos, infrastructura ligera<br>Su sitio se reproduce con alta velocidad<br><br>"
@@ -90,7 +90,7 @@ work:
   enable: true
   menuName: "Proyectos"
   title: "Nuestros Proyectos"
-  description: 'Puede ver a continuación unas paginas de nuestros clientes con sus performancias, tanto en Escritorio (Wifi) como en dispositivo Móvil (3G). Podeis comprobar esas performancias desde <a href="https://pagespeed.web.dev" target="_blank">PageSpeed</a>'
+  description: 'Puede ver a continuación unas paginas de nuestros clientes con sus performancias, tanto en Escritorio (Wifi) como en dispositivo Móvil (3G)'
   footertext: ''
 
   row:
@@ -145,14 +145,14 @@ testimonials:
 pricing:
   enable: true
   menuName: "Services"
-  title: "Services and Pricing"
+  title: "Nuestros Servicios"
   description: "We charge a fixed price for your project.<br>You keep expenses under control, no surprises."
 
   tableLg:
     enable: true
     pricingTableLg:
       # pricing table
-      - title : "Website creation from scratch"
+      - title : "Website Creation from scratch"
         subtitle : "Let´s build a unique website together"
         # service list
         serviceList:
@@ -164,7 +164,7 @@ pricing:
           - service : "Fully Integrated Content Management tool"
           - service : "Free Hosting & Custom Domain the 1st year"
         serviceList2:
-          - service : "As many Features as your Website needs"
+          - service : "1 hour class on how to use your Content Management Tool"
           - service : "Custom Design"
           - service : "1st Class Website Metrics: Performance - SEO - Accessibility"
           - service : "Website SEO-ready"
@@ -173,14 +173,36 @@ pricing:
           - service : "Free Hosting & Custom Domain the 1st year"
 
         button:
-          label : "Request a Quote"
+          label : "Get a Quote"
           link : "#fh5co-contact"
+
+
+      - title : "Template-based Creation"
+        subtitle : "Let´s build a unique website together"
+        # service list
+        serviceList:
+          - service : "Price of each template already set - no surprises"
+          - service : "Quick customisation: we add or remove Pages, rename Sections, change Design basics (Colors and Typography)"
+          - service : "Price also includes: Top Performance, Top SEO & Accessibility scores, Hosting setup, Content Management tool Configuration"
+          - service : "Website SEO-ready"
+          - service : "Mobile-Optimized Website"
+        serviceList2:
+          - service : "Go Multilingual: optional for 100€ extra per language"
+          - service : "Free Hosting the 1st year, 49€ after that"
+          - service : "Our Hosting comes with 2 free modifications a year"
+          - service : "Website SEO-ready"
+          - service : "Mobile-Optimized Website"
+
+        button:
+          label : "Find a Template"
+          link : "https://www.codomatik.com"
+          target: "_blank"
 
   tableMd:
     enable: true
     pricingTableMd:
       # pricing table
-      - title : "Template-based creation"
+      - title : "Performance Improvements"
         subtitle : "Let´s start from one of our templates"
         # service list
         serviceList:
@@ -192,9 +214,8 @@ pricing:
           - service : "Our Hosting comes with 2 free modifications a year"
 
         button:
-          label : "Find my Template"
-          link : "https://www.codomatik.com"
-          target: "_blank"
+          label : "Get a Diagnostic"
+          link : "#fh5co-contact"
 
 
       # pricing table
@@ -211,7 +232,7 @@ pricing:
           - service : "Free Hosting the 1st year"
 
         button:
-          label : "Request a Quote"
+          label : "Get a Quote"
           link : "#fh5co-contact"
 
   tableSm:
@@ -288,7 +309,7 @@ about:
   enable: true
   menuName: "Quiénes somos"
   title: "Quiénes somos"
-  description: "Somos un equipo de 3 desarrolladores, expertos en encontrar la solución adecuada a su caso."
+  description: "Somos un equipo de 3 desarrolladores,<br>expertos en encontrar la solución adecuada a su caso."
   
   item:
     - name: "Cedric"

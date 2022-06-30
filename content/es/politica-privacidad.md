@@ -46,9 +46,10 @@ Para cualquier información o ejercicio de vuestros derechos sobre el tratamient
 - por correo electrónico con un escaneo de vuestro documento de identidad: cedric@codelice.com
 - por carta firmada acompañada de una copia de vuestro documento de identidad: 
 CODELICE
-Objet: Protection des données
+Asunto: Protección de datos
 13 le Vieux Terrier
 27930 Guichainville
+Francia
 
 Si no conseguís una respuesta adecuada, tenéis la opción de presentar una queja ante la Commission Nationale de l'Informatique et des Libertés (CNIL), la autoridad de control a cargo del cumplimiento de las obligaciones en materia de datos personales en Francia.
 
@@ -103,7 +104,7 @@ El usuario deberá indicar, al crear su cuenta, si es mayor de 16 años. De lo c
 
 ## Período de retención de datos
 - Período de retención de datos del formulario de contacto: 3 años
-- Período de retención de datos del formulario de suscripción a la Newsletter: 3 años
+- Período de retención de datos del formulario de suscripción a la newsletter: 3 años
 
 <br>
 

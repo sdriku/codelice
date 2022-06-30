@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   #fh5co-header {
     margin-top: 0;
-    background: #fff;
+    background: transparent;
     -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
@@ -218,21 +218,20 @@ h1, h2, h3, h4, h5, h6 {
     color: #EF8C55 !important;
   }
   #fh5co-header #navbar li a {
-    color: rgba(0, 0, 0, 0.5) !important;
+    color: grey;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
   }
   #fh5co-header #navbar li a:hover {
-    color: #EF8C55 !important;
+    font-weight: bold;
   }
   #fh5co-header #navbar li a span:before {
     background: transparent !important;
   }
   #fh5co-header #navbar li.active a {
     background: transparent;
-    background: none;
-    color: #EF8C55 !important;
+    font-weight: bold;
   }
   #fh5co-header #navbar li.active a span:before {
     visibility: visible;
@@ -319,18 +318,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #EF8C55;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
-  color: #EF8C55;
+  color: #fff;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #EF8C55;
+  color: #fff;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
@@ -351,6 +350,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
+  }
+  #fh5co-header .navbar-default:hover, .navbar-default:focus {
+    background:#014747;
   }
 }
 #fh5co-header .navbar-default .brand-slogan {
@@ -379,7 +381,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #bdc3c7;
   color: #fff;
   overflow: hidden;
-  max-height: 120vh;
+  height: fit-content !important;
 }
 
 #fh5co-home .gradient {
@@ -394,7 +396,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-home, #fh5co-home .text-wrap {
-  height: 900px;a:serv
+  height: 700px;a:serv
 }
 #fh5co-home .text-wrap {
   display: table;
@@ -1270,7 +1272,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: -50px;
   left: 95%;
-  margin-left: -40px;
+  margin-left: -80px;
   background: #fff;
   z-index: 8;
   width: 80px;

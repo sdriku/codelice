@@ -30,10 +30,13 @@
   .hero-align {
     margin-left:25vw;
   }
+  .button-align {
+    margin-top: 10vh;
+  }
 }
 @media (max-width:750px) {
   .hero-mobile {
-    margin-top: -15%;
+    margin-top: -10vh;
     }
 }
 </style>
@@ -51,8 +54,8 @@
 					<div class="row">
 							<div class="col-md-12 col-sm-12 text-left hero-align hero-mobile">
 							<h2 class="to-animate" style="margin-bottom:30px">{{ with $data.homepage.hero.subtitle }}{{ . | markdownify }}{{ end }}</h2>
-							<h3 class="to-animate" style="margin-bottom:10%; line-height: 1.8;">{{ with $data.homepage.hero.subtitle2 }}{{ . | markdownify }}{{ end }}</h3>
-              <a href="#fh5co-contact" class="btn btn-primary btn-lg">{{ with $data.homepage.hero.button_label }}{{ . | markdownify }}{{ end }}</a>
+							<h3 class="to-animate" style="line-height: 1.8;">{{ with $data.homepage.hero.subtitle2 }}{{ . | markdownify }}{{ end }}</h3>
+              <a href="#fh5co-contact" class="btn btn-primary btn-lg button-align" style="margin-top:5vh">{{ with $data.homepage.hero.button_label }}{{ . | markdownify }}{{ end }}</a>
             </div>
 						</div>
 					</div>

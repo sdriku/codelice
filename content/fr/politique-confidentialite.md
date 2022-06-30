@@ -6,7 +6,7 @@ mainsection: "false"
 layout: "politique-confidentialite"
 ---
 <br>
-Nous nous engageons à ce que la collecte et le traitement de vos données, effectués à partir du site https://www.codelice.com/, soient conformes au règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.
+Nous nous engageons à ce que la collecte et le traitement de vos données, effectués à partir du site https://www.codelice.com/, soient conformes au règlement général sur la protection des données (RGPD) de l'Union Européenne ainsi qu'avec la loi "Informatique et Libertés" française.
 La présente Politique vous informe sur la façon dont CODELICE, ses sous-traitants et ses éventuels partenaires traitent vos données personnelles.
 
 Cette Politique est notamment applicable aux clients et utilisateurs des offres et services CODELICE.
@@ -50,6 +50,7 @@ CODELICE
 Objet: Protection des données
 13 le Vieux Terrier
 27930 Guichainville
+France
 
 Si vous n’avez pas de retour adéquat, vous avez la possibilité d’introduire une réclamation auprès de la Commission Nationale de l’Informatique et des Libertés (CNIL), autorité de contrôle en charge du respect des obligations en matière de données à caractère personnel en France.
 
@@ -104,7 +105,7 @@ L’internaute doit obligatoirement renseigner, au moment de la création de son
 
 ## Durée de conservation des données
 - Durée de conservation des données du formulaire de contact: 3 ans
-- Durée de conservation des données du formulaire d'abonnement à la Newsletter: 3 ans
+- Durée de conservation des données du formulaire d'abonnement à la newsletter: 3 ans
 
 <br>
 

@@ -12,9 +12,18 @@
         }
     }
 
+  .lang-list {
+    border: solid white thin;
+    margin: 10px 20px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+
 .position {
 background-color: transparent !important;
-color: #A2BABB;
 position: relative;
 font-size: 15px;
 font-weight: 300;
@@ -25,7 +34,6 @@ cursor: pointer;
 }
 
 .flagselect {
-  background-color: transparent;
   margin: 2px;
   font-weight: bold;
   font-size: 90%;
@@ -37,6 +45,15 @@ cursor: pointer;
   font-size: 90%;
   font-weight: 600;
 }
+
+@media (max-width:768px) {
+  .banner-mobile :active {
+  background: #004345 !important;
+  background:-webkit-linear-gradient(to left, #007670, #004345) !important;
+  background:linear-gradient(to left, #007670, #004345) !important;
+  }
+}
+
 </style>    
 
 
@@ -44,8 +61,8 @@ cursor: pointer;
     <header role="banner" id="fh5co-header">
         <div class="container">
             <!-- <div class="row"> -->
-            <nav class="navbar navbar-default" style="background-color: transparent !important;">
-                <div class="navbar-header" style="background-color: transparent !important;">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
                     <!-- Mobile Toggle Menu Button -->
                     {{ $data := index .Site.Data .Site.Language.Lang }}
 
@@ -57,8 +74,8 @@ cursor: pointer;
                     {{ end }}
                 </div>
 
-                <div id="navbar" style="background-color: transparent !important;" class="navbar-collapse collapse">
-                  <ul class="nav navbar-nav navbar-right" style="background-color: transparent !important;">
+                <div id="navbar" class="navbar-collapse collapse text-center" style="display:flexbox !important;">
+                  <ul class="nav navbar-nav navbar-right">
 
                     {{ range .Site.Menus.prepend }}
                         <li><a class="external" href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
@@ -91,32 +108,28 @@ cursor: pointer;
                     {{ if $data.homepage.blog.enable }}
                     <li><a class="external" href="{{ $data.homepage.blog.link }}" target="_blank"><span>{{ $data.homepage.blog.menuName }}</span></a></li>
                     {{ end }}
-                    
-                    <li class="lang-list position" style="background-color: transparent !important;"><span style="background-color: transparent !important;">
-                    <!-- Language List -->
-                    {{ if .IsTranslated }}
-                    <select class="lang-list position" style="background-color: transparent !important;" id="select-language" onchange="location = this.value;">
-                      {{ $siteLanguages := .Site.Languages}}
-                      {{ $pageLang := .Page.Lang}}
-                      {{ range .Page.AllTranslations }}
-                      {{ $translation := .}}
-                      {{ range $siteLanguages }}
-                      {{ if eq $translation.Lang .Lang }}
-                      {{ $selected := false }}
-                      {{ if eq $pageLang .Lang}}
-                      <option class="flagselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .Params.languageFlag }}  {{ .Params.languageNameShort }}
-                        {{ else }}
-                        <option class="flagnoselect" style="background-color: transparent !important;" id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-                        {{ end }}
-                      {{ end }}
-                      {{ end }}
-                      {{ end }}
-                    </select>
-                    {{ end }}
-                  </span>
-                  </li>
-                </ul>
-
+                    </ul>
+        <!-- Language List -->
+        {{ if .IsTranslated }}
+        <select class="lang-list" id="select-language" onchange="location = this.value;">
+          {{ $siteLanguages := .Site.Languages}}
+          {{ $pageLang := .Page.Lang}}
+          {{ range .Page.AllTranslations }}
+          {{ $translation := .}}
+          {{ range $siteLanguages }}
+          {{ if eq $translation.Lang .Lang }}
+          {{ $selected := false }}
+          {{ if eq $pageLang .Lang}}
+          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
+          </option>
+          {{ else }}
+          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </select>
+        {{ end }}
     </div>
     </nav>
 </header>
