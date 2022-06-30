@@ -404,8 +404,8 @@ contact:
   description: "Tell us about your Project, your Goals, your Budget.<br>We get back to you within a day."
   details:
     - icon: '/assets/img/icons8-whatsapp-48.png'
-      value: '+33 7 45 43 38 43<br>+34 613 212 305'
-      link: 'https://wa.me/whatsappphonenumber/?text=urlencodedtext'
+      value: '+34 613 212 305'
+      link: 'https://wa.me/+34613212305/?text=urlencodedtext'
       label: 'Send us a Whatsapp'
 
     - icon: '/assets/img/icons8-email-open-50.png'

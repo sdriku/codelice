@@ -404,10 +404,14 @@ contact:
   description: "Cuéntenos sobre su Proyecto, sus Objetivos, su Presupuesto.<br>Pronto os contactaremos para revisar todo en detalle."
   details:
     - icon: '/assets/img/icons8-whatsapp-48.png'
-      value: '613 212 305'
+      value: '+34 613 212 305'
+      link: 'https://wa.me/+34613212305/?text=urlencodedtext'
+      label: 'Envianos un Whatsapp'
 
     - icon: '/assets/img/icons8-email-open-50.png'
       value: 'cedric@codelice.com'
+      link:  'mailto:cedric@codelice.com'
+      label: 'Envianos un Correo'
 
   name: "Nombre"
   email: "Correo electronico"

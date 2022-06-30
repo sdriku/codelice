@@ -405,9 +405,13 @@ contact:
   details:
     - icon: '/assets/img/icons8-whatsapp-48.png'
       value: '07 45 43 38 43'
+      link: 'https://wa.me/+34613212305/?text=urlencodedtext'
+      label: 'Send us a Whatsapp'
 
     - icon: '/assets/img/icons8-email-open-50.png'
       value: 'cedric@codelice.com'
+      link:  'mailto:cedric@codelice.com'
+      label: 'Send us an Email'
 
   name: "Nom"
   email: "Email"
