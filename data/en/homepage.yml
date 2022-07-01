@@ -401,14 +401,18 @@ contact:
   form: true
   action: "/thanks/"
   title: "Get in touch"
-  description: "Tell us about your Project, your Goals, your Budget.<br>We get back to you within a day."
+  description: "Tell us about your Project, your Goals, your Budget<br>"
   details:
-    - icon: '/assets/img/icons8-whatsapp-48.png'
+    - icon: '/assets/img/icons8-whatsapp-40.svg'
+      width: '80'
+      height: '80'
       value: '+34 613 212 305'
-      link: 'https://wa.me/+34613212305/?text=urlencodedtext'
+      link: 'https://wa.me/+34613212305/?text='
       label: 'Send us a Whatsapp'
 
-    - icon: '/assets/img/icons8-email-open-50.png'
+    - icon: '/assets/img/icons8-mail-30.png'
+      width: '40'
+      height: '40'
       value: 'cedric@codelice.com'
       link:  'mailto:cedric@codelice.com'
       label: 'Send us an Email'

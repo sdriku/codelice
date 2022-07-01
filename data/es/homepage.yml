@@ -401,14 +401,18 @@ contact:
   form: true
   action: "/gracias/"
   title: "Contacto"
-  description: "Cuéntenos sobre su Proyecto, sus Objetivos, su Presupuesto.<br>Pronto os contactaremos para revisar todo en detalle."
+  description: "Cuéntenos sobre su Proyecto, sus Objetivos, su Presupuesto"
   details:
-    - icon: '/assets/img/icons8-whatsapp-48.png'
+    - icon: '/assets/img/icons8-whatsapp-40.svg'
+      width: '60'
+      height: '60'
       value: '+34 613 212 305'
-      link: 'https://wa.me/+34613212305/?text=urlencodedtext'
+      link: 'https://wa.me/+34613212305/?text='
       label: 'Envianos un Whatsapp'
 
-    - icon: '/assets/img/icons8-email-open-50.png'
+    - icon: '/assets/img/icons8-mail-30.png'
+      width: '60'
+      height: '60'
       value: 'cedric@codelice.com'
       link:  'mailto:cedric@codelice.com'
       label: 'Envianos un Correo'
