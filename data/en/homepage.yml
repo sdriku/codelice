@@ -402,6 +402,7 @@ contact:
   action: "/thanks/"
   title: "Get in touch"
   description: "Tell us about your Project, your Goals, your Budget<br>"
+  form_title: "Contact us through this form"
   details:
     - icon: '/assets/img/icons8-whatsapp-40.svg'
       width: '80'

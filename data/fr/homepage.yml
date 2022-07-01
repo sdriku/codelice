@@ -402,6 +402,7 @@ contact:
   action: "/merci/"
   title: "Contactez-nous"
   description: "Parlez-nous de votre Projet, vos Objectifs, votre Budget"
+  form_title: "Contactez-nous via ce formulaire"
   details:
     - icon: '/assets/img/icons8-whatsapp-40.svg'
       width: '60'

@@ -1,26 +1,24 @@
 <style>
-    .logo-position {
-        margin-top:-30%;
-    }
-    .logo-position {
-        margin-left: -20%;
-    }
+.logo-position {
+    margin-top:-30%;
+}
 
-    @media (max-width:765px) {
-    .logo-position {
-        margin-top: -25%;
-        }
-    }
+.lang-list {
+  color: white;
+  border: 0;
+  margin: 10px 20px;
+  background: transparent;
+  font-size: 16px;
+  appearance: auto;
+  font-weight: 300;
+  cursor: pointer;
+  display: inline-block;
+}
 
-  .lang-list {
-    border: solid white thin;
-    margin: 10px 20px;
-    background: transparent;
-    color: white;
-    font-size: 16px;
-    font-weight: 300;
-    cursor: pointer;
-  }
+.lang-list option {
+  background: #004344;
+}
+
 
 .position {
 background-color: transparent !important;
@@ -46,20 +44,25 @@ cursor: pointer;
   font-weight: 600;
 }
 
-@media (max-width:768px) {
-  .banner-mobile :active {
-  background: #004345 !important;
-  background:-webkit-linear-gradient(to left, #007670, #004345) !important;
-  background:linear-gradient(to left, #007670, #004345) !important;
+@media (max-width:765px) {
+.mobile-navbar {
+  padding-left: 0;
+  padding-right: 7px;
   }
 }
 
+@media (min-width:766px) {
+  #navbar {
+    display:flex !important;
+    justify-content: flex-end !important;
+  }
+}
 </style>    
 
 
     
     <header role="banner" id="fh5co-header">
-        <div class="container">
+        <div class="container mobile-navbar">
             <!-- <div class="row"> -->
             <nav class="navbar navbar-default">
                 <div class="navbar-header">
@@ -74,7 +77,7 @@ cursor: pointer;
                     {{ end }}
                 </div>
 
-                <div id="navbar" class="navbar-collapse collapse text-center" style="display:flexbox !important;">
+                <div id="navbar" class="navbar-collapse collapse text-center">
                   <ul class="nav navbar-nav navbar-right">
 
                     {{ range .Site.Menus.prepend }}
