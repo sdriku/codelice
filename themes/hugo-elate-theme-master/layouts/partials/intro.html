@@ -1,10 +1,10 @@
 <style>
 	@media (max-width:765px) {
   #fh5co-intro h1 {
-    font-size: 38px !important;
+    font-size: 36px !important;
   }
   #fh5co-intro h2 {
-    font-size: 28px !important;
+    font-size: 26px !important;
   }
   #fh5co-intro h3 {
     font-size: 18px !important;
@@ -42,7 +42,7 @@
 {{- if $data.homepage.intro.enable }}
 {{- with $data.homepage.intro }}
 <!-- intro area -->
-<section id="fh5co-intro" style="margin-top:1% !important">
+<section id="fh5co-intro" style="margin-top:1% !important;">
 		<div class="container">
 			<div class="row row-bottom-padded-lg">
 				<div class="col-md-12 section-heading text-center">
@@ -60,7 +60,7 @@
 					background: -webkit-linear-gradient(to top, #004345, #007670);  /* Chrome 10-25, Safari 5.1-6 */
 					background: linear-gradient(to top, #004345, #007670); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */border:ridge 4px white;margin:1px"></div>
 					<div class="fh5co-text">
-						<h2 class="btn btn-primary" style="background:transparent;border: ridge 2px white !important;margin-bottom:8%;pointer-events: none;">{{ .title }}</h2>
+						<h2 class="btn btn-primary" style="padding:5px;background:transparent;border: ridge 2px white !important;margin-bottom:8%;pointer-events: none;">{{ .title }}</h2>
 						<p style="line-height:2;margin-left:5% !important;margin-right:2%;color: white;">{{ .description | markdownify }}</p>
 						<p class="btn-primary" style="background:transparent;font-weight:bold;padding:10px;border-radius:4px;width:fit-content;margin-left:auto;margin-right:auto;border-color:#EF8C55;border-style:solid;">{{ .lastLine | markdownify }}</p>
 					</div>

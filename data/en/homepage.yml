@@ -3,14 +3,14 @@ brand:
   companyName: "Codelice"
   logoDesktop: "/assets/img/codelice-logo-desktop.png"
   logoMobile: "/assets/img/codelice-logo-mobile.png"
-  widthLogo: "150"
-  heightLogo: "115"
+  widthLogo: "180"
+  heightLogo: "140"
   widthLogoMobile: "100"
   heightLogoMobile: "80"
 
 ############################# Cookies ############################
 cookie:
-  enable: true
+  enable: false
   cookieconsent_message: "This website uses non essential cookies for tracking and analytics that you can accept or decline."
   cookieconsent_accept: "Accept"
   cookieconsent_decline: "Decline"
@@ -27,7 +27,7 @@ hero:
   enable: true
   title: "/assets/img/codelice-fda870.png"
   subtitle: 'Website Development Services,<br>the JAMstack way'
-  subtitle2: 'Leading our clients into the digital world, providing great customer experience and increasing leads and sales'
+  subtitle2: 'Leading our clients into the digital world, providing your customers with a great experience while increasing leads and sales'
   button_label: "Start your project"
  
 # Intro section #
@@ -146,60 +146,75 @@ pricing:
   enable: true
   menuName: "Services"
   title: "Our Services"
-  description: "We charge a fixed price for your project.<br>You keep expenses under control, no surprises."
+  description: "From static website for local businesses to PWA for larger projects. From small E-commerce to larger Marketplace available in four languages. JAMstack can achieve anything, just name it"
 
   tableLg:
     enable: true
     pricingTableLg:
       # pricing table
-      - title : "Website Creation from scratch"
+      - title : "JAMstack Development, the full experience"
         subtitle : "Let´s build a unique website together"
         # service list
         serviceList:
-          - service : "As many Features as your Website needs"
           - service : "Custom Design"
-          - service : "1st Class Website Metrics: Performance - SEO - Accessibility"
-          - service : "Website SEO-ready"
+          - service : "1st Class Core Web Vitals"
+          - service : "SEO-ready"
+          - service : "Accessibility compliant"
           - service : "Mobile-Optimized Website"
-          - service : "Fully Integrated Content Management tool"
-          - service : "Free Hosting & Custom Domain the 1st year"
         serviceList2:
-          - service : "1 hour class on how to use your Content Management Tool"
-          - service : "Custom Design"
-          - service : "1st Class Website Metrics: Performance - SEO - Accessibility"
-          - service : "Website SEO-ready"
-          - service : "Mobile-Optimized Website"
-          - service : "Fully Integrated Content Management tool"
-          - service : "Free Hosting & Custom Domain the 1st year"
+          - service : "From Portfolio to Corporate website"
+          - service : "From Small to Large E-commerce"
+          - service : "Progressive Web App development if beneficial"
+          - service : "Headless CMS and Analytical tool included"
+          - service : "Any feature, from Live Chat to Multilingual"
 
         button:
           label : "Get a Quote"
           link : "#fh5co-contact"
 
 
-      - title : "Template-based Creation"
-        subtitle : "Let´s build a unique website together"
+      - title : "Pre-built Websites for smaller budget"
+        subtitle : "Let´s adapt to what you can afford"
         # service list
         serviceList:
-          - service : "Price of each template already set - no surprises"
-          - service : "Quick customisation: we add or remove Pages, rename Sections, change Design basics (Colors and Typography)"
-          - service : "Price also includes: Top Performance, Top SEO & Accessibility scores, Hosting setup, Content Management tool Configuration"
-          - service : "Website SEO-ready"
+          - service : "Basic Design customisation (Hero section, Color Palette, Typography, Icons)"
           - service : "Mobile-Optimized Website"
+          - service : "Hosting setup and CMS configuration included"
+          - service : "SEO-ready and Accessibility compliant"
+          - service : "Excellent Core Web Vitals, granting better SEO ranking"
         serviceList2:
-          - service : "Go Multilingual: optional for 100€ extra per language"
-          - service : "Free Hosting the 1st year, 49€ after that"
-          - service : "Our Hosting comes with 2 free modifications a year"
-          - service : "Website SEO-ready"
-          - service : "Mobile-Optimized Website"
+          - service : "Go Multilingual or add Analytical on demand"
+          - service : "Go Single Web Page for even smaller budget with basic needs"
+          - service : "Other Forms and Features available on demand"
+          - service : "Free Hosting the 1st year, 49€ / year after that"
+          - service : "Hosting fee includes one edition a year"
 
         button:
           label : "Find a Template"
           link : "https://www.codomatik.com"
           target: "_blank"
 
+
+      - title : "Performance Diagnostic"
+        subtitle : "Let´s analyse your website"
+        # service list
+        serviceList:
+          - service : "Analysis of Web Core Vitals, SEO, Accessibility"
+          - service : "Free Basic Diagnostic"
+          - service : "Full Diagnostic delivered with a clear action plan"
+        serviceList2:
+          - service : "How are your files served, impact, options to improve"
+          - service : "Weights of dependencies, impact, how to reduce them"
+          - service : "Quality of the code and impact on Performance"
+          - service : "Image processing analysis, margin for improvement"
+
+        button:
+          label : "Get a Diagnostic"
+          link : "#fh5co-contact"
+
+
   tableMd:
-    enable: true
+    enable: false
     pricingTableMd:
       # pricing table
       - title : "Performance Improvements"
@@ -309,12 +324,12 @@ about:
   enable: true
   menuName: "About"
   title: "About"
-  description: "We are a team of 3 developers,<br>master at finding the right solution for your project."
+  description: "We are a team of 3 developers,<br>master at elaborating the right solution for your project."
   
   item:
     - name: "Cedric"
       position: "Front End Developer"
-      description: "Young Developer born in France but living in sunny Spain, I will be your first point of contact when it comes to planning your project or providing quotes.<br><br>Looking forward to talking to you!"
+      description: "Young Developer born in France but living in sunny Spain, I will be your first point of contact when it comes to planning your project or providing quotes.<br><br>It will be a pleasure to discuss your project in details."
       img: "/assets/img/about-pic.jpg"
       alt: "Person1"
       social:
@@ -409,19 +424,19 @@ contact:
       height: '80'
       value: '+34 613 212 305'
       link: 'https://wa.me/+34613212305/?text='
-      label: 'Send us a Whatsapp'
+      label: 'Through Whatsapp'
 
     - icon: '/assets/img/icons8-mail-30.png'
       width: '40'
       height: '40'
       value: 'cedric@codelice.com'
       link:  'mailto:cedric@codelice.com'
-      label: 'Send us an Email'
+      label: 'Through Email'
 
   name: "Name"
   email: "Email"
-  phone: "Phone"
-  url: "Your website´s url (if you have one)"
+  phone: "Phone (optional)"
+  url: "Your domain name (if you already have one)"
   message: "Message"
   button: "Send"
 

@@ -3,16 +3,16 @@ brand:
   companyName: "Codelice"
   logoDesktop: "/assets/img/codelice-logo-desktop.png"
   logoMobile: "/assets/img/codelice-logo-mobile.png"
-  widthLogo: "150"
-  heightLogo: "115"
-  widthLogoMobile: "120"
-  heightLogoMobile: "90"
+  widthLogo: "180"
+  heightLogo: "140"
+  widthLogoMobile: "100"
+  heightLogoMobile: "80"
 
 ############################# Cookies ############################
 cookie:
   enable: true
   cookieconsent_message: ""
-  cookieconsent_accept: "Acceptar"
+  cookieconsent_accept: "Aceptar"
   cookieconsent_decline: "Rechazar"
   privacyPolicy: "Politica de Privacidad"
   privacyLink: "politica-privacidad"
@@ -26,8 +26,8 @@ home:
 hero:
   enable: true
   title: "/assets/img/codelice-fda870.png"
-  subtitle: 'Servicios de Desarollo Web,<br>con el JAMstack'
-  subtitle2: 'Cuidamos a nuestros clientes al mundo digital, facilitando una satisfacción cliente más alta y subida de ventas'
+  subtitle: 'Servicios de Desarollo Web,<br>según las reglas JAMstack'
+  subtitle2: 'Cuidamos a nuestros clientes al mundo digital, mejorando la satisfacción de vuestros clientes y vuestro volumen de negocios'
   button_label: "Iniciad su proyecto"
  
 # Intro section #
@@ -37,18 +37,18 @@ hero:
 intro:
   enable: true
   title: "¿Por que eligirnos?"
-  description: "10 motivos para dejar Wordpress o Shopify<br>y unirse a nuestras soluciones JAMstack"
+  description: "10 motivos para dejar Wordpress o Shopify<br>y unirse a nuestras soluciónes JAMstack"
   item:
     - title: "Alta Velocidad"
       description: "No base de datos, infrastructura ligera<br>Su sitio se reproduce con alta velocidad<br><br>"
-      lastLine: "Mejor conversion y SEO ranking"
+      lastLine: "Mejor conversión y clasificación SEO"
 
     - title: "Hosting Barato"
-      description: "Un sitio ligero esta mas barato<br> Keep your money for what really matters<br><br>"
+      description: "Un sitio ligero esta mas barato<br> Ahorrá su dinero para otro inversión<br><br>"
       lastLine: "Alojamos su sitio web por 49€/año"
 
     - title: "Alta Seguridad"
-      description: "No intento de hack & no virus<br>Ni pierde clientes ni su tiempo<br>Vuestro sitio nunca descansa<br><br>"
+      description: "Ningun riesgo de hack ni virus<br>Ni pierde clientes ni su tiempo<br>Vuestro sitio nunca descansa<br><br>"
       lastLine: "Un sitio estático esta seguro"
 
     - title: "No Mantenimiento"
@@ -64,11 +64,11 @@ intro:
       lastLine: "Sus clientes encontrarán su sitio"
 
     - title: "Alta Estabilidad"
-      description: "Nuestros sitios manejan alto tráfico<br>No importa dónde están sus clientes<br>Tener éxito ya no es un problema <br><br>"
+      description: "Nuestros sitios manejan alto tráfico<br>No importa dónde están sus clientes<br>Tener éxito ya no es un problema<br><br>"
       lastLine: "Su sitio no se rompe"
 
     - title: "Optimizado Móvil"
-      description: "Excelente rendimiento en conexión 3G<br>No pierdá clientes a debido<br>de una versión móvil mal diseñada<br><br>"
+      description: "Excelente rendimiento en conexión 3G<br>No pierdá clientes debido a<br>una versión móvil mal diseñada<br><br>"
       lastLine: "Su sitio se adapta a cualquier dispositivo"
 
     - title: "Lifting Gratis"
@@ -90,7 +90,7 @@ work:
   enable: true
   menuName: "Proyectos"
   title: "Nuestros Proyectos"
-  description: 'Puede ver a continuación unas paginas de nuestros clientes con sus performancias, tanto en Escritorio (Wifi) como en dispositivo Móvil (3G)'
+  description: 'Encontrá abajo nuestros ultimos sitios y sus performancias altas, tanto en Escritorio (Wifi) como en dispositivo Móvil (3G)'
   footertext: ''
 
   row:
@@ -146,57 +146,72 @@ pricing:
   enable: true
   menuName: "Services"
   title: "Nuestros Servicios"
-  description: "We charge a fixed price for your project.<br>You keep expenses under control, no surprises."
+  description: "Desde la creación de un sitio estático hasta una Aplicación Web más compleja. Desde un pequeño E-commerce hasta un Marketplace en 4 idiomas. Con el JAMstack, os podemos diseñar lo que necesita"
 
   tableLg:
     enable: true
     pricingTableLg:
       # pricing table
-      - title : "Website Creation from scratch"
-        subtitle : "Let´s build a unique website together"
+      - title : "Desarrollo JAMstack"
+        subtitle : "Diseño de un sitio adaptado a sus	necesidades"
         # service list
         serviceList:
-          - service : "As many Features as your Website needs"
-          - service : "Custom Design"
-          - service : "1st Class Website Metrics: Performance - SEO - Accessibility"
-          - service : "Website SEO-ready"
-          - service : "Mobile-Optimized Website"
-          - service : "Fully Integrated Content Management tool"
-          - service : "Free Hosting & Custom Domain the 1st year"
+          - service : "Diseño Personalizado"
+          - service : "Alta Performancia asegurada"
+          - service : "Diseño orientado SEO"
+          - service : "Cumple las normas Accesibilidad"
+          - service : "Optimización dispositivos Móvil y Tableta"
         serviceList2:
-          - service : "1 hour class on how to use your Content Management Tool"
-          - service : "Custom Design"
-          - service : "1st Class Website Metrics: Performance - SEO - Accessibility"
-          - service : "Website SEO-ready"
-          - service : "Mobile-Optimized Website"
-          - service : "Fully Integrated Content Management tool"
-          - service : "Free Hosting & Custom Domain the 1st year"
+          - service : "Desde Portfolio hasta sitios Empresas"
+          - service : "Desde pequeños a más amplios E-commerce"
+          - service : "Versión Applicación Web si necesario"
+          - service : "CMS Headless y Herramienta de Análisis incluidos"
+          - service : "Elegi su functionalidad, desde un Chat hasta un sitio Multilingüe"
 
         button:
-          label : "Get a Quote"
+          label : "Pedir un presupuesto"
           link : "#fh5co-contact"
 
 
-      - title : "Template-based Creation"
-        subtitle : "Let´s build a unique website together"
+      - title : "Sitios pre-diseñados para presupuestos escasos"
+        subtitle : "Diseño de un sitio adaptado a sus finanzas"
         # service list
         serviceList:
-          - service : "Price of each template already set - no surprises"
-          - service : "Quick customisation: we add or remove Pages, rename Sections, change Design basics (Colors and Typography)"
-          - service : "Price also includes: Top Performance, Top SEO & Accessibility scores, Hosting setup, Content Management tool Configuration"
-          - service : "Website SEO-ready"
-          - service : "Mobile-Optimized Website"
+          - service : "Personalización del Diseño de base (Banner Principal, Gama de colores, Tipografía, Iconos)"
+          - service : "Sitios optimizados dispositivos Móvil y Tableta"
+          - service : "Alojamiento del sitio y Configuración del CMS incluidos"
+          - service : "Diseño orientado SEO y cumple las normas Accesibilidad"
+          - service : "Puntuación Core Web Vitals excelente, facilitando una clasificación SEO más alta"
         serviceList2:
-          - service : "Go Multilingual: optional for 100€ extra per language"
-          - service : "Free Hosting the 1st year, 49€ after that"
-          - service : "Our Hosting comes with 2 free modifications a year"
-          - service : "Website SEO-ready"
-          - service : "Mobile-Optimized Website"
+          - service : "Sitio Multilingüe y Herramienta de Análisis como opciónes extra"
+          - service : "Versión Página Unica disponible para presupuestos muy escasos"
+          - service : "Varios Formularios y Funcionalidades disponibles bajo solicitud"
+          - service : "Alojamiento gratis el primer año, y después 49€ al año"
+          - service : "Gastos de Alojamiento incluyen una modificación al año"
 
         button:
-          label : "Find a Template"
+          label : "Encontrar un Modelo"
           link : "https://www.codomatik.com"
           target: "_blank"
+
+
+      - title : "Diagnóstico de Performancia"
+        subtitle : "Analizamos la performancia de su sitio"
+        # service list
+        serviceList:
+          - service : "Análisis de su Puntuación: Core Web Vitals, SEO, Accesibilidad"
+          - service : "Diagnóstico de Base gratis"
+          - service : "Diagnóstico Completo se entrega con una lista de acciónes precisas"
+        serviceList2:
+          - service : "Cómo se cargan sus archivos CSS y JS, su impacto, cómo mejorar eso"
+          - service : "Pesos de las	dependencias de su sitio, sus impactos, cómo arreglar eso"
+          - service : "Calidad del código y su impacto en Performancia"
+          - service : "Análisis de su Procesamiento de imagenes, y posibilidades de mejorarlo"
+
+        button:
+          label : "Pedir un Diagnóstico"
+          link : "#fh5co-contact"
+
 
   tableMd:
     enable: true
@@ -314,7 +329,7 @@ about:
   item:
     - name: "Cedric"
       position: "Desarollador Front End"
-      description: "Joven desarrollador nacido en Francia y viviendo en España, seré su primer punto de contacto a la hora de planificar proyecto, dar presupuestos y facturas...<br>Os estamos esperando, contactanos pronto!"
+      description: "Joven desarrollador nacido en Francia y viviendo en España, seré su primer punto de contacto a la hora de planificar proyecto, dar presupuestos y facturas...<br>Sera un placer hablar de vuestro proyecto."
       img: "/assets/img/about-pic.jpg"
       alt: "Person1"
       social: 
@@ -402,26 +417,26 @@ contact:
   action: "/gracias/"
   title: "Contacto"
   description: "Cuéntenos sobre su Proyecto, sus Objetivos, su Presupuesto"
-  form_title: "Contactanos a través de este formulario"
+  form_title: "Contáctanos a través de este formulario"
   details:
     - icon: '/assets/img/icons8-whatsapp-40.svg'
-      width: '60'
-      height: '60'
+      width: '80'
+      height: '80'
       value: '+34 613 212 305'
       link: 'https://wa.me/+34613212305/?text='
-      label: 'Envianos un Whatsapp'
+      label: 'Con Whatsapp'
 
     - icon: '/assets/img/icons8-mail-30.png'
-      width: '60'
-      height: '60'
+      width: '40'
+      height: '40'
       value: 'cedric@codelice.com'
       link:  'mailto:cedric@codelice.com'
-      label: 'Envianos un Correo'
+      label: 'Por Email'
 
   name: "Nombre"
   email: "Correo electronico"
-  phone: "Telefono"
-  url: "Dirección de su sitio web (si tiene)"
+  phone: "Telefono (opcional)"
+  url: "Nombre de dominio (si ya tiene)"
   message: "Mensaje"
   button: "Enviar"
 

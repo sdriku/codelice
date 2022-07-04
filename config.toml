@@ -48,7 +48,7 @@ unsafe = true
   languageCode = "en-gb"
   contentDir = "content/en"
   weight = 1
-  title = "Welcome to Codelice"
+  title = "Codelice, your JAMstack Web Development agency"
   description = ""
   home = "Home"
   # footer content
@@ -76,7 +76,7 @@ unsafe = true
   languageCode = "fr-fr"
   contentDir = "content/fr"
   weight = 2
-  title = "Bienvenue chez Codelice"
+  title = "Codelice, votre Développeur Web JAMstack"
   description = ""
   home = "Accueil"
   # footer content
@@ -104,7 +104,7 @@ unsafe = true
   languageCode = "es-es"
   contentDir = "content/es"
   weight = 3
-  title = "Bienvenido a Codelice"
+  title = "Codelice, su Desarollador Web JAMstack"
   description = ""
   home = "Accueil"
   # footer content
