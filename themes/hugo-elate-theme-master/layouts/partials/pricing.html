@@ -110,7 +110,7 @@
           </div>
           <div class="col-lg-12 col-sm-12 col-xs-12 mb-4 mb-lg-0">
             {{ with .button }}
-            <a href="{{ site.BaseURL | relLangURL }}{{ .link }}" class="btn btn-primary btn-lg">{{ .label }}</a>
+            <a href="{{ .link }}" target="{{ with .target }}{{ . }}{{ end }}" class="btn btn-primary btn-lg">{{ .label }}</a>
             {{ end }}
           </div>
           </div>
