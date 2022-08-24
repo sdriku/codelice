@@ -1,5 +1,5 @@
 ############## Default Configuration ##############
-baseurl = "https://www.codelice.com/"
+baseurl = "/"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubDir = true
 languageCode = "en-gb"

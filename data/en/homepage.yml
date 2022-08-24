@@ -414,7 +414,7 @@ contact:
   map: false
   googleMapsApiKey: ""
   form: true
-  action: "/thanks/"
+  action: "/en/thanks/"
   title: "Get in touch"
   description: "Tell us about your Project, your Goals, your Budget<br>"
   form_title: "Contact us through this form"

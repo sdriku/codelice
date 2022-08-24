@@ -414,7 +414,7 @@ contact:
   map: false
   googleMapsApiKey: ""
   form: true
-  action: "/gracias/"
+  action: "/es/gracias/"
   title: "Contacto"
   description: "Cuéntenos sobre su Proyecto, sus Objetivos, su Presupuesto"
   form_title: "Contáctanos a través de este formulario"
